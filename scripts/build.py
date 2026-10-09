@@ -259,6 +259,32 @@ def clean_horizon(raw, today: date, report: Report, where: str) -> dict | None:
     }
 
 
+def clean_grocery(raw, today: date, report: Report, where: str) -> dict | None:
+    if not isinstance(raw, dict):
+        report.warn(f"{where}: not an object")
+        return None
+    item = text(raw.get("item"), 80)
+    store = text(raw.get("store"), 40)
+    price = text(raw.get("price"), 30)
+    url = safe_url(raw.get("url"))
+    if not item or not store or not price or not url:
+        report.warn(f"{where}: needs 'item', 'store', 'price' and 'url'")
+        return None
+    ends = parse_moment(raw.get("ends")) if raw.get("ends") else None
+    if ends and ends[0] < today:
+        return None
+    return {
+        "item": item,
+        "store": store,
+        "price": price,
+        "was": text(raw.get("was"), 30),
+        "saving": text(raw.get("saving"), 30),
+        "note": text(raw.get("note"), 120),
+        "ends": ends[0] if ends else None,
+        "url": url,
+    }
+
+
 def clean_items(raw, key: str, cleaner, context, report: Report) -> list[dict]:
     items = []
     for i, item in enumerate(as_list(raw.get(key), key, report)):
@@ -304,6 +330,10 @@ def normalize(raw, now: datetime) -> tuple[dict | None, Report]:
         "generated_at": generated_at,
         "teams": teams,
         "big_matches": big_matches,
+        "groceries": sorted(
+            clean_items(raw, "groceries", clean_grocery, today, report),
+            key=lambda g: (g["store"].lower(), g["item"].lower()),
+        )[:16],
         "horizon": sorted(
             clean_items(raw, "horizon", clean_horizon, today, report),
             key=lambda h: h["start"][0],
@@ -591,6 +621,36 @@ def render_event_section(key: str, kicker: str, title: str, lede: str, events: l
     </section>"""
 
 
+def store_key(store: str) -> str:
+    name = store.lower()
+    for key in ("woolworths", "coles", "aldi", "harris farm"):
+        if key in name:
+            return key.replace(" ", "-")
+    return "other"
+
+
+def render_groceries(items: list[dict], today: date) -> str:
+    head = """<header class="section-head"><p class="kicker">In the trolley</p><h2>Healthy specials this week</h2>
+      <p class="lede">The best healthy buys on special at Woolworths, Coles and Aldi.</p></header>"""
+    if not items:
+        return f'<section class="groceries" id="groceries">{head}<p class="empty">No specials found this time.</p></section>'
+    tags = []
+    for g in items:
+        was = f'<span class="tag-was">Was {e(g["was"])}</span>' if g["was"] else ""
+        saving = f'<span class="tag-save">{e(g["saving"])}</span>' if g["saving"] else ""
+        ends = f'<span class="tag-ends">Ends {e(fmt_date(g["ends"], today))}</span>' if g["ends"] else ""
+        tags.append(f"""
+        <a class="shelf-tag shelf-tag--{store_key(g['store'])}" href="{e(g['url'])}" target="_blank" rel="noopener">
+          <span class="tag-store">{e(g['store'])}</span>
+          <span class="tag-item">{e(g['item'])}</span>
+          <span class="tag-price">{e(g['price'])}</span>
+          <span class="tag-meta">{was}{saving}</span>
+          {f'<span class="tag-note">{e(g["note"])}</span>' if g['note'] else ''}
+          {ends}
+        </a>""")
+    return f'<section class="groceries" id="groceries">{head}<div class="shelf">{"".join(tags)}</div></section>'
+
+
 def render_horizon(items: list[dict], today: date) -> str:
     head = """<header class="section-head"><p class="kicker">Plan ahead</p><h2>On the horizon</h2>
       <p class="lede">The big ones in the next year or two, and when to grab tickets.</p></header>"""
@@ -642,6 +702,7 @@ def render_page(briefing: dict, now: datetime) -> str:
     sections.append(render_big_matches(briefing["big_matches"], today))
     for key, kicker, title, lede in EVENT_SECTIONS:
         sections.append(render_event_section(key, kicker, title, lede, briefing[key], today))
+    sections.append(render_groceries(briefing["groceries"], today))
     sections.append(render_horizon(briefing["horizon"], today))
 
     notes = ""
@@ -662,6 +723,7 @@ def render_page(briefing: dict, now: datetime) -> str:
             ("daughter", "Daughter"),
             ("family-fun", "Family"),
             ("deals", "Deals"),
+            ("groceries", "Groceries"),
             ("horizon", "Horizon"),
         ]
     )
@@ -739,7 +801,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if briefing:
         counts = ", ".join(
-            f"{key}={len(briefing[key])}" for key in ["big_matches", *(k for k, *_ in EVENT_SECTIONS), "horizon"]
+            f"{key}={len(briefing[key])}" for key in ["big_matches", *(k for k, *_ in EVENT_SECTIONS), "groceries", "horizon"]
         )
         fixtures = ", ".join(f"{t['name']}={len(t['fixtures'])}" for t in briefing["teams"])
         print(f"ok: fixtures({fixtures}) {counts}; {len(report.warnings)} warning(s)")

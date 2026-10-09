@@ -177,6 +177,22 @@ class RenderTests(unittest.TestCase):
         self.assertIn('id="deals"', page)
         self.assertNotIn("ticker", page)
 
+    def test_groceries(self):
+        data = sample()
+        data["groceries"] = [
+            {"item": "Blueberries", "store": "Woolworths", "price": "$2.50", "was": "$5.00",
+             "saving": "Half price", "ends": "2026-10-20", "url": "https://example.com/b"},
+            {"item": "Old special", "store": "Coles", "price": "$1", "ends": "2026-10-13",
+             "url": "https://example.com/o"},
+            {"item": "No link", "store": "Aldi", "price": "$1"},
+        ]
+        briefing, report = build.normalize(data, NOW)
+        self.assertEqual([g["item"] for g in briefing["groceries"]], ["Blueberries"])
+        self.assertIn("groceries[2]: needs 'item', 'store', 'price' and 'url'", report.warnings)
+        page = build.render_page(briefing, NOW)
+        self.assertIn("shelf-tag--woolworths", page)
+        self.assertIn("Ends Tue 20 Oct", page)
+
     def test_seed_briefing_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
             seed = self.write_seed(tmp)

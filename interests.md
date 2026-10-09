@@ -65,6 +65,13 @@ Online sales are fine. In-person pop-ups must be reachable by train, metro or li
 Only include genuinely good deals (a real discount or something limited-time),
 not everyday "sale" banners.
 
+## Healthy grocery specials (this week)
+
+The best **healthy** items on special this week at Woolworths, Coles and Aldi (Harris
+Farm too if something's great): fresh fruit and veg, lean meat and fish, eggs, yoghurt,
+nuts, wholegrain bread and cereal, healthy lunchbox snacks for the kids, and matcha.
+Half-price and big-discount items first. Skip junk food, soft drinks and alcohol.
+
 ## On the horizon (next 1–2 years)
 
 Huge events worth planning for, such as the Rugby World Cup 2027 in Australia, major

@@ -14,7 +14,7 @@ sensible calls and note anything uncertain in `notes`.
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
    - Be thorough. This runs overnight and there's no rush. For each of `live_sport`,
-     `son`, `daughter`, `family_fun` and `deals`, run at least 6 different searches from
+     `son`, `daughter`, `family_fun`, `deals` and `groceries`, run at least 6 different searches from
      different angles (specific interests, venues, "this weekend", "school holidays",
      "free", and so on) before deciding what to include.
    - Good places to discover Sydney events: City of Sydney What's On, Sydney.com,
@@ -86,6 +86,16 @@ sensible calls and note anything uncertain in `notes`.
   put the discount in `summary` (e.g. "Up to 40% off football boots") and the price in
   `cost` where it applies. For online deals, set `venue` to "Online" and leave
   `transport`, `nearest_station` and `trip` as `null`.
+- `groceries`: up to 16 of the best **healthy** items on special this week at
+  Woolworths, Coles and Aldi (see `interests.md`). Half-price and big discounts first,
+  spread across stores and food types.
+  - Sources: the stores' weekly specials and catalogue pages (woolworths.com.au,
+    coles.com.au, aldi.com.au "Special Buys" and catalogue), catalogue sites such as
+    SaleFinder and Lasoo, and OzBargain half-price posts. Supermarket sites sometimes
+    block automated access; if so, use the catalogue sites. Only list items you can see
+    with a price for this week.
+  - Weekly specials usually run Wednesday to Tuesday. Set `ends` to the last day of
+    the special (YYYY-MM-DD).
 - `horizon`: up to 15 huge events in the next 1–2 years.
   - Start from the previous run's list: keep entries that still apply, update any
     details that changed, and drop ones that are over.
@@ -163,6 +173,18 @@ Don't repeat an item across sections. Put it where it fits best.
   "daughter": [],
   "family_fun": [],
   "deals": [],
+  "groceries": [
+    {
+      "item": "Blueberries 125g punnet",
+      "store": "Woolworths",
+      "price": "$2.50",
+      "was": "$5.00",
+      "saving": "Half price",
+      "note": null,
+      "ends": "2026-10-13",
+      "url": "https://..."
+    }
+  ],
   "horizon": [
     {
       "title": "Rugby World Cup 2027",

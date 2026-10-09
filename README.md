@@ -11,6 +11,7 @@ It covers:
   reachable by train, metro or light rail.
 - **Deals, sales and pop-ups**: sports gear, fun food, gaming, books and ticket deals,
   plus pop-up food stores, freebies and competitions.
+- **Healthy specials this week** at Woolworths, Coles and Aldi.
 - **On the horizon**: huge events in the next 1–2 years, with ticket and sign-up dates.
 
 Live page: <https://utx.github.io/lifehub/>
