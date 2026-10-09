@@ -1,14 +1,365 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-10-09T14:55:00+11:00",
   "teams": [
-    { "id": "man-utd", "name": "Manchester United", "featured": true, "fixtures": [] },
-    { "id": "sydney-fc", "name": "Sydney FC", "featured": false, "fixtures": [] }
+    {
+      "id": "man-utd",
+      "name": "Manchester United",
+      "featured": true,
+      "fixtures": [
+        {
+          "opponent": "Tottenham Hotspur",
+          "home": true,
+          "competition": "Premier League",
+          "kickoff": "2026-10-10T17:30:00+01:00",
+          "time_confirmed": true,
+          "venue": "Old Trafford",
+          "broadcast": ["Stan Sport"],
+          "url": "https://www.skysports.com/football/news/13595688/manchester-united-vs-tottenham-different-summer-transfer-strategies-collide-on-saturday-at-old-trafford"
+        },
+        {
+          "opponent": "Atlético Madrid",
+          "home": false,
+          "competition": "Champions League",
+          "kickoff": "2026-10-13T21:00:00+02:00",
+          "time_confirmed": true,
+          "venue": "Riyadh Air Metropolitano, Madrid",
+          "broadcast": ["Stan Sport"],
+          "url": "https://africasoccer.com/?p=602416"
+        },
+        {
+          "opponent": "Leeds United",
+          "home": false,
+          "competition": "Premier League",
+          "kickoff": "2026-10-18T14:00:00+01:00",
+          "time_confirmed": true,
+          "venue": "Elland Road",
+          "broadcast": ["Stan Sport"],
+          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/"
+        },
+        {
+          "opponent": "Como",
+          "home": false,
+          "competition": "Champions League",
+          "kickoff": "2026-10-21T18:45:00+02:00",
+          "time_confirmed": true,
+          "venue": "Stadio Giuseppe Sinigaglia, Como",
+          "broadcast": ["Stan Sport"],
+          "url": "https://africasoccer.com/?p=602416"
+        },
+        {
+          "opponent": "AFC Bournemouth",
+          "home": true,
+          "competition": "Premier League",
+          "kickoff": "2026-10-25T14:00:00+00:00",
+          "time_confirmed": true,
+          "venue": "Old Trafford",
+          "broadcast": ["Stan Sport"],
+          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/"
+        }
+      ]
+    },
+    {
+      "id": "sydney-fc",
+      "name": "Sydney FC",
+      "featured": false,
+      "fixtures": [
+        {
+          "opponent": "Western Sydney Wanderers",
+          "home": true,
+          "competition": "A-League Men",
+          "kickoff": "2026-10-16T12:00:00+11:00",
+          "time_confirmed": false,
+          "venue": "Allianz Stadium",
+          "broadcast": ["Paramount+"],
+          "url": "https://aleagues.com.au/news/aleague-men-sydney-derby-wsw-season-matchweek-1-fixtures/"
+        },
+        {
+          "opponent": "Adelaide United",
+          "home": true,
+          "competition": "A-League Men",
+          "kickoff": "2026-10-25T12:00:00+11:00",
+          "time_confirmed": false,
+          "venue": "Allianz Stadium",
+          "broadcast": ["Paramount+"],
+          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixtures-first-five-news/"
+        },
+        {
+          "opponent": "Melbourne City",
+          "home": false,
+          "competition": "A-League Men",
+          "kickoff": "2026-10-31T17:00:00+11:00",
+          "time_confirmed": true,
+          "venue": "AAMI Park",
+          "broadcast": ["Paramount+"],
+          "url": "https://melbournecityfc.com.au/news/20260716-2627-fixtures-revealed/"
+        },
+        {
+          "opponent": "Brisbane Roar",
+          "home": false,
+          "competition": "A-League Men",
+          "kickoff": "2026-11-21T18:40:00+10:00",
+          "time_confirmed": true,
+          "venue": "Kayo Stadium",
+          "broadcast": ["Paramount+"],
+          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/"
+        }
+      ]
+    }
   ],
-  "big_matches": [],
-  "live_sport": [],
-  "son": [],
-  "daughter": [],
-  "family_fun": [],
-  "horizon": [],
-  "notes": ["The first nightly run hasn't happened yet."]
+  "big_matches": [
+    {
+      "title": "Liverpool v Manchester City",
+      "sport": "Football",
+      "competition": "Premier League",
+      "kickoff": "2026-10-11T16:30:00+01:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Two of the league's heavyweights meet at Anfield; moved to Sunday for TV.",
+      "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
+    },
+    {
+      "title": "Manchester City v Paris Saint-Germain",
+      "sport": "Football",
+      "competition": "Champions League",
+      "kickoff": "2026-10-14T20:00:00+01:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Heavyweight league-phase tie at the Etihad.",
+      "url": "https://africasoccer.com/?p=602416"
+    },
+    {
+      "title": "Paris Saint-Germain v Barcelona",
+      "sport": "Football",
+      "competition": "Champions League",
+      "kickoff": "2026-10-20T21:00:00+02:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Two of Europe's most attacking sides meet in the league phase.",
+      "url": "https://africasoccer.com/?p=602416"
+    },
+    {
+      "title": "Bayern Munich v Arsenal",
+      "sport": "Football",
+      "competition": "Champions League",
+      "kickoff": "2026-10-21T21:00:00+02:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Premier League champions travel to the Allianz Arena.",
+      "url": "https://africasoccer.com/?p=602416"
+    },
+    {
+      "title": "Barcelona v Real Madrid",
+      "sport": "Football",
+      "competition": "LaLiga (El Clásico)",
+      "kickoff": "2026-10-25T21:00:00+01:00",
+      "time_confirmed": true,
+      "broadcast": ["beIN Sports"],
+      "why": "First Clásico of the season at Camp Nou; beIN holds LaLiga rights in Australia.",
+      "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date"
+    },
+    {
+      "title": "Liverpool v Arsenal",
+      "sport": "Football",
+      "competition": "Premier League",
+      "kickoff": "2026-11-01T16:30:00+00:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Title-race clash at Anfield, moved to Sunday for TV.",
+      "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
+    }
+  ],
+  "live_sport": [
+    {
+      "title": "Sydney Kings v Adelaide 36ers",
+      "category": "Basketball",
+      "start": "2026-10-11T15:00:00+11:00",
+      "end": null,
+      "when": null,
+      "venue": "Qudos Bank Arena",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 35 min from Redfern, usually changing at Lidcombe",
+      "cost": null,
+      "summary": "NBL rematch of last season's Championship Series decider.",
+      "url": "https://www.nbl.com.au/news/each-teams-biggest-game-of-nbl27-schedule"
+    },
+    {
+      "title": "Wallabies v All Blacks (Bledisloe Cup)",
+      "category": "Rugby union",
+      "start": "2026-10-17T15:45:00+11:00",
+      "end": null,
+      "when": "Gates 11:45am. Wallaroos v Scotland 12pm and sevens matches earlier, same ticket.",
+      "venue": "Accor Stadium",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern; event express trains from Central",
+      "cost": null,
+      "summary": "Bledisloe Test on a four-match rugby day. Match tickets include public transport.",
+      "url": "https://transportnsw.info/events/2026/10/bledisloe-cup-wallabies-v-all-blacks"
+    }
+  ],
+  "son": [
+    {
+      "title": "Fun Run Pink Sydney",
+      "category": "Running",
+      "start": "2026-10-18",
+      "end": null,
+      "when": "6am–12pm",
+      "venue": "Olympic Boulevard",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern",
+      "cost": null,
+      "summary": "Fun run open to all ages alongside the kids' triathlon (ages 7–13). Check distances and prices on the entry page.",
+      "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/ramsay-health-care-triathlon-pink-sydney"
+    }
+  ],
+  "daughter": [
+    {
+      "title": "Sydney Ceramics Market",
+      "category": "Arts and crafts",
+      "start": "2026-10-17",
+      "end": "2026-10-18",
+      "when": "Sat 10am–5pm, Sun 10am–4pm",
+      "venue": "245 Wilson Street",
+      "suburb": "Eveleigh",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 15 min from home",
+      "cost": "$8–$12, kids under 13 free",
+      "summary": "Makers' ceramics market during Sydney Craft Week. Family friendly.",
+      "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/sydney-ceramics-market"
+    },
+    {
+      "title": "Ceramic Business District (Sydney Craft Week)",
+      "category": "Arts and crafts",
+      "start": "2026-10-09",
+      "end": "2026-10-18",
+      "when": "Daily 10am–2pm; makers' market and beginner clay workshop (1–3:30pm) on Sat 10 Oct",
+      "venue": "City of Sydney Creative Studios, 119 Bathurst St",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "Town Hall",
+      "trip": "about 15 min from Redfern",
+      "cost": "Free to visit",
+      "summary": "Free pop-up exhibition and makers' market. The workshop is booked separately; age suitability isn't stated.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/ceramic-business-district"
+    }
+  ],
+  "family_fun": [
+    {
+      "title": "Wild Things International Kids' Festival",
+      "category": "Festival",
+      "start": "2026-09-26",
+      "end": "2026-10-11",
+      "when": "Last weekend 10–11 Oct: free Forecourt swing and inflatable installation, plus ticketed shows",
+      "venue": "Sydney Opera House",
+      "suburb": "Sydney",
+      "transport": "train",
+      "nearest_station": "Circular Quay",
+      "trip": "about 15 min from Redfern",
+      "cost": "Free Forecourt; shows up to $49",
+      "summary": "Free Forecourt playground with a 9m swing, plus ticketed theatre shows. Ends Sunday.",
+      "url": "https://www.sydneyoperahouse.com/wild-things"
+    },
+    {
+      "title": "Sculpture by the Sea, Bondi",
+      "category": "Outdoor art",
+      "start": "2026-10-16",
+      "end": "2026-11-02",
+      "when": "Daily along the Bondi to Tamarama coastal walk; check site for hours",
+      "venue": "Bondi to Tamarama coastal walk",
+      "suburb": "Bondi",
+      "transport": "train",
+      "nearest_station": "Bondi Junction",
+      "trip": "about 40 min from Redfern, plus a bus to the coast",
+      "cost": "Entry by voluntary contribution",
+      "summary": "Outdoor sculpture walk along the coast.",
+      "url": "https://www.sculpturebythesea.com/bondi"
+    }
+  ],
+  "horizon": [
+    {
+      "title": "Men's Rugby World Cup 2027",
+      "category": "Rugby union",
+      "start": "2027-10-01",
+      "end": "2027-11-13",
+      "location": "Australia (eight host stadiums incl. Sydney)",
+      "status": "new",
+      "key_dates": [
+        { "date": "2026-10-01", "label": "General sale opened (12pm AEST), first come first served" },
+        { "date": "2027-10-01", "label": "Tournament opens" },
+        { "date": "2027-11-13", "label": "Final" }
+      ],
+      "notes": "Over 1.3 million tickets sold; no further sale phases announced. Check tickets.rugbyworldcup.com for remaining stock.",
+      "url": "https://www.ticketnews.com/2026/10/rugby-world-cup-2027-passes-1-3m-tickets-sold-ahead-of-general-sale/"
+    },
+    {
+      "title": "Australian Open 2027",
+      "category": "Tennis",
+      "start": "2027-01-11",
+      "end": "2027-01-31",
+      "location": "Melbourne Park",
+      "status": "new",
+      "key_dates": [
+        { "date": "2026-11-30", "label": "Early-bird Ground Pass pricing ends (12:59pm)" },
+        { "date": "2027-01-30", "label": "Finals weekend begins" }
+      ],
+      "notes": "Tickets are on sale through Ticketmaster; Ground Passes from $49 at early-bird pricing.",
+      "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/"
+    },
+    {
+      "title": "SCG New Year's Test: Australia v New Zealand",
+      "category": "Cricket",
+      "start": "2027-01-04",
+      "end": "2027-01-08",
+      "location": "Sydney Cricket Ground",
+      "status": "new",
+      "key_dates": [
+        { "date": "2027-01-04", "label": "First day of the Test" }
+      ],
+      "notes": "Register for priority pre-sale through Cricket Plus; on-sale dates not yet announced.",
+      "url": "https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for"
+    },
+    {
+      "title": "AFC Asian Cup 2027",
+      "category": "Football",
+      "start": "2027-01-07",
+      "end": "2027-02-05",
+      "location": "Saudi Arabia",
+      "status": "new",
+      "key_dates": [
+        { "date": "2027-01-07", "label": "Tournament starts" }
+      ],
+      "notes": "The A-League breaks to make room for it.",
+      "url": "https://aleagues.com.au/news/aleague-men-2026-2027-fixture-list-revealed-key-dates-fixture-information/"
+    },
+    {
+      "title": "FIFA Women's World Cup 2027",
+      "category": "Football",
+      "start": "2027-06-24",
+      "end": "2027-07",
+      "location": "Brazil",
+      "status": "new",
+      "key_dates": [
+        { "date": "2026-12", "label": "Final draw sets the Matildas' group" },
+        { "date": "2027-06-24", "label": "Opening match at the Maracanã" }
+      ],
+      "notes": "Register interest for tickets at FIFA.com/tickets; no on-sale date yet. Matildas fan-travel deposits are open.",
+      "url": "https://matildas.com.au/news/fifa-womens-world-cup-brazil-2027tm-match-schedule-unveiled"
+    }
+  ],
+  "notes": [
+    "Sydney FC v Wanderers (16 Oct) and v Adelaide (25 Oct): kick-off times not confirmed from an official source, so 12:00 is a placeholder. The 25 Oct date comes from ticketing listings.",
+    "Sydney FC's round 4 home game v Central Coast Mariners has no confirmed date, so it is left out.",
+    "Champions League kick-off times come from a fixtures aggregator, not UEFA. Como v Man United venue is listed as provisional.",
+    "Stan Sport shows all Premier League matches and Champions League; Paramount+ shows every A-League match. Broadcasts weren't checked match by match.",
+    "Sydney Kings v Perth Wildcats (17 Oct, 7:30pm) appears in venue listings but wasn't confirmed at the source, so it is omitted.",
+    "The Bledisloe Test's Stan Sport broadcast wasn't confirmed, so it is listed under live sport, not big matches.",
+    "Nothing confirmed this run for tennis, matcha events, or gaming/Pokémon/Minecraft events in Sydney; the Fun Run Pink distances for kids are also not listed.",
+    "Man United's Carabao Cup round 4 (week of 26 Oct) isn't scheduled yet."
+  ]
 }
