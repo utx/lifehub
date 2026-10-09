@@ -1,0 +1,14 @@
+{
+  "generated_at": null,
+  "teams": [
+    { "id": "man-utd", "name": "Manchester United", "featured": true, "fixtures": [] },
+    { "id": "sydney-fc", "name": "Sydney FC", "featured": false, "fixtures": [] }
+  ],
+  "big_matches": [],
+  "live_sport": [],
+  "son": [],
+  "daughter": [],
+  "family_fun": [],
+  "horizon": [],
+  "notes": ["The first nightly run hasn't happened yet."]
+}
