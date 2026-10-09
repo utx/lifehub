@@ -52,6 +52,8 @@ more than a day old.
 
 - **Refresh now:** Actions → Update LifeHub → Run workflow. This also works from the
   GitHub mobile app. Untick "research" to just rebuild the page without searching.
+- **Refresh without the button:** push any commit whose message contains `[research]`
+  (for example by updating `.github/research-request`).
 - **Change what it looks for:** edit [`interests.md`](interests.md). The next run
   picks it up.
 - **Choose a model (optional):** set a repository variable `CLAUDE_MODEL` under
