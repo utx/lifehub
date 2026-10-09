@@ -13,6 +13,19 @@ sensible calls and note anything uncertain in `notes`.
 3. Research each section with WebSearch and WebFetch. Prefer official sources: club,
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
+   - Be thorough. This runs overnight and there's no rush. For each of `live_sport`,
+     `son`, `daughter` and `family_fun`, run at least 6 different searches from
+     different angles (specific interests, venues, "this weekend", "school holidays",
+     "free", and so on) before deciding what to include.
+   - Good places to discover Sydney events: City of Sydney What's On, Sydney.com,
+     NSW Government events, Time Out Sydney, Concrete Playground, Broadsheet,
+     Eventbrite, ellaslist, Kidtown, the State Library and City of Sydney libraries,
+     Carriageworks, the Powerhouse, the Australian Museum, Westfield centre events,
+     and major stores' event pages (EB Games, JB Hi-Fi, Kinokuniya, Dymocks).
+   - For fixtures, use official sources (manutd.com, premierleague.com, uefa.com,
+     sydneyfc.com, aleagues.com.au) in preference to blogs and aggregators.
+   - Aim for roughly the upper end of each section's limit, but never pad a section
+     with weak, stale or unconfirmed items.
 4. Write the complete new `data/briefing.json` in the format below.
 5. Run `python3 scripts/build.py --check`. Fix every error and warning it reports, and
    run it again until it passes cleanly.
