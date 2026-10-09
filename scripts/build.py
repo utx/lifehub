@@ -31,6 +31,7 @@ OUT = ROOT / "_site"
 SYDNEY = ZoneInfo("Australia/Sydney")
 
 EVENT_SECTIONS = [
+    ("local", "Around the neighbourhood", "Local news and events", "What's happening around Alexandria, Erskineville, Eveleigh, Redfern and Waterloo, plus school community events."),
     ("live_sport", "Get out to a game", "Live sport near you", "Football first, then tennis, rugby union and basketball."),
     ("son", "For your son", "Sport, games and running", "Things a 9-year-old will be into."),
     ("daughter", "For your daughter", "Crafts, books and matcha", "Things a 12-year-old will be into."),
@@ -200,7 +201,9 @@ def clean_event(raw, today: date, report: Report, where: str) -> dict | None:
         return None
     if raw.get("end") and end is None:
         report.warn(f"{where}: 'end' is not a valid date, ignoring it")
-    if (end or start)[0] < today:
+    is_news = text(raw.get("kind"), 10).lower() == "news"
+    cutoff = today - timedelta(days=7) if is_news else today
+    if (end or start)[0] < cutoff:
         return None
     transport = text(raw.get("transport"), 20).lower()
     if transport and transport not in TRANSPORT:
@@ -208,6 +211,7 @@ def clean_event(raw, today: date, report: Report, where: str) -> dict | None:
         transport = ""
     return {
         "title": title,
+        "news": is_news,
         "category": text(raw.get("category"), 40),
         "start": start,
         "end": end,
@@ -556,6 +560,8 @@ def weekend(today: date) -> tuple[date, date]:
 def fmt_event_when(ev: dict, today: date) -> str:
     start_day, start_dt = ev["start"]
     end_day = ev["end"][0] if ev["end"] else start_day
+    if ev["news"]:
+        return f"News · {fmt_date(start_day, today)}"
     if start_day < today:
         return f"On now · until {fmt_date(end_day, today)}"
     label = fmt_date(start_day, today)
@@ -571,7 +577,9 @@ def render_event(ev: dict, today: date) -> str:
     end_day = ev["end"][0] if ev["end"] else start_day
     sat, sun = weekend(today)
     stamps = []
-    if start_day <= today <= end_day and ev["end"] and (end_day - today).days <= 2:
+    if ev["news"]:
+        pass
+    elif start_day <= today <= end_day and ev["end"] and (end_day - today).days <= 2:
         stamps.append('<span class="stamp stamp--soon">Ends soon</span>')
     elif start_day <= today <= end_day:
         stamps.append('<span class="stamp stamp--now">On now</span>')
@@ -594,7 +602,7 @@ def render_event(ev: dict, today: date) -> str:
 
     return f"""
         <article class="card">
-          {date_block(max(start_day, today))}
+          {date_block(start_day if ev['news'] else max(start_day, today))}
           <div class="card-body">
             {f'<p class="stamps">{"".join(stamps)}</p>' if stamps else ''}
             <h3><a href="{e(ev['url'])}" target="_blank" rel="noopener">{e(ev['title'])}</a></h3>
@@ -718,6 +726,7 @@ def render_page(briefing: dict, now: datetime) -> str:
         for anchor, label in [
             *[(t["id"], SHORT_NAMES.get(t["id"], t["name"])) for t in briefing["teams"]],
             ("big-matches", "On TV"),
+            ("local", "Local"),
             ("live-sport", "Live sport"),
             ("son", "Son"),
             ("daughter", "Daughter"),

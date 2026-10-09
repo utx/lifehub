@@ -6,6 +6,8 @@ It covers:
 
 - **Manchester United** (featured) and **Sydney FC** fixtures, in Sydney time.
 - **Big matches to watch** on Stan Sport, beIN Sports and Paramount+.
+- **Around the neighbourhood**: local news and events near home, plus school community
+  events.
 - **Live sport near you**: football first, then tennis, rugby union and basketball.
 - Things to do **for your son**, **for your daughter**, and **for everyone**, all
   reachable by train, metro or light rail.
@@ -40,7 +42,11 @@ more than a day old.
    (Or add an `ANTHROPIC_API_KEY` secret instead to pay per run through the API.)
 2. **Turn on GitHub Pages.** Go to **Settings → Pages** and set
    **Source** to **GitHub Actions**.
-3. **Do the first run.** Go to **Actions → Update LifeHub → Run workflow**.
+3. **Add your private local details (optional).** Add a secret called `LOCAL_CONTEXT`
+   with your street address (on a line starting `Address:`) and the schools to follow.
+   It's only ever given to Claude during the nightly run and never written to the repo,
+   and the run refuses to publish if the street address appears in the briefing.
+4. **Do the first run.** Go to **Actions → Update LifeHub → Run workflow**.
 
 ## Everyday use
 

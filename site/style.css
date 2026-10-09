@@ -407,6 +407,7 @@ a.stub:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 
 /* Event cards -------------------------------------------------------------- */
 
+.events--local { --accent: #b45309; }
 .events--live-sport { --accent: var(--sport); }
 .events--son { --accent: var(--son); }
 .events--daughter { --accent: var(--daughter); }

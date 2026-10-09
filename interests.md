@@ -13,6 +13,17 @@ Claude reads it at the start of every run.
   Name the nearest station or stop, and roughly how long the trip is from home.
   Rank closer and easier trips higher when everything else is equal.
 
+## Around the neighbourhood
+
+Local news and events around Alexandria, Erskineville, Eveleigh, Redfern and Waterloo:
+new openings, markets, street festivals, park and playground news, council events,
+roadworks or closures that affect getting around, and what's on at the South Eveleigh
+precinct (Locomotive Workshop, Eveleigh Green, rooftop farm, markets and community events).
+
+Also community events at our kids' schools (open days, fetes, concerts, performances,
+sports carnivals, P&C events). The school names and our street address are kept in a
+private GitHub secret, not in this public file.
+
 ## Teams (fixtures)
 
 - **Manchester United**: featured. Next 5 matches in all competitions.

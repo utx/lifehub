@@ -14,7 +14,7 @@ sensible calls and note anything uncertain in `notes`.
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
    - Be thorough. This runs overnight and there's no rush. For each of `live_sport`,
-     `son`, `daughter`, `family_fun`, `deals` and `groceries`, run at least 6 different searches from
+     `local`, `son`, `daughter`, `family_fun`, `deals` and `groceries`, run at least 6 different searches from
      different angles (specific interests, venues, "this weekend", "school holidays",
      "free", and so on) before deciding what to include.
    - Good places to discover Sydney events: City of Sydney What's On, Sydney.com,
@@ -73,6 +73,20 @@ sensible calls and note anything uncertain in `notes`.
   shown in Australia on Stan Sport, beIN Sports or Paramount+. Say in one line why
   each one matters. For football matches, also add 2–3 short `talking_points`
   (same rules as the match previews above).
+- `local`: up to 12 items of local news and events around the home suburb (see
+  "Around the neighbourhood" in `interests.md`, and the private local context below if
+  there is one).
+  - Look at: City of Sydney news and What's On for Alexandria, Erskineville, Eveleigh,
+    Redfern and Waterloo; South Eveleigh's own events page; local news (City Hub,
+    the Inner West Courier, SMH local stories); and the schools' public websites,
+    newsletters and event calendars.
+  - Events use the normal event fields. For **news** (something that happened or was
+    announced, without a date to go to), set `"kind": "news"`, set `start` to the date
+    it was reported, and keep it only if it was reported in the last 7 days.
+  - For school events, name the school in `venue` and describe the event, but **never**
+    mention a child, which child goes there, or anything about the family. Never write
+    the home street address anywhere; refer to "home" instead.
+  - For things within walking distance, set `trip` to something like "about 10 min walk".
 - `live_sport`: up to 10 events in Sydney (football first, then tennis, rugby union,
   basketball; never AFL or NRL).
 - `son`: up to 8 things for a 9-year-old boy (sport, gaming, running).
@@ -169,6 +183,24 @@ Don't repeat an item across sections. Put it where it fits best.
       "url": "https://..."
     }
   ],
+  "local": [
+    {
+      "title": "Sydney Park playground reopens",
+      "kind": "news",
+      "category": "News",
+      "start": "2026-10-08",
+      "end": null,
+      "when": null,
+      "venue": "Sydney Park",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 15 min walk",
+      "cost": null,
+      "summary": "The upgraded playground has reopened after six months of works.",
+      "url": "https://..."
+    }
+  ],
   "son": [],
   "daughter": [],
   "family_fun": [],
@@ -211,7 +243,8 @@ Field rules:
   either a date `YYYY-MM-DD` or an ISO 8601 datetime with offset. `end` is optional
   (use `null`). For something that runs over several days with set hours, give the
   date range and describe the hours in `when` (e.g. "Weekends 10am–4pm").
-- `transport`: one of `"train"`, `"metro"`, `"light rail"`.
+- `transport`: one of `"train"`, `"metro"`, `"light rail"`, or `null` for walking distance.
+- `kind`: optional. Use `"news"` for local news items (see `local`).
 - `cost`: short text like `"Free"`, `"From $25"` or `"$10 kids"`. Use `null` if unknown.
 - Horizon `start`, `end` and key-date `date`: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`,
   whichever is as precise as is actually known.

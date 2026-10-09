@@ -65,6 +65,7 @@ jobs:
           CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+          LOCAL_CONTEXT: ${{ secrets.LOCAL_CONTEXT }}
         run: |
           [ -n "$CLAUDE_CODE_OAUTH_TOKEN" ] || unset CLAUDE_CODE_OAUTH_TOKEN
           [ -n "$ANTHROPIC_API_KEY" ] || unset ANTHROPIC_API_KEY
@@ -75,6 +76,9 @@ jobs:
 
           now="$(TZ=Australia/Sydney date '+%A %-d %B %Y, %-I:%M%p %Z')"
           prompt="The current time in Sydney is ${now}."$'\n\n'"$(cat prompts/briefing.md)"
+          if [ -n "$LOCAL_CONTEXT" ]; then
+            prompt+=$'\n\n'"## Private local context"$'\n\n'"Use this to find local news and school events for the \`local\` section. It is private: never write the street address anywhere, and never say or imply which child attends which school."$'\n\n'"$LOCAL_CONTEXT"
+          fi
 
           args=(
             -p "$prompt"
@@ -84,11 +88,30 @@ jobs:
           if [ -n "$CLAUDE_MODEL" ]; then
             args+=(--model "$CLAUDE_MODEL")
           fi
-          claude "${args[@]}"
+          # The repo is public, and so are its Actions logs. Keep Claude's output (which
+          # could quote the private local context) out of them.
+          if ! claude "${args[@]}" > "$RUNNER_TEMP/claude-output.txt" 2>&1; then
+            echo "::error::Claude Code exited with an error. Its output is withheld from the public log."
+            exit 1
+          fi
 
           # Only the briefing should change. Restore anything else Claude touched so the
           # repo's own build script validates the result.
           git checkout -- . ':(exclude)data/briefing.json'
+
+      - name: Privacy check
+        if: env.RESEARCH == 'true'
+        env:
+          LOCAL_CONTEXT: ${{ secrets.LOCAL_CONTEXT }}
+        run: |
+          # Refuse to publish if the street address from the private context leaked.
+          # Matches on house number plus street name, so "Rd" vs "Road" doesn't matter.
+          address="$(printf '%s\n' "$LOCAL_CONTEXT" | tr -d '\r' | sed -n 's/^[Aa]ddress:[[:space:]]*//p' | head -n 1)"
+          key="$(printf '%s\n' "${address%%,*}" | awk '{print $1, $2}')"
+          if [ -n "${key// /}" ] && grep -qiF -- "$key" data/briefing.json; then
+            echo "::error::The briefing mentions the private street address, so it won't be published."
+            exit 1
+          fi
 
       - name: Validate and build the page
         run: |

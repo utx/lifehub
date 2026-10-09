@@ -193,6 +193,19 @@ class RenderTests(unittest.TestCase):
         self.assertIn("shelf-tag--woolworths", page)
         self.assertIn("Ends Tue 20 Oct", page)
 
+    def test_local_news_kept_for_a_week(self):
+        data = sample()
+        data["local"] = [
+            {"title": "Fresh news", "kind": "news", "start": "2026-10-12", "url": "https://example.com/1"},
+            {"title": "Stale news", "kind": "news", "start": "2026-10-01", "url": "https://example.com/2"},
+            {"title": "School fete", "start": "2026-10-24", "venue": "A School", "url": "https://example.com/3"},
+        ]
+        briefing, _ = build.normalize(data, NOW)
+        self.assertEqual([ev["title"] for ev in briefing["local"]], ["Fresh news", "School fete"])
+        page = build.render_page(briefing, NOW)
+        self.assertIn("News · Mon 12 Oct", page)
+        self.assertIn('href="#local"', page)
+
     def test_seed_briefing_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
             seed = self.write_seed(tmp)
