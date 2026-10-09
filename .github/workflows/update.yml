@@ -79,7 +79,11 @@ jobs:
 
           now="$(TZ=Australia/Sydney date '+%A %-d %B %Y, %-I:%M%p %Z')"
           prompt="The current time in Sydney is ${now}."$'\n\n'"$(cat prompts/briefing.md)"
+          if [ -z "$LOCAL_CONTEXT" ]; then
+            echo "Private local context: not set"
+          fi
           if [ -n "$LOCAL_CONTEXT" ]; then
+            echo "Private local context: provided ($(printf '%s\n' "$LOCAL_CONTEXT" | grep -c .) lines)"
             prompt+=$'\n\n'"## Private local context"$'\n\n'"Use this to find local news and school events for the \`local\` section. It is private: never write the street address anywhere, and never say or imply which child attends which school."$'\n\n'"$LOCAL_CONTEXT"
           fi
 
@@ -87,14 +91,23 @@ jobs:
             -p "$prompt"
             --allowedTools "Read,Write,Edit,Glob,Grep,WebSearch,WebFetch,Bash(python3 scripts/build.py:*)"
             --max-turns 200
+            --output-format json
           )
           if [ -n "$CLAUDE_MODEL" ]; then
             args+=(--model "$CLAUDE_MODEL")
           fi
           # The repo is public, and so are its Actions logs. Keep Claude's output (which
           # could quote the private local context) out of them.
-          if ! claude "${args[@]}" > "$RUNNER_TEMP/claude-output.txt" 2>&1; then
-            echo "::error::Claude Code exited with an error. Its output is withheld from the public log."
+          status=0
+          claude "${args[@]}" > "$RUNNER_TEMP/claude-output.json" 2> "$RUNNER_TEMP/claude-stderr.txt" || status=$?
+          # A safe summary only: no text from Claude.
+          jq -r '"Claude run: subtype=\(.subtype // "?") is_error=\(.is_error | tostring) turns=\(.num_turns // "?") duration=\((.duration_ms // 0) / 60000 | floor)min"' \
+            "$RUNNER_TEMP/claude-output.json" 2>/dev/null || echo "Claude run: no summary available"
+          if [ "$(jq -r '.is_error' "$RUNNER_TEMP/claude-output.json" 2>/dev/null)" = "true" ]; then
+            status=1
+          fi
+          if [ "$status" -ne 0 ]; then
+            echo "::error::Claude Code exited with status $status. Its output is withheld from the public log."
             exit 1
           fi
 

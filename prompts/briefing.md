@@ -9,7 +9,12 @@ sensible calls and note anything uncertain in `notes`.
 
 1. Read `interests.md`. It is the source of truth for what to look for.
 2. Read the existing `data/briefing.json`. Use its `horizon` list as the starting
-   point for this run's horizon list (see below).
+   point for this run's horizon list (see below). **Every other section must be
+   researched fresh on every run.** Don't copy items over from the previous briefing
+   without re-checking them, and don't stop early because the previous briefing looks
+   recent. A good run takes a while: expect to make dozens of searches and page fetches.
+   If searches fail or come back empty, retry with different wording before giving up,
+   and say in `notes` which sections were affected.
 3. Research each section with WebSearch and WebFetch. Prefer official sources: club,
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
@@ -73,7 +78,7 @@ sensible calls and note anything uncertain in `notes`.
   shown in Australia on Stan Sport, beIN Sports or Paramount+. Say in one line why
   each one matters. For football matches, also add 2–3 short `talking_points`
   (same rules as the match previews above).
-- `local`: up to 12 items of local news and events around the home suburb (see
+- `local`: aim for 6–12 items of local news and events around the home suburb (see
   "Around the neighbourhood" in `interests.md`, and the private local context below if
   there is one).
   - Look at: City of Sydney news and What's On for Alexandria, Erskineville, Eveleigh,
@@ -87,6 +92,7 @@ sensible calls and note anything uncertain in `notes`.
     mention a child, which child goes there, or anything about the family. Never write
     the home street address anywhere; refer to "home" instead.
   - For things within walking distance, set `trip` to something like "about 10 min walk".
+  - If you find nothing for the schools, say so in `notes` (without naming them).
 - `live_sport`: up to 10 events in Sydney (football first, then tennis, rugby union,
   basketball; never AFL or NRL).
 - `son`: up to 8 things for a 9-year-old boy (sport, gaming, running).
@@ -104,10 +110,12 @@ sensible calls and note anything uncertain in `notes`.
   Woolworths, Coles and Aldi (see `interests.md`). Half-price and big discounts first,
   spread across stores and food types.
   - Sources: the stores' weekly specials and catalogue pages (woolworths.com.au,
-    coles.com.au, aldi.com.au "Special Buys" and catalogue), catalogue sites such as
-    SaleFinder and Lasoo, and OzBargain half-price posts. Supermarket sites sometimes
-    block automated access; if so, use the catalogue sites. Only list items you can see
-    with a price for this week.
+    coles.com.au, aldi.com.au "Special Buys" and catalogue), catalogue sites (SaleFinder,
+    Lasoo, Catalogue.com.au, CatalogueAU), half-price trackers and roundups (OzBargain,
+    news sites' "half-price specials this week" articles, which many outlets publish
+    every Wednesday). Supermarket sites often block automated access; when they do, use
+    the catalogue sites and roundups. Only list items you can see with a price for
+    this week.
   - Weekly specials usually run Wednesday to Tuesday. Set `ends` to the last day of
     the special (YYYY-MM-DD).
 - `horizon`: up to 15 huge events in the next 1–2 years.
