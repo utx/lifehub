@@ -140,13 +140,19 @@ class RenderTests(unittest.TestCase):
         page = build.render_page(briefing, NOW)
         self.assertIn("Craft &lt;b&gt;fair&lt;/b&gt;", page)
         self.assertNotIn("javascript:", page)
-        self.assertIn("Light rail: Moore Park", page)
+        self.assertIn("Moore Park light rail", page)
         self.assertIn("On now · until Tue 20 Oct", page)
+
+    def write_seed(self, tmp: str) -> Path:
+        seed = Path(tmp) / "briefing.json"
+        seed.write_text(json.dumps({"generated_at": None, "teams": [], "notes": ["First run pending."]}))
+        return seed
 
     def test_seed_briefing_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
+            seed = self.write_seed(tmp)
             result = subprocess.run(
-                [sys.executable, str(ROOT / "scripts" / "build.py"), "--out", str(Path(tmp) / "site")],
+                [sys.executable, str(ROOT / "scripts" / "build.py"), "--data", str(seed), "--out", str(Path(tmp) / "site")],
                 capture_output=True,
                 text=True,
             )
@@ -155,12 +161,14 @@ class RenderTests(unittest.TestCase):
             self.assertIn("Waiting for the first nightly run", page)
 
     def test_require_fresh_rejects_seed(self):
-        result = subprocess.run(
-            [sys.executable, str(ROOT / "scripts" / "build.py"), "--check", "--require-fresh", "3"],
-            capture_output=True,
-            text=True,
-        )
-        self.assertEqual(result.returncode, 1)
+        with tempfile.TemporaryDirectory() as tmp:
+            seed = self.write_seed(tmp)
+            result = subprocess.run(
+                [sys.executable, str(ROOT / "scripts" / "build.py"), "--check", "--data", str(seed), "--require-fresh", "3"],
+                capture_output=True,
+                text=True,
+            )
+            self.assertEqual(result.returncode, 1)
 
     def test_invalid_json_fails(self):
         with tempfile.TemporaryDirectory() as tmp:

@@ -1,28 +1,34 @@
 // Live countdowns to kick-off, and a warning when the nightly run looks stale.
 (() => {
-  const HOUR = 3600 * 1000;
-
-  const describe = (ms) => {
-    const minutes = Math.round(ms / 60000);
-    if (minutes < 60) return `Kick-off in ${minutes} min`;
-    const hours = Math.floor(minutes / 60);
-    if (hours < 24) return `Kick-off in ${hours}h ${minutes % 60}m`;
-    const days = Math.floor(hours / 24);
-    const rest = hours % 24;
-    return `Kick-off in ${days} day${days === 1 ? "" : "s"}${rest ? `, ${rest}h` : ""}`;
-  };
+  const MINUTE = 60 * 1000;
+  const HOUR = 60 * MINUTE;
+  const DAY = 24 * HOUR;
+  const pad = (n) => String(n).padStart(2, "0");
 
   const tick = () => {
     const now = Date.now();
-    document.querySelectorAll("[data-kickoff]").forEach((el) => {
+    document.querySelectorAll(".countdown[data-kickoff]").forEach((el) => {
       const diff = Date.parse(el.dataset.kickoff) - now;
       if (Number.isNaN(diff)) return;
-      el.textContent = diff > 0 ? describe(diff) : diff > -2 * HOUR ? "On now" : "Finished";
+      if (diff <= 0) {
+        el.classList.add("live");
+        el.dataset.status = diff > -2 * HOUR ? "On now" : "Full time";
+        return;
+      }
+      const units = {
+        d: Math.floor(diff / DAY),
+        h: Math.floor((diff % DAY) / HOUR),
+        m: Math.floor((diff % HOUR) / MINUTE),
+      };
+      for (const [unit, value] of Object.entries(units)) {
+        const slot = el.querySelector(`[data-unit="${unit}"]`);
+        if (slot) slot.textContent = pad(value);
+      }
     });
   };
 
   tick();
-  setInterval(tick, 60 * 1000);
+  setInterval(tick, 30 * 1000);
 
   const generated = Date.parse(document.body.dataset.generated || "");
   if (!Number.isNaN(generated) && Date.now() - generated > 30 * HOUR) {

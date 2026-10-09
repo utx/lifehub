@@ -31,11 +31,13 @@ OUT = ROOT / "_site"
 SYDNEY = ZoneInfo("Australia/Sydney")
 
 EVENT_SECTIONS = [
-    ("live_sport", "Live sport near you", "Football first, then tennis, rugby union and basketball."),
-    ("son", "For your son", "Sport, gaming and running."),
-    ("daughter", "For your daughter", "Arts and crafts, books and matcha."),
-    ("family_fun", "Fun for everyone", "Events, pop-ups, freebies, competitions, sales and open days."),
+    ("live_sport", "Get out to a game", "Live sport near you", "Football first, then tennis, rugby union and basketball."),
+    ("son", "For your son", "Sport, games and running", "Things a 9-year-old will be into."),
+    ("daughter", "For your daughter", "Crafts, books and matcha", "Things a 12-year-old will be into."),
+    ("family_fun", "For everyone", "Out and about", "Events, pop-ups, freebies, competitions, sales and open days."),
 ]
+SHORT_NAMES = {"man-utd": "Man Utd", "sydney-fc": "Sydney FC"}
+TEAM_THEME = {"man-utd": "united", "sydney-fc": "sky"}
 TRANSPORT = {"train": "Train", "metro": "Metro", "light rail": "Light rail"}
 HORIZON_STATUS = {"new": "New", "updated": "Updated"}
 DATE_RE = re.compile(r"\d{4}-\d{2}-\d{2}")
@@ -60,10 +62,10 @@ def text(value, limit: int = 400) -> str:
     return " ".join(value.split())[:limit]
 
 
-def text_list(value) -> list[str]:
+def text_list(value, limit: int = 120) -> list[str]:
     if not isinstance(value, list):
         return []
-    return [t for t in (text(v, 120) for v in value) if t]
+    return [t for t in (text(v, limit) for v in value) if t]
 
 
 def as_list(value, where: str, report: Report) -> list:
@@ -302,9 +304,9 @@ def normalize(raw, now: datetime) -> tuple[dict | None, Report]:
             clean_items(raw, "horizon", clean_horizon, today, report),
             key=lambda h: h["start"][0],
         ),
-        "notes": text_list(raw.get("notes")),
+        "notes": text_list(raw.get("notes"), 400),
     }
-    for key, _, _ in EVENT_SECTIONS:
+    for key, *_ in EVENT_SECTIONS:
         events = clean_items(raw, key, clean_event, today, report)
         events.sort(key=lambda ev: (ev["start"][0], ev["start"][1] or datetime.min.replace(tzinfo=timezone.utc)))
         briefing[key] = events
@@ -351,47 +353,99 @@ def early_hours_badge(kickoff: datetime, confirmed: bool) -> str:
     return f' <span class="badge late">{e(night_before)} night</span>'
 
 
-def chips(values: list[str], cls: str = "chip") -> str:
-    return "".join(f'<span class="{cls}">{e(v)}</span>' for v in values)
+def time_parts(dt: datetime) -> tuple[str, str]:
+    hour = dt.hour % 12 or 12
+    return f"{hour}:{dt:%M}", "am" if dt.hour < 12 else "pm"
 
 
-def render_next_match(fixture: dict, today: date) -> str:
-    preposition = "vs" if fixture["home"] else "at"
-    countdown = ""
-    if fixture["time_confirmed"]:
-        countdown = f'<p class="countdown" data-kickoff="{e(fixture["kickoff"].isoformat())}"></p>'
-    meta = " · ".join(filter(None, [fixture["venue"], "Home" if fixture["home"] else "Away"]))
+def date_block(d: date, cls: str = "db") -> str:
+    return (
+        f'<span class="{cls}"><span class="db-dow">{d:%a}</span>'
+        f'<span class="db-day">{d.day}</span><span class="db-mon">{d:%b}</span></span>'
+    )
+
+
+def kickoff_day(kickoff: datetime, confirmed: bool) -> date:
+    # Unconfirmed kick-offs carry a placeholder time, so use the venue's match-day date.
+    return kickoff.astimezone(SYDNEY).date() if confirmed else kickoff.date()
+
+
+def tv_labels(values: list[str]) -> str:
+    out = []
+    for v in values:
+        key = v.lower()
+        brand = "stan" if "stan" in key else "bein" if "bein" in key else "paramount" if "paramount" in key else "other"
+        out.append(f'<span class="tv tv--{brand}">{e(v)}</span>')
+    return "".join(out)
+
+
+def match_title(team: dict, fixture: dict) -> tuple[str, str]:
+    short = SHORT_NAMES.get(team["id"], team["name"])
+    return (short, fixture["opponent"]) if fixture["home"] else (fixture["opponent"], short)
+
+
+def render_hero(team: dict, fixture: dict, today: date) -> str:
+    theme = TEAM_THEME.get(team["id"], "neutral")
+    left, right = match_title(team, fixture)
+    confirmed = fixture["time_confirmed"]
+    day = kickoff_day(fixture["kickoff"], confirmed)
+    if confirmed:
+        clock, meridiem = time_parts(fixture["kickoff"].astimezone(SYDNEY))
+        time_html = f'{e(clock)}<small>{meridiem}</small>'
+        countdown = f"""
+        <div class="countdown" data-kickoff="{e(fixture['kickoff'].isoformat())}">
+          <span><b data-unit="d">–</b>days</span><span><b data-unit="h">–</b>hrs</span><span><b data-unit="m">–</b>mins</span>
+        </div>"""
+    else:
+        time_html = 'TBC'
+        countdown = '<p class="hero-tbc">Kick-off time not announced yet</p>'
+    label = " · ".join(filter(None, [team["name"], "Next match", fixture["competition"]]))
+    venue = " · ".join(filter(None, [fixture["venue"], "Home" if fixture["home"] else "Away"]))
+    title = f'{e(left)} <span class="hero-v">v</span> {e(right)}'
+    if fixture["url"]:
+        title = f'<a href="{e(fixture["url"])}" target="_blank" rel="noopener">{title}</a>'
     return f"""
-      <article class="next-match">
-        <p class="eyebrow">Next match{' · ' + e(fixture['competition']) if fixture['competition'] else ''}</p>
-        <p class="matchup">{e(preposition)} {link(fixture['opponent'], fixture['url'])}</p>
-        <p class="kickoff">{e(fmt_kickoff(fixture['kickoff'], fixture['time_confirmed'], today))}{early_hours_badge(fixture['kickoff'], fixture['time_confirmed'])}</p>
-        {countdown}
-        <p class="meta">{e(meta)} {chips(fixture['broadcast'], 'chip tv')}</p>
-      </article>"""
+    <article class="hero hero--{theme}{'' if team['featured'] else ' hero--compact'}">
+      <p class="hero-label">{e(label)}</p>
+      <h2 class="hero-match">{title}</h2>
+      <div class="hero-when">
+        <span class="hero-time">{time_html}</span>
+        <span class="hero-day">{e(fmt_date(day, today))}{early_hours_badge(fixture['kickoff'], confirmed)}</span>
+      </div>
+      {countdown}
+      <p class="hero-meta">{e(venue)} {tv_labels(fixture['broadcast'])}</p>
+    </article>"""
 
 
-def render_fixture_row(fixture: dict, today: date) -> str:
-    preposition = "vs" if fixture["home"] else "at"
+def render_stub(team: dict, fixture: dict, today: date) -> str:
+    left, right = match_title(team, fixture)
+    confirmed = fixture["time_confirmed"]
+    when = fmt_time(fixture["kickoff"].astimezone(SYDNEY)) if confirmed else "Time TBC"
+    tag = "a" if fixture["url"] else "div"
+    href = f' href="{e(fixture["url"])}" target="_blank" rel="noopener"' if fixture["url"] else ""
     return f"""
-        <li>
-          <span class="when">{e(fmt_kickoff(fixture['kickoff'], fixture['time_confirmed'], today))}{early_hours_badge(fixture['kickoff'], fixture['time_confirmed'])}</span>
-          <span class="what">{e(preposition)} {link(fixture['opponent'], fixture['url'])}</span>
-          <span class="meta">{e(fixture['competition'])} {chips(fixture['broadcast'], 'chip tv')}</span>
-        </li>"""
+        <{tag} class="stub"{href}>
+          {date_block(kickoff_day(fixture['kickoff'], confirmed))}
+          <span class="stub-body">
+            <span class="stub-comp">{e(fixture['competition'])}</span>
+            <span class="stub-match">{e(left)} v {e(right)}</span>
+            <span class="stub-time">{e(when)}{early_hours_badge(fixture['kickoff'], confirmed)}</span>
+            {f'<span class="stub-tv">{tv_labels(fixture["broadcast"])}</span>' if fixture['broadcast'] else ''}
+          </span>
+        </{tag}>"""
 
 
 def render_team(team: dict, today: date) -> str:
-    cls = "team featured" if team["featured"] else "team"
     fixtures = team["fixtures"]
+    theme = TEAM_THEME.get(team["id"], "neutral")
     if not fixtures:
-        body = '<p class="empty">No upcoming fixtures found.</p>'
+        body = f'<p class="empty">No upcoming {e(team["name"])} fixtures found.</p>'
     else:
-        body = render_next_match(fixtures[0], today)
+        body = render_hero(team, fixtures[0], today)
         if len(fixtures) > 1:
-            rows = "".join(render_fixture_row(f, today) for f in fixtures[1:])
-            body += f'<h3>Coming up</h3><ol class="rows">{rows}</ol>'
-    return f'<section class="{cls}" id="{e(team["id"])}"><h2>{e(team["name"])}</h2>{body}</section>'
+            stubs = "".join(render_stub(team, f, today) for f in fixtures[1:])
+            body += f'<div class="stubs stubs--{theme}">{stubs}</div>'
+    return f'<section class="team" id="{e(team["id"])}">{body}</section>'
 
 
 def render_big_matches(matches: list[dict], today: date) -> str:
@@ -400,80 +454,164 @@ def render_big_matches(matches: list[dict], today: date) -> str:
     else:
         items = []
         for m in matches:
+            confirmed = m["time_confirmed"]
+            day = kickoff_day(m["kickoff"], confirmed)
+            if confirmed:
+                clock, meridiem = time_parts(m["kickoff"].astimezone(SYDNEY))
+                time_html = f'{e(clock)}<small>{meridiem}</small>'
+            else:
+                time_html = "TBC"
             sub = " · ".join(filter(None, [m["sport"], m["competition"]]))
             items.append(f"""
-        <li>
-          <span class="when">{e(fmt_kickoff(m['kickoff'], m['time_confirmed'], today))}{early_hours_badge(m['kickoff'], m['time_confirmed'])}</span>
-          <span class="what">{link(m['title'], m['url'])}</span>
-          <span class="meta">{e(sub)} {chips(m['broadcast'], 'chip tv')}</span>
-          {f'<span class="why">{e(m["why"])}</span>' if m['why'] else ''}
-        </li>""")
-        rows = f'<ol class="rows">{"".join(items)}</ol>'
-    return f'<section id="big-matches"><h2>Big matches to watch</h2><p class="lede">Must-see games on Stan Sport, beIN Sports and Paramount+.</p>{rows}</section>'
+          <li class="guide-row">
+            <span class="guide-when">
+              <span class="guide-time">{time_html}</span>
+              <span class="guide-day">{e(fmt_date(day, today))}{early_hours_badge(m['kickoff'], confirmed)}</span>
+            </span>
+            <span class="guide-what">
+              <span class="guide-comp">{e(sub)}</span>
+              <a class="guide-title" href="{e(m['url'])}" target="_blank" rel="noopener">{e(m['title'])}</a>
+              {f'<span class="guide-why">{e(m["why"])}</span>' if m['why'] else ''}
+            </span>
+            <span class="guide-tv">{tv_labels(m['broadcast'])}</span>
+          </li>""")
+        rows = f'<ol class="guide-list">{"".join(items)}</ol>'
+    return f"""
+    <section class="guide" id="big-matches">
+      <header class="section-head"><p class="kicker">On the box</p><h2>Big matches to watch</h2>
+      <p class="lede">The must-sees on Stan Sport, beIN Sports and Paramount+, in Sydney time.</p></header>
+      {rows}
+    </section>"""
+
+
+def weekend(today: date) -> tuple[date, date]:
+    weekday = today.weekday()
+    if weekday == 6:
+        return today - timedelta(days=1), today
+    saturday = today + timedelta(days=5 - weekday)
+    return saturday, saturday + timedelta(days=1)
 
 
 def fmt_event_when(ev: dict, today: date) -> str:
     start_day, start_dt = ev["start"]
+    end_day = ev["end"][0] if ev["end"] else start_day
+    if start_day < today:
+        return f"On now · until {fmt_date(end_day, today)}"
     label = fmt_date(start_day, today)
     if start_dt:
         label += f" · {fmt_time(start_dt)}"
-    if ev["end"] and ev["end"][0] != start_day:
-        label += f" – {fmt_date(ev['end'][0], today)}"
-    if start_day < today:
-        label = f"On now · until {fmt_date(ev['end'][0], today)}"
+    if end_day != start_day:
+        label += f" – {fmt_date(end_day, today)}"
     return label
 
 
 def render_event(ev: dict, today: date) -> str:
+    start_day = ev["start"][0]
+    end_day = ev["end"][0] if ev["end"] else start_day
+    sat, sun = weekend(today)
+    stamps = []
+    if start_day <= today <= end_day:
+        stamps.append('<span class="stamp stamp--now">On now</span>')
+    elif start_day <= sun and end_day >= sat:
+        stamps.append('<span class="stamp">This weekend</span>')
+    if ev["cost"].lower().startswith("free"):
+        stamps.append('<span class="stamp stamp--free">Free</span>')
+
     place = ", ".join(filter(None, [ev["venue"], ev["suburb"]]))
-    getting_there = ""
+    travel = ""
     if ev["nearest_station"] or ev["trip"]:
-        mode = TRANSPORT.get(ev["transport"], "Nearest stop")
-        parts = [f"{mode}: {ev['nearest_station']}" if ev["nearest_station"] else "", ev["trip"]]
-        getting_there = f'<p class="travel">{e(" · ".join(filter(None, parts)))}</p>'
-    tags = chips([t for t in [ev["category"]] if t]) + chips([ev["cost"]] if ev["cost"] else [], "chip cost")
+        line = ev["transport"].replace(" ", "-") or "other"
+        mode = TRANSPORT.get(ev["transport"], "")
+        station = " ".join(filter(None, [ev["nearest_station"], mode.lower() if mode else ""]))
+        bits = " · ".join(filter(None, [station, ev["trip"]]))
+        travel = f'<p class="travel travel--{e(line)}"><span class="line-dot" aria-hidden="true"></span>{e(bits)}</p>'
+    tags = "".join(f'<span class="tag">{e(t)}</span>' for t in [ev["category"]] if t)
+    if ev["cost"] and not ev["cost"].lower().startswith("free"):
+        tags += f'<span class="tag tag--cost">{e(ev["cost"])}</span>'
+
     return f"""
         <article class="card">
-          <p class="eyebrow">{e(fmt_event_when(ev, today))}</p>
-          <h3>{link(ev['title'], ev['url'])}</h3>
-          {f'<p class="when-note">{e(ev["when"])}</p>' if ev['when'] else ''}
-          {f'<p class="place">{e(place)}</p>' if place else ''}
-          {getting_there}
-          {f'<p class="summary">{e(ev["summary"])}</p>' if ev['summary'] else ''}
-          {f'<p class="tags">{tags}</p>' if tags else ''}
+          {date_block(max(start_day, today))}
+          <div class="card-body">
+            {f'<p class="stamps">{"".join(stamps)}</p>' if stamps else ''}
+            <h3><a href="{e(ev['url'])}" target="_blank" rel="noopener">{e(ev['title'])}</a></h3>
+            <p class="card-when">{e(fmt_event_when(ev, today))}</p>
+            {f'<p class="card-hours">{e(ev["when"])}</p>' if ev['when'] else ''}
+            {f'<p class="card-place">{e(place)}</p>' if place else ''}
+            {travel}
+            {f'<p class="card-summary">{e(ev["summary"])}</p>' if ev['summary'] else ''}
+            {f'<p class="tags">{tags}</p>' if tags else ''}
+          </div>
         </article>"""
 
 
-def render_event_section(key: str, title: str, lede: str, events: list[dict], today: date) -> str:
+def render_event_section(key: str, kicker: str, title: str, lede: str, events: list[dict], today: date) -> str:
     if events:
         body = '<div class="cards">' + "".join(render_event(ev, today) for ev in events) + "</div>"
     else:
-        body = '<p class="empty">Nothing found this time.</p>'
-    return f'<section id="{e(key.replace("_", "-"))}"><h2>{e(title)}</h2><p class="lede">{e(lede)}</p>{body}</section>'
+        body = '<p class="empty">Nothing found this time. Check back tomorrow.</p>'
+    anchor = key.replace("_", "-")
+    return f"""
+    <section class="events events--{e(anchor)}" id="{e(anchor)}">
+      <header class="section-head"><p class="kicker">{e(kicker)}</p><h2>{e(title)}</h2><p class="lede">{e(lede)}</p></header>
+      {body}
+    </section>"""
 
 
-def render_horizon(items: list[dict]) -> str:
+def render_horizon(items: list[dict], today: date) -> str:
+    head = """<header class="section-head"><p class="kicker">Plan ahead</p><h2>On the horizon</h2>
+      <p class="lede">The big ones in the next year or two, and when to grab tickets.</p></header>"""
     if not items:
-        return '<section id="horizon"><h2>On the horizon</h2><p class="empty">Nothing listed yet.</p></section>'
-    rows = []
+        return f'<section class="horizon" id="horizon">{head}<p class="empty">Nothing listed yet.</p></section>'
+    groups: dict[int, list[str]] = {}
     for h in items:
-        when = h["start"][2]
+        start_first, _, start_label = h["start"]
+        when = start_label
         if h["end"] and h["end"][2] != when:
             when += f" – {h['end'][2]}"
-        badge = f' <span class="badge {e(h["status"])}">{e(HORIZON_STATUS[h["status"]])}</span>' if h["status"] else ""
+        days = (start_first - today).days
+        countdown = f'<span class="days-to-go"><b>{days}</b> days to go</span>' if days > 0 else '<span class="days-to-go">Under way</span>'
+        badge = f'<span class="flag flag--{e(h["status"])}">{e(HORIZON_STATUS[h["status"]])}</span>' if h["status"] else ""
         sub = " · ".join(filter(None, [h["category"], h["location"]]))
         key_dates = "".join(
-            f'<li><span class="kd-date">{e(kd["date"][2])}</span> {e(kd["label"])}</li>' for kd in h["key_dates"]
+            f'<li><span class="kd-date">{e(kd["date"][2])}</span><span>{e(kd["label"])}</span></li>' for kd in h["key_dates"]
         )
-        rows.append(f"""
-        <li class="horizon-item">
-          <p class="eyebrow">{e(when)}</p>
-          <h3>{link(h['title'], h['url'])}{badge}</h3>
-          {f'<p class="meta">{e(sub)}</p>' if sub else ''}
-          {f'<ul class="key-dates">{key_dates}</ul>' if key_dates else ''}
-          {f'<p class="summary">{e(h["notes"])}</p>' if h['notes'] else ''}
-        </li>""")
-    return f'<section id="horizon"><h2>On the horizon</h2><p class="lede">The big ones for the next 1–2 years, with ticket and sign-up dates.</p><ol class="timeline">{"".join(rows)}</ol></section>'
+        groups.setdefault(start_first.year, []).append(f"""
+          <article class="big-event">
+            <p class="big-event-when">{e(when)} {badge}</p>
+            <h3>{link(h['title'], h['url'])}</h3>
+            {f'<p class="big-event-sub">{e(sub)}</p>' if sub else ''}
+            {countdown}
+            {f'<ul class="key-dates">{key_dates}</ul>' if key_dates else ''}
+            {f'<p class="card-summary">{e(h["notes"])}</p>' if h['notes'] else ''}
+          </article>""")
+    years = "".join(
+        f'<div class="year"><p class="year-label" aria-hidden="true">{year}</p><div class="year-items">{"".join(rows)}</div></div>'
+        for year, rows in sorted(groups.items())
+    )
+    return f'<section class="horizon" id="horizon">{head}{years}</section>'
+
+
+def ticker_items(briefing: dict, now: datetime, today: date) -> list[str]:
+    """The next handful of timed things across fixtures, big matches and live sport."""
+    upcoming: list[tuple[datetime, str]] = []
+    for team in briefing["teams"]:
+        for f in team["fixtures"]:
+            if f["time_confirmed"]:
+                left, right = match_title(team, f)
+                upcoming.append((f["kickoff"], f"{left} v {right}"))
+    for m in briefing["big_matches"]:
+        if m["time_confirmed"]:
+            upcoming.append((m["kickoff"], m["title"]))
+    for ev in briefing["live_sport"]:
+        if ev["start"][1]:
+            upcoming.append((ev["start"][1], ev["title"]))
+    upcoming = sorted({(dt, label) for dt, label in upcoming if dt > now})[:8]
+    items = []
+    for dt, label in upcoming:
+        local = dt.astimezone(SYDNEY)
+        items.append(f'<li><b>{e(fmt_date(local.date(), today))} {e(fmt_time(local))}</b> {e(label)}</li>')
+    return items
 
 
 def render_page(briefing: dict, now: datetime) -> str:
@@ -481,31 +619,47 @@ def render_page(briefing: dict, now: datetime) -> str:
     generated_at = briefing["generated_at"]
     if generated_at:
         local = generated_at.astimezone(SYDNEY)
+        dateline = f"{local:%A} {local.day} {local:%B %Y}"
         updated = f"Updated {fmt_date(local.date(), today)}, {fmt_time(local)}"
         generated_attr = f' data-generated="{e(generated_at.isoformat())}"'
     else:
+        dateline = f"{today:%A} {today.day} {today:%B %Y}"
         updated = "Waiting for the first nightly run"
         generated_attr = ""
 
+    ticker = ""
+    items = ticker_items(briefing, now, today)
+    if items:
+        track = "".join(items)
+        ticker = f"""
+  <div class="ticker" aria-label="Coming up">
+    <span class="ticker-label">Coming up</span>
+    <div class="ticker-window"><ul class="ticker-track">{track}{track.replace('<li>', '<li aria-hidden="true">')}</ul></div>
+  </div>"""
+
     sections = [render_team(t, today) for t in briefing["teams"]]
     sections.append(render_big_matches(briefing["big_matches"], today))
-    for key, title, lede in EVENT_SECTIONS:
-        sections.append(render_event_section(key, title, lede, briefing[key], today))
-    sections.append(render_horizon(briefing["horizon"]))
+    for key, kicker, title, lede in EVENT_SECTIONS:
+        sections.append(render_event_section(key, kicker, title, lede, briefing[key], today))
+    sections.append(render_horizon(briefing["horizon"], today))
 
     notes = ""
     if briefing["notes"]:
-        notes = '<section id="notes"><h2>Notes</h2><ul>' + "".join(f"<li>{e(n)}</li>" for n in briefing["notes"]) + "</ul></section>"
+        notes = (
+            '<section class="notes" id="notes"><h2>Notes from tonight\'s research</h2><ul>'
+            + "".join(f"<li>{e(n)}</li>" for n in briefing["notes"])
+            + "</ul></section>"
+        )
 
     nav = "".join(
         f'<a href="#{e(anchor)}">{e(label)}</a>'
         for anchor, label in [
-            *[(t["id"], t["name"]) for t in briefing["teams"]],
-            ("big-matches", "Big matches"),
-            ("live-sport", "Sport"),
+            *[(t["id"], SHORT_NAMES.get(t["id"], t["name"])) for t in briefing["teams"]],
+            ("big-matches", "On TV"),
+            ("live-sport", "Live sport"),
             ("son", "Son"),
             ("daughter", "Daughter"),
-            ("family-fun", "Fun"),
+            ("family-fun", "Family"),
             ("horizon", "Horizon"),
         ]
     )
@@ -516,25 +670,31 @@ def render_page(briefing: dict, now: datetime) -> str:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>LifeHub</title>
-  <meta name="description" content="What's coming up: fixtures, big matches and things to do around Sydney.">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23da291c'/%3E%3C/svg%3E">
+  <meta name="description" content="Fixtures, big matches and things to do around Sydney, updated every night.">
+  <meta name="theme-color" content="#da291c">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23da291c'/%3E%3Cpath d='M9 8v16h12' stroke='%23fff' stroke-width='4' fill='none'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap">
   <link rel="stylesheet" href="style.css">
 </head>
 <body{generated_attr}>
-  <header class="top">
+  <header class="masthead">
     <div class="wrap">
-      <h1>LifeHub</h1>
-      <p class="updated">{e(updated)} · Sydney time</p>
-      <nav>{nav}</nav>
+      <p class="dateline"><span>{e(dateline)}</span><span>Sydney edition</span><span>{e(updated)}</span></p>
+      <h1 class="wordmark">LifeHub</h1>
+      <p class="tagline">Fixtures, big games and good things to do around Sydney</p>
     </div>
   </header>
-  <p id="stale" class="stale" hidden>This briefing is more than a day old. The last nightly run may have failed.</p>
+  {ticker}
+  <nav class="section-nav"><div class="wrap">{nav}</div></nav>
+  <p id="stale" class="stale" hidden>Heads up: this edition is more than a day old. The last nightly run may have failed.</p>
   <main class="wrap">
     {"".join(sections)}
     {notes}
   </main>
   <footer class="wrap">
-    <p>Researched overnight by Claude. Always check the linked source before you go.</p>
+    <p>Researched overnight by Claude. Times are Sydney time. Always check the linked source before heading out.</p>
   </footer>
   <script src="app.js"></script>
 </body>
@@ -578,7 +738,7 @@ def main(argv: list[str] | None = None) -> int:
 
     if briefing:
         counts = ", ".join(
-            f"{key}={len(briefing[key])}" for key in ["big_matches", *(k for k, _, _ in EVENT_SECTIONS), "horizon"]
+            f"{key}={len(briefing[key])}" for key in ["big_matches", *(k for k, *_ in EVENT_SECTIONS), "horizon"]
         )
         fixtures = ", ".join(f"{t['name']}={len(t['fixtures'])}" for t in briefing["teams"])
         print(f"ok: fixtures({fixtures}) {counts}; {len(report.warnings)} warning(s)")
