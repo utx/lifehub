@@ -40,6 +40,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
+          # Build from the branch's latest commit, not the triggering one, so a run that
+          # waited in the queue can't republish an older briefing.
+          ref: ${{ github.ref_name }}
           # Keep the job token out of .git/config, where Claude's tools could read it.
           persist-credentials: false
 
