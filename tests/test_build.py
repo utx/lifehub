@@ -38,6 +38,8 @@ def sample() -> dict:
                         "competition": "Premier League",
                         "kickoff": "2026-10-18T16:30:00+01:00",
                         "broadcast": ["Stan Sport"],
+                        "preview": "Big one at Old Trafford.",
+                        "talking_points": ["One", "Two", "Three", "Four", "Five <script>"],
                         "url": "https://example.com/liverpool",
                     },
                     {
@@ -96,6 +98,14 @@ class NormalizeTests(unittest.TestCase):
         teams = self.briefing["teams"]
         self.assertEqual(teams[0]["name"], "Manchester United")
         self.assertEqual([f["opponent"] for f in teams[0]["fixtures"]], ["Liverpool", "Arsenal"])
+
+    def test_talking_points_capped_and_rendered(self):
+        fixture = self.briefing["teams"][0]["fixtures"][0]
+        self.assertEqual(fixture["talking_points"], ["One", "Two", "Three", "Four"])
+        page = build.render_page(self.briefing, NOW)
+        self.assertIn("What to watch", page)
+        self.assertIn("Big one at Old Trafford.", page)
+        self.assertNotIn("<script>", page)
 
     def test_past_and_invalid_items_dropped(self):
         self.assertEqual([ev["title"] for ev in self.briefing["live_sport"]], ["Matildas v Brazil"])

@@ -57,9 +57,22 @@ sensible calls and note anything uncertain in `notes`.
 
 - `teams`: Manchester United (`"featured": true`) then Sydney FC. Up to the next 5
   fixtures each, in date order.
+  - **Match previews.** For each team's **next** fixture, write a one-sentence
+    `preview` and 3–4 `talking_points`: the big things to watch for. Think current
+    form and league position, injuries and suspensions, key players and match-ups,
+    head-to-head record, what's at stake, new signings or a new manager, and any
+    storyline people are talking about. For the **other** fixtures, write a
+    one-sentence `preview` only.
+  - Base these on reporting from this week (club sites, BBC Sport, Sky Sports, The
+    Athletic, Manchester Evening News, The Guardian; for Sydney FC: KEEPUP, the
+    A-Leagues site, the Sydney Morning Herald, the club site). Open the articles you
+    rely on. Never present a guess about team news as fact. If the line-up or an
+    injury isn't confirmed, say so ("doubtful", "expected to").
+  - Keep each talking point to one punchy sentence, under about 30 words.
 - `big_matches`: about 5–10 must-see events in the next 3–4 weeks, any sport, that are
   shown in Australia on Stan Sport, beIN Sports or Paramount+. Say in one line why
-  each one matters.
+  each one matters. For football matches, also add 2–3 short `talking_points`
+  (same rules as the match previews above).
 - `live_sport`: up to 10 events in Sydney (football first, then tennis, rugby union,
   basketball; never AFL or NRL).
 - `son`: up to 8 things for a 9-year-old boy (sport, gaming, running).
@@ -105,6 +118,11 @@ Don't repeat an item across sections. Put it where it fits best.
           "time_confirmed": true,
           "venue": "Old Trafford",
           "broadcast": ["Stan Sport"],
+          "preview": "<one sentence setting up the match>",
+          "talking_points": [
+            "<one punchy sentence about form or what's at stake>",
+            "<one punchy sentence about team news, e.g. a key player doubtful>"
+          ],
           "url": "https://www.manutd.com/en/matches/fixtures-and-results"
         }
       ]
@@ -120,6 +138,7 @@ Don't repeat an item across sections. Put it where it fits best.
       "time_confirmed": true,
       "broadcast": ["beIN Sports"],
       "why": "First Clásico of the season, top two separated by a point.",
+      "talking_points": ["<one punchy sentence>"],
       "url": "https://..."
     }
   ],
@@ -174,4 +193,6 @@ Field rules:
 - `cost`: short text like `"Free"`, `"From $25"` or `"$10 kids"`. Use `null` if unknown.
 - Horizon `start`, `end` and key-date `date`: `YYYY`, `YYYY-MM` or `YYYY-MM-DD`,
   whichever is as precise as is actually known.
-- Keep `summary`, `why` and `notes` text to one or two short sentences.
+- Keep `summary`, `why`, `preview` and `notes` text to one or two short sentences.
+- `preview` and `talking_points` are optional on fixtures and big matches; leave them
+  out (or empty) rather than guess.

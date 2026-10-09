@@ -156,6 +156,8 @@ def clean_fixture(raw, now: datetime, report: Report, where: str) -> dict | None
         "time_confirmed": raw.get("time_confirmed") is not False,
         "venue": text(raw.get("venue"), 80),
         "broadcast": text_list(raw.get("broadcast")),
+        "preview": text(raw.get("preview"), 200),
+        "talking_points": text_list(raw.get("talking_points"), 240)[:4],
         "url": safe_url(raw.get("url")),
     }
 
@@ -180,6 +182,7 @@ def clean_big_match(raw, now: datetime, report: Report, where: str) -> dict | No
         "time_confirmed": raw.get("time_confirmed") is not False,
         "broadcast": text_list(raw.get("broadcast")),
         "why": text(raw.get("why")),
+        "talking_points": text_list(raw.get("talking_points"), 240)[:3],
         "url": url,
     }
 
@@ -409,13 +412,32 @@ def render_hero(team: dict, fixture: dict, today: date) -> str:
     <article class="hero hero--{theme}{'' if team['featured'] else ' hero--compact'}">
       <p class="hero-label">{e(label)}</p>
       <h2 class="hero-match">{title}</h2>
-      <div class="hero-when">
-        <span class="hero-time">{time_html}</span>
-        <span class="hero-day">{e(fmt_date(day, today))}{early_hours_badge(fixture['kickoff'], confirmed)}</span>
+      <div class="hero-grid">
+        <div class="hero-main">
+          <div class="hero-when">
+            <span class="hero-time">{time_html}</span>
+            <span class="hero-day">{e(fmt_date(day, today))}{early_hours_badge(fixture['kickoff'], confirmed)}</span>
+          </div>
+          {countdown}
+          <p class="hero-meta">{e(venue)} {tv_labels(fixture['broadcast'])}</p>
+        </div>
+        {render_watch(fixture)}
       </div>
-      {countdown}
-      <p class="hero-meta">{e(venue)} {tv_labels(fixture['broadcast'])}</p>
     </article>"""
+
+
+def render_watch(fixture: dict) -> str:
+    points = fixture["talking_points"]
+    if not points and not fixture["preview"]:
+        return ""
+    intro = f'<p class="watch-intro">{e(fixture["preview"])}</p>' if fixture["preview"] else ""
+    items = "".join(f"<li>{e(p)}</li>" for p in points)
+    return f"""
+        <aside class="hero-watch">
+          <p class="watch-title">What to watch</p>
+          {intro}
+          {f'<ol class="watch-list">{items}</ol>' if items else ''}
+        </aside>"""
 
 
 def render_stub(team: dict, fixture: dict, today: date) -> str:
@@ -431,6 +453,7 @@ def render_stub(team: dict, fixture: dict, today: date) -> str:
             <span class="stub-comp">{e(fixture['competition'])}</span>
             <span class="stub-match">{e(left)} v {e(right)}</span>
             <span class="stub-time">{e(when)}{early_hours_badge(fixture['kickoff'], confirmed)}</span>
+            {f'<span class="stub-preview">{e(fixture["preview"])}</span>' if fixture['preview'] else ''}
             {f'<span class="stub-tv">{tv_labels(fixture["broadcast"])}</span>' if fixture['broadcast'] else ''}
           </span>
         </{tag}>"""
@@ -447,6 +470,12 @@ def render_team(team: dict, today: date) -> str:
             stubs = "".join(render_stub(team, f, today) for f in fixtures[1:])
             body += f'<div class="stubs stubs--{theme}">{stubs}</div>'
     return f'<section class="team" id="{e(team["id"])}">{body}</section>'
+
+
+def bullet_list(points: list[str], cls: str) -> str:
+    if not points:
+        return ""
+    return f'<ul class="{cls}">' + "".join(f"<li>{e(p)}</li>" for p in points) + "</ul>"
 
 
 def render_big_matches(matches: list[dict], today: date) -> str:
@@ -473,6 +502,7 @@ def render_big_matches(matches: list[dict], today: date) -> str:
               <span class="guide-comp">{e(sub)}</span>
               <a class="guide-title" href="{e(m['url'])}" target="_blank" rel="noopener">{e(m['title'])}</a>
               {f'<span class="guide-why">{e(m["why"])}</span>' if m['why'] else ''}
+              {bullet_list(m['talking_points'], 'guide-points')}
             </span>
             <span class="guide-tv">{tv_labels(m['broadcast'])}</span>
           </li>""")
