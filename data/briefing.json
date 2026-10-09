@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T14:55:00+11:00",
+  "generated_at": "2026-10-10T06:40:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -13,8 +13,17 @@
           "kickoff": "2026-10-10T17:30:00+01:00",
           "time_confirmed": true,
           "venue": "Old Trafford",
-          "broadcast": ["Stan Sport"],
-          "url": "https://www.skysports.com/football/news/13595688/manchester-united-vs-tottenham-different-summer-transfer-strategies-collide-on-saturday-at-old-trafford"
+          "broadcast": [
+            "Stan Sport"
+          ],
+          "url": "https://www.sportsmole.co.uk/football/man-utd/preview/man-utd-vs-spurs-prediction-team-news-lineups_606418.html",
+          "preview": "12th-placed United host bottom-of-the-table Spurs, with both sides desperate for a result.",
+          "talking_points": [
+            "United are 12th with 5 points from 5 games, and Michael Carrick is reportedly under pressure.",
+            "Spurs are bottom and winless in five; Roberto De Zerbi has made 13 starting-XI changes, the most in the league.",
+            "United are without Sesko, Dorgu, Mazraoui, Ugarte and de Ligt; Mainoo and Rashford are doubts, and new signing Carlos Baleba could debut.",
+            "United have won only one of the last nine meetings (3 draws, 5 defeats), though they won 2-0 here last season."
+          ]
         },
         {
           "opponent": "Atlético Madrid",
@@ -23,8 +32,11 @@
           "kickoff": "2026-10-13T21:00:00+02:00",
           "time_confirmed": true,
           "venue": "Riyadh Air Metropolitano, Madrid",
-          "broadcast": ["Stan Sport"],
-          "url": "https://africasoccer.com/?p=602416"
+          "broadcast": [
+            "Stan Sport"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+          "preview": "Tough European night in Madrid in matchday 2 of the Champions League league phase."
         },
         {
           "opponent": "Leeds United",
@@ -33,8 +45,11 @@
           "kickoff": "2026-10-18T14:00:00+01:00",
           "time_confirmed": true,
           "venue": "Elland Road",
-          "broadcast": ["Stan Sport"],
-          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/"
+          "broadcast": [
+            "Stan Sport"
+          ],
+          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/",
+          "preview": "Away trip to Elland Road in the Premier League."
         },
         {
           "opponent": "Como",
@@ -43,8 +58,11 @@
           "kickoff": "2026-10-21T18:45:00+02:00",
           "time_confirmed": true,
           "venue": "Stadio Giuseppe Sinigaglia, Como",
-          "broadcast": ["Stan Sport"],
-          "url": "https://africasoccer.com/?p=602416"
+          "broadcast": [
+            "Stan Sport"
+          ],
+          "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/",
+          "preview": "Trip to Lake Como in matchday 3 of the Champions League league phase."
         },
         {
           "opponent": "AFC Bournemouth",
@@ -53,8 +71,11 @@
           "kickoff": "2026-10-25T14:00:00+00:00",
           "time_confirmed": true,
           "venue": "Old Trafford",
-          "broadcast": ["Stan Sport"],
-          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/"
+          "broadcast": [
+            "Stan Sport"
+          ],
+          "url": "https://www.unitedinfocus.com/news/man-utd-confirm-premier-league-fixture-change-for-four-2026-27-matches-including-two-big-six-encounters/",
+          "preview": "Home game against Bournemouth at Old Trafford."
         }
       ]
     },
@@ -67,11 +88,19 @@
           "opponent": "Western Sydney Wanderers",
           "home": true,
           "competition": "A-League Men",
-          "kickoff": "2026-10-16T12:00:00+11:00",
-          "time_confirmed": false,
+          "kickoff": "2026-10-16T20:00:00+11:00",
+          "time_confirmed": true,
           "venue": "Allianz Stadium",
-          "broadcast": ["Paramount+"],
-          "url": "https://aleagues.com.au/news/aleague-men-sydney-derby-wsw-season-matchweek-1-fixtures/"
+          "broadcast": [
+            "Paramount+"
+          ],
+          "url": "https://transportnsw.info/events/2026/10/league-men-sydney-fc-v-western-sydney-wanderers",
+          "preview": "Season-opening Sydney Derby at Allianz Stadium, with both clubs under new head coaches and a full house expected.",
+          "talking_points": [
+            "Patrick Kisnorbo's Sydney FC start the season against rivals who have hired Sydney FC's former head coach.",
+            "Captain Rhyan Grant expects both sides to want to make a statement straight away.",
+            "Sydney FC expect a capacity crowd, and tickets start from $36 with juniors from $22.50."
+          ]
         },
         {
           "opponent": "Adelaide United",
@@ -80,8 +109,11 @@
           "kickoff": "2026-10-25T12:00:00+11:00",
           "time_confirmed": false,
           "venue": "Allianz Stadium",
-          "broadcast": ["Paramount+"],
-          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixtures-first-five-news/"
+          "broadcast": [
+            "Paramount+"
+          ],
+          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixtures-first-five-news/",
+          "preview": "Second home game of the season against Adelaide United."
         },
         {
           "opponent": "Melbourne City",
@@ -90,8 +122,11 @@
           "kickoff": "2026-10-31T17:00:00+11:00",
           "time_confirmed": true,
           "venue": "AAMI Park",
-          "broadcast": ["Paramount+"],
-          "url": "https://melbournecityfc.com.au/news/20260716-2627-fixtures-revealed/"
+          "broadcast": [
+            "Paramount+"
+          ],
+          "url": "https://melbournecityfc.com.au/news/20260716-2627-fixtures-revealed/",
+          "preview": "Away trip to Melbourne City at AAMI Park."
         },
         {
           "opponent": "Brisbane Roar",
@@ -100,8 +135,11 @@
           "kickoff": "2026-11-21T18:40:00+10:00",
           "time_confirmed": true,
           "venue": "Kayo Stadium",
-          "broadcast": ["Paramount+"],
-          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/"
+          "broadcast": [
+            "Paramount+"
+          ],
+          "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/",
+          "preview": "Away trip to Brisbane Roar at Kayo Stadium."
         }
       ]
     }
@@ -113,7 +151,9 @@
       "competition": "Premier League",
       "kickoff": "2026-10-11T16:30:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [
+        "Stan Sport"
+      ],
       "why": "Two of the league's heavyweights meet at Anfield; moved to Sunday for TV.",
       "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
     },
@@ -123,9 +163,11 @@
       "competition": "Champions League",
       "kickoff": "2026-10-14T20:00:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [
+        "Stan Sport"
+      ],
       "why": "Heavyweight league-phase tie at the Etihad.",
-      "url": "https://africasoccer.com/?p=602416"
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
     },
     {
       "title": "Paris Saint-Germain v Barcelona",
@@ -133,9 +175,11 @@
       "competition": "Champions League",
       "kickoff": "2026-10-20T21:00:00+02:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [
+        "Stan Sport"
+      ],
       "why": "Two of Europe's most attacking sides meet in the league phase.",
-      "url": "https://africasoccer.com/?p=602416"
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
     },
     {
       "title": "Bayern Munich v Arsenal",
@@ -143,9 +187,11 @@
       "competition": "Champions League",
       "kickoff": "2026-10-21T21:00:00+02:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [
+        "Stan Sport"
+      ],
       "why": "Premier League champions travel to the Allianz Arena.",
-      "url": "https://africasoccer.com/?p=602416"
+      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
     },
     {
       "title": "Barcelona v Real Madrid",
@@ -153,7 +199,9 @@
       "competition": "LaLiga (El Clásico)",
       "kickoff": "2026-10-25T21:00:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["beIN Sports"],
+      "broadcast": [
+        "beIN Sports"
+      ],
       "why": "First Clásico of the season at Camp Nou; beIN holds LaLiga rights in Australia.",
       "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date"
     },
@@ -163,7 +211,9 @@
       "competition": "Premier League",
       "kickoff": "2026-11-01T16:30:00+00:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [
+        "Stan Sport"
+      ],
       "why": "Title-race clash at Anfield, moved to Sunday for TV.",
       "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
     }
@@ -198,6 +248,36 @@
       "cost": null,
       "summary": "Bledisloe Test on a four-match rugby day. Match tickets include public transport.",
       "url": "https://transportnsw.info/events/2026/10/bledisloe-cup-wallabies-v-all-blacks"
+    },
+    {
+      "title": "NSW Phoenix – Australian Volleyball Super League home rounds",
+      "category": "Volleyball",
+      "start": "2026-10-17T14:00:00+11:00",
+      "end": null,
+      "when": "Also Sat 24 Oct, 2pm",
+      "venue": "Netball Central",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern",
+      "cost": null,
+      "summary": "Home rounds of the Super League.",
+      "url": "https://www.sopa.nsw.gov.au/things-to-see-and-do/mahindra-australian-volleyball-super-league"
+    },
+    {
+      "title": "Sydney Flames v Adelaide Lightning (WNBL)",
+      "category": "Basketball",
+      "start": "2026-10-18",
+      "end": null,
+      "when": "Also v UC Capitals Fri 23 Oct; game times not listed",
+      "venue": "Quaycentre",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern",
+      "cost": null,
+      "summary": "WNBL home games; check Ticketek for times and prices.",
+      "url": "https://www.sopa.nsw.gov.au/things-to-see-and-do/sydney-flames-202627-wnbl-season"
     }
   ],
   "son": [
@@ -215,6 +295,36 @@
       "cost": null,
       "summary": "Fun run open to all ages alongside the kids' triathlon (ages 7–13). Check distances and prices on the entry page.",
       "url": "https://www.nsw.gov.au/visiting-and-exploring-nsw/nsw-events/ramsay-health-care-triathlon-pink-sydney"
+    },
+    {
+      "title": "Monster Jam World Tour",
+      "category": "Motorsport",
+      "start": "2026-10-10",
+      "end": null,
+      "when": "Saturday only; show times not listed",
+      "venue": "Accor Stadium",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern",
+      "cost": null,
+      "summary": "Monster trucks; tickets include public transport.",
+      "url": "https://www.sopa.nsw.gov.au/things-to-see-and-do/monster-jam-world-tour"
+    },
+    {
+      "title": "DigiPark Sydney",
+      "category": "Gaming",
+      "start": "2026-10-10",
+      "end": null,
+      "when": "Daily; check booking site for sessions",
+      "venue": "Westfield Sydney, Level 5",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "Martin Place",
+      "trip": "about 15 min from Redfern",
+      "cost": "Child $31.20, adult $39.20",
+      "summary": "Interactive digital attraction, with a Jurassic promotion on until 18 Oct.",
+      "url": "https://digipark.com.au/"
     }
   ],
   "daughter": [
@@ -247,6 +357,21 @@
       "cost": "Free to visit",
       "summary": "Free pop-up exhibition and makers' market. The workshop is booked separately; age suitability isn't stated.",
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/ceramic-business-district"
+    },
+    {
+      "title": "Harry Potter: The Exhibition",
+      "category": "Books",
+      "start": "2026-10-10",
+      "end": "2027-01-31",
+      "when": "Check the official site for session times",
+      "venue": "Paddington Pavilion",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 25 min from Redfern",
+      "cost": "Child $25, adult $30",
+      "summary": "Immersive exhibition based on the books and films.",
+      "url": "https://harrypotterexhibition.com/locations/sydney/"
     }
   ],
   "family_fun": [
@@ -279,6 +404,36 @@
       "cost": "Entry by voluntary contribution",
       "summary": "Outdoor sculpture walk along the coast.",
       "url": "https://www.sculpturebythesea.com/bondi"
+    },
+    {
+      "title": "Sydney Fringe Kids at Entertainment Quarter",
+      "category": "Festival",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "when": "Shows through the day, e.g. Typo 4–5.15pm",
+      "venue": "Entertainment Quarter",
+      "suburb": "Moore Park",
+      "transport": "light rail",
+      "nearest_station": "Moore Park",
+      "trip": "about 25 min from Redfern via Central",
+      "cost": "Kids from $12; Typo $25–$35",
+      "summary": "Circus, bubbles and science shows. Last weekend.",
+      "url": "https://www.timeout.com/sydney/things-to-do/sydney-fringe-entertainment-quarter"
+    },
+    {
+      "title": "Australian Geographic Nature Photographer of the Year",
+      "category": "Exhibition",
+      "start": "2026-10-10",
+      "end": "2027-02-14",
+      "when": "Daily 10am–5pm",
+      "venue": "Australian Museum",
+      "suburb": "Darlinghurst",
+      "transport": "train",
+      "nearest_station": "Museum",
+      "trip": "about 10 min from Redfern",
+      "cost": "Free",
+      "summary": "Free photo exhibition. Dates differ slightly by source.",
+      "url": "https://www.timeout.com/sydney/things-to-do/australian-geographic-nature-photographer-of-the-year"
     }
   ],
   "horizon": [
@@ -288,11 +443,20 @@
       "start": "2027-10-01",
       "end": "2027-11-13",
       "location": "Australia (eight host stadiums incl. Sydney)",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
-        { "date": "2026-10-01", "label": "General sale opened (12pm AEST), first come first served" },
-        { "date": "2027-10-01", "label": "Tournament opens" },
-        { "date": "2027-11-13", "label": "Final" }
+        {
+          "date": "2026-10-01",
+          "label": "General sale opened (12pm AEST), first come first served"
+        },
+        {
+          "date": "2027-10-01",
+          "label": "Tournament opens"
+        },
+        {
+          "date": "2027-11-13",
+          "label": "Final"
+        }
       ],
       "notes": "Over 1.3 million tickets sold; no further sale phases announced. Check tickets.rugbyworldcup.com for remaining stock.",
       "url": "https://www.ticketnews.com/2026/10/rugby-world-cup-2027-passes-1-3m-tickets-sold-ahead-of-general-sale/"
@@ -303,10 +467,16 @@
       "start": "2027-01-11",
       "end": "2027-01-31",
       "location": "Melbourne Park",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
-        { "date": "2026-11-30", "label": "Early-bird Ground Pass pricing ends (12:59pm)" },
-        { "date": "2027-01-30", "label": "Finals weekend begins" }
+        {
+          "date": "2026-11-30",
+          "label": "Early-bird Ground Pass pricing ends (12:59pm)"
+        },
+        {
+          "date": "2027-01-30",
+          "label": "Finals weekend begins"
+        }
       ],
       "notes": "Tickets are on sale through Ticketmaster; Ground Passes from $49 at early-bird pricing.",
       "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/"
@@ -317,9 +487,12 @@
       "start": "2027-01-04",
       "end": "2027-01-08",
       "location": "Sydney Cricket Ground",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
-        { "date": "2027-01-04", "label": "First day of the Test" }
+        {
+          "date": "2027-01-04",
+          "label": "First day of the Test"
+        }
       ],
       "notes": "Register for priority pre-sale through Cricket Plus; on-sale dates not yet announced.",
       "url": "https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for"
@@ -330,9 +503,12 @@
       "start": "2027-01-07",
       "end": "2027-02-05",
       "location": "Saudi Arabia",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
-        { "date": "2027-01-07", "label": "Tournament starts" }
+        {
+          "date": "2027-01-07",
+          "label": "Tournament starts"
+        }
       ],
       "notes": "The A-League breaks to make room for it.",
       "url": "https://aleagues.com.au/news/aleague-men-2026-2027-fixture-list-revealed-key-dates-fixture-information/"
@@ -343,23 +519,61 @@
       "start": "2027-06-24",
       "end": "2027-07",
       "location": "Brazil",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
-        { "date": "2026-12", "label": "Final draw sets the Matildas' group" },
-        { "date": "2027-06-24", "label": "Opening match at the Maracanã" }
+        {
+          "date": "2026-12",
+          "label": "Final draw sets the Matildas' group"
+        },
+        {
+          "date": "2027-06-24",
+          "label": "Opening match at the Maracanã"
+        }
       ],
       "notes": "Register interest for tickets at FIFA.com/tickets; no on-sale date yet. Matildas fan-travel deposits are open.",
       "url": "https://matildas.com.au/news/fifa-womens-world-cup-brazil-2027tm-match-schedule-unveiled"
     }
   ],
   "notes": [
-    "Sydney FC v Wanderers (16 Oct) and v Adelaide (25 Oct): kick-off times not confirmed from an official source, so 12:00 is a placeholder. The 25 Oct date comes from ticketing listings.",
-    "Sydney FC's round 4 home game v Central Coast Mariners has no confirmed date, so it is left out.",
-    "Champions League kick-off times come from a fixtures aggregator, not UEFA. Como v Man United venue is listed as provisional.",
-    "Stan Sport shows all Premier League matches and Champions League; Paramount+ shows every A-League match. Broadcasts weren't checked match by match.",
-    "Sydney Kings v Perth Wildcats (17 Oct, 7:30pm) appears in venue listings but wasn't confirmed at the source, so it is omitted.",
-    "The Bledisloe Test's Stan Sport broadcast wasn't confirmed, so it is listed under live sport, not big matches.",
-    "Nothing confirmed this run for tennis, matcha events, or gaming/Pokémon/Minecraft events in Sydney; the Fun Run Pink distances for kids are also not listed.",
+    "Sydney FC v Wanderers (16 Oct) is 8pm per Transport NSW and the club homepage; a club ticketing article said 7:45pm. Adelaide (25 Oct) kick-off time isn't confirmed, so 12:00 is a placeholder.",
+    "Sydney FC's round 4 home game v Central Coast Mariners has no confirmed date, so it is left out. The derby is listed under Teams, not Live sport.",
+    "Man Utd v Spurs talking points come from a Sports Mole preview; injuries are as reported there and may change at line-up time. Previews for later fixtures are general because I found no reliable team news.",
+    "Champions League kick-offs now come from UEFA's fixture list. Stan Sport is the Australian Champions League broadcaster; its Premier League coverage was only confirmed by a single secondary source.",
+    "Big-match entries have no talking points because I couldn't find reliable team news for them.",
+    "Bledisloe Test (17 Oct) broadcaster wasn't confirmed, so it stays under live sport. Sydney Flames and Phoenix times/prices aren't listed on the source pages.",
+    "Little confirmed this run for matcha pop-ups, Pokémon/Minecraft/Roblox events, kids' runs, tennis or sports-gear sales in Sydney. The Hungry Jack's free cheeseburger on OzBargain couldn't be confirmed at the source, so it is left out.",
     "Man United's Carabao Cup round 4 (week of 26 Oct) isn't scheduled yet."
+  ],
+  "deals": [
+    {
+      "title": "Fireside Feelings free on Steam",
+      "category": "Gaming",
+      "start": "2026-10-10",
+      "end": "2026-10-13",
+      "when": null,
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Free (usually $7.99)",
+      "summary": "Free to keep if claimed before the offer ends; 96% positive reviews.",
+      "url": "https://store.steampowered.com/app/2990600/Fireside_Feelings/"
+    },
+    {
+      "title": "Camy's Special Burger",
+      "category": "Food",
+      "start": "2026-10-10",
+      "end": "2026-10-31",
+      "when": null,
+      "venue": "Camy's Chargrill Chicken, Tramsheds",
+      "suburb": "Glebe",
+      "transport": "light rail",
+      "nearest_station": "Glebe",
+      "trip": "about 20 min from Alexandria via Central",
+      "cost": "$10",
+      "summary": "Dine-in or takeaway burger deal.",
+      "url": "https://www.ozbargain.com.au/node/978365"
+    }
   ]
 }
