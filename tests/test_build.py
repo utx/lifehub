@@ -148,6 +148,25 @@ class RenderTests(unittest.TestCase):
         seed.write_text(json.dumps({"generated_at": None, "teams": [], "notes": ["First run pending."]}))
         return seed
 
+    def test_deal_ending_soon_and_online(self):
+        data = sample()
+        data["deals"] = [
+            {
+                "title": "Boot sale",
+                "start": "2026-10-10",
+                "end": "2026-10-16",
+                "venue": "Online",
+                "summary": "Up to 40% off football boots.",
+                "url": "https://example.com/boots",
+            }
+        ]
+        briefing, report = build.normalize(data, NOW)
+        self.assertEqual(report.warnings[-1:], ["live_sport[3]: needs 'title', 'url' and a 'start' date"])
+        page = build.render_page(briefing, NOW)
+        self.assertIn("Ends soon", page)
+        self.assertIn('id="deals"', page)
+        self.assertNotIn("ticker", page)
+
     def test_seed_briefing_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
             seed = self.write_seed(tmp)

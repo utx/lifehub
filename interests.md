@@ -47,8 +47,23 @@ library events), and matcha (cafés, pop-ups, festivals).
 
 ## General fun for me and the kids (next 3–4 weeks)
 
-Events, pop-up stores, free giveaways, competitions, good sales, open days,
-school-holiday activities and festivals.
+Events, open days, school-holiday activities and festivals.
+
+## Deals, sales and pop-ups (on now or in the next 3–4 weeks)
+
+Good sales and pop-ups we'd actually care about:
+
+- **Sales** on sports equipment and clothing (football boots, kits, running shoes,
+  tennis and basketball gear), fun food, gaming, books and craft supplies.
+- **Ticket deals**: discounted or pre-sale tickets for sport, shows and kids' events.
+- **Pop-up food stores** and food events: dessert and snack pop-ups, matcha,
+  food-brand launches, night markets.
+- **Freebies and competitions**: free giveaways, sampling days, launch-day freebies,
+  competitions worth entering.
+
+Online sales are fine. In-person pop-ups must be reachable by train, metro or light rail.
+Only include genuinely good deals (a real discount or something limited-time),
+not everyday "sale" banners.
 
 ## On the horizon (next 1–2 years)
 

@@ -18,6 +18,7 @@
   --son: #e2560b;
   --daughter: #6b8a22;
   --fun: #0d7286;
+  --deals: #c0265e;
   --horizon: #0b1f3a;
 
   --train: #f6891f;
@@ -46,6 +47,7 @@
     --son: #ff7a33;
     --daughter: #9cbf45;
     --fun: #2bb0c7;
+    --deals: #f0558f;
     --horizon: #7fa6d9;
     color-scheme: dark;
   }
@@ -62,6 +64,7 @@
   --son: #ff7a33;
   --daughter: #9cbf45;
   --fun: #2bb0c7;
+  --deals: #f0558f;
   --horizon: #7fa6d9;
   color-scheme: dark;
 }
@@ -111,51 +114,6 @@ p { margin: 0; }
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--muted);
-}
-
-/* Ticker ------------------------------------------------------------------- */
-
-.ticker {
-  display: flex;
-  align-items: stretch;
-  background: var(--ink);
-  color: var(--paper);
-  font: 600 0.9375rem/1 var(--condensed);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  overflow: hidden;
-}
-
-.ticker-label {
-  flex: none;
-  display: flex;
-  align-items: center;
-  padding: 0 14px;
-  background: var(--united);
-  color: #fff;
-  font-weight: 700;
-}
-
-.ticker-window { overflow: hidden; flex: 1; }
-
-.ticker-track {
-  display: flex;
-  width: max-content;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  animation: ticker 60s linear infinite;
-}
-.ticker:hover .ticker-track { animation-play-state: paused; }
-
-.ticker-track li { padding: 11px 22px; white-space: nowrap; border-right: 1px solid rgba(255, 255, 255, 0.18); }
-.ticker-track b { color: var(--gold); font-weight: 700; margin-right: 6px; }
-
-@keyframes ticker { to { transform: translateX(-50%); } }
-
-@media (prefers-reduced-motion: reduce) {
-  .ticker-track { animation: none; }
-  .ticker-window { overflow-x: auto; }
 }
 
 /* Section nav -------------------------------------------------------------- */
@@ -416,6 +374,7 @@ a.stub:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 .events--son { --accent: var(--son); }
 .events--daughter { --accent: var(--daughter); }
 .events--family-fun { --accent: var(--fun); }
+.events--deals { --accent: var(--deals); }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
 
@@ -452,6 +411,7 @@ a.stub:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 }
 .stamp--free { color: var(--sport); transform: rotate(1.5deg); }
 .stamp--now { color: var(--accent); }
+.stamp--soon { color: var(--deals); transform: rotate(-1.5deg); }
 
 .travel { display: flex; align-items: flex-start; gap: 8px; font-size: 0.875rem; color: var(--muted); }
 .line-dot { flex: none; width: 12px; height: 12px; margin-top: 4px; border-radius: 50%; background: var(--line, var(--muted)); box-shadow: 0 0 0 2px var(--card), 0 0 0 3px var(--line, var(--muted)); }

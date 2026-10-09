@@ -9,6 +9,8 @@ It covers:
 - **Live sport near you**: football first, then tennis, rugby union and basketball.
 - Things to do **for your son**, **for your daughter**, and **for everyone**, all
   reachable by train, metro or light rail.
+- **Deals, sales and pop-ups**: sports gear, fun food, gaming, books and ticket deals,
+  plus pop-up food stores, freebies and competitions.
 - **On the horizon**: huge events in the next 1–2 years, with ticket and sign-up dates.
 
 Live page: <https://utx.github.io/lifehub/>

@@ -34,7 +34,8 @@ EVENT_SECTIONS = [
     ("live_sport", "Get out to a game", "Live sport near you", "Football first, then tennis, rugby union and basketball."),
     ("son", "For your son", "Sport, games and running", "Things a 9-year-old will be into."),
     ("daughter", "For your daughter", "Crafts, books and matcha", "Things a 12-year-old will be into."),
-    ("family_fun", "For everyone", "Out and about", "Events, pop-ups, freebies, competitions, sales and open days."),
+    ("family_fun", "For everyone", "Out and about", "Events, festivals, open days and school-holiday fun."),
+    ("deals", "Deals and drops", "Sales, pop-ups and freebies", "Sales on sports gear, fun food and tickets, plus pop-up food stores and giveaways."),
 ]
 SHORT_NAMES = {"man-utd": "Man Utd", "sydney-fc": "Sydney FC"}
 TEAM_THEME = {"man-utd": "united", "sydney-fc": "sky"}
@@ -510,7 +511,9 @@ def render_event(ev: dict, today: date) -> str:
     end_day = ev["end"][0] if ev["end"] else start_day
     sat, sun = weekend(today)
     stamps = []
-    if start_day <= today <= end_day:
+    if start_day <= today <= end_day and ev["end"] and (end_day - today).days <= 2:
+        stamps.append('<span class="stamp stamp--soon">Ends soon</span>')
+    elif start_day <= today <= end_day:
         stamps.append('<span class="stamp stamp--now">On now</span>')
     elif start_day <= sun and end_day >= sat:
         stamps.append('<span class="stamp">This weekend</span>')
@@ -592,28 +595,6 @@ def render_horizon(items: list[dict], today: date) -> str:
     return f'<section class="horizon" id="horizon">{head}{years}</section>'
 
 
-def ticker_items(briefing: dict, now: datetime, today: date) -> list[str]:
-    """The next handful of timed things across fixtures, big matches and live sport."""
-    upcoming: list[tuple[datetime, str]] = []
-    for team in briefing["teams"]:
-        for f in team["fixtures"]:
-            if f["time_confirmed"]:
-                left, right = match_title(team, f)
-                upcoming.append((f["kickoff"], f"{left} v {right}"))
-    for m in briefing["big_matches"]:
-        if m["time_confirmed"]:
-            upcoming.append((m["kickoff"], m["title"]))
-    for ev in briefing["live_sport"]:
-        if ev["start"][1]:
-            upcoming.append((ev["start"][1], ev["title"]))
-    upcoming = sorted({(dt, label) for dt, label in upcoming if dt > now})[:8]
-    items = []
-    for dt, label in upcoming:
-        local = dt.astimezone(SYDNEY)
-        items.append(f'<li><b>{e(fmt_date(local.date(), today))} {e(fmt_time(local))}</b> {e(label)}</li>')
-    return items
-
-
 def render_page(briefing: dict, now: datetime) -> str:
     today = now.astimezone(SYDNEY).date()
     generated_at = briefing["generated_at"]
@@ -626,16 +607,6 @@ def render_page(briefing: dict, now: datetime) -> str:
         dateline = f"{today:%A} {today.day} {today:%B %Y}"
         updated = "Waiting for the first nightly run"
         generated_attr = ""
-
-    ticker = ""
-    items = ticker_items(briefing, now, today)
-    if items:
-        track = "".join(items)
-        ticker = f"""
-  <div class="ticker" aria-label="Coming up">
-    <span class="ticker-label">Coming up</span>
-    <div class="ticker-window"><ul class="ticker-track">{track}{track.replace('<li>', '<li aria-hidden="true">')}</ul></div>
-  </div>"""
 
     sections = [render_team(t, today) for t in briefing["teams"]]
     sections.append(render_big_matches(briefing["big_matches"], today))
@@ -660,6 +631,7 @@ def render_page(briefing: dict, now: datetime) -> str:
             ("son", "Son"),
             ("daughter", "Daughter"),
             ("family-fun", "Family"),
+            ("deals", "Deals"),
             ("horizon", "Horizon"),
         ]
     )
@@ -686,7 +658,6 @@ def render_page(briefing: dict, now: datetime) -> str:
       <p class="tagline">Fixtures, big games and good things to do around Sydney</p>
     </div>
   </header>
-  {ticker}
   <nav class="section-nav"><div class="wrap">{nav}</div></nav>
   <p id="stale" class="stale" hidden>Heads up: this edition is more than a day old. The last nightly run may have failed.</p>
   <main class="wrap">

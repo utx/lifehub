@@ -14,7 +14,7 @@ sensible calls and note anything uncertain in `notes`.
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
    - Be thorough. This runs overnight and there's no rush. For each of `live_sport`,
-     `son`, `daughter` and `family_fun`, run at least 6 different searches from
+     `son`, `daughter`, `family_fun` and `deals`, run at least 6 different searches from
      different angles (specific interests, venues, "this weekend", "school holidays",
      "free", and so on) before deciding what to include.
    - Good places to discover Sydney events: City of Sydney What's On, Sydney.com,
@@ -22,6 +22,10 @@ sensible calls and note anything uncertain in `notes`.
      Eventbrite, ellaslist, Kidtown, the State Library and City of Sydney libraries,
      Carriageworks, the Powerhouse, the Australian Museum, Westfield centre events,
      and major stores' event pages (EB Games, JB Hi-Fi, Kinokuniya, Dymocks).
+   - Good places to find deals: OzBargain (Sydney and online deals), Rebel Sport,
+     Nike, Adidas, Puma, The Athlete's Foot, Ticketek and Ticketmaster offers,
+     Broadsheet and Time Out food news, Concrete Playground, Instagram-announced
+     pop-ups reported by news sites.
    - For fixtures, use official sources (manutd.com, premierleague.com, uefa.com,
      sydneyfc.com, aleagues.com.au) in preference to blogs and aggregators.
    - Aim for roughly the upper end of each section's limit, but never pad a section
@@ -60,8 +64,15 @@ sensible calls and note anything uncertain in `notes`.
   basketball; never AFL or NRL).
 - `son`: up to 8 things for a 9-year-old boy (sport, gaming, running).
 - `daughter`: up to 8 things for a 12-year-old girl (arts and crafts, books, matcha).
-- `family_fun`: up to 12 fun things for a parent and kids (events, pop-ups, freebies,
-  competitions, good sales, open days, school-holiday activities).
+- `family_fun`: up to 12 fun things for a parent and kids (events, festivals, open
+  days, school-holiday activities).
+- `deals`: up to 12 good sales and pop-ups (see `interests.md`): sports gear and
+  clothing, fun food, gaming, books, craft supplies, ticket deals, pop-up food
+  stores, freebies and competitions. Online sales are fine. Use `start` for when the
+  deal starts (today's date if it's already running) and `end` for when it finishes;
+  put the discount in `summary` (e.g. "Up to 40% off football boots") and the price in
+  `cost` where it applies. For online deals, set `venue` to "Online" and leave
+  `transport`, `nearest_station` and `trip` as `null`.
 - `horizon`: up to 15 huge events in the next 1–2 years.
   - Start from the previous run's list: keep entries that still apply, update any
     details that changed, and drop ones that are over.
@@ -132,6 +143,7 @@ Don't repeat an item across sections. Put it where it fits best.
   "son": [],
   "daughter": [],
   "family_fun": [],
+  "deals": [],
   "horizon": [
     {
       "title": "Rugby World Cup 2027",
