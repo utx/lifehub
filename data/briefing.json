@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T06:40:00+11:00",
+  "generated_at": "2026-10-10T06:50:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -21,7 +21,7 @@
           "talking_points": [
             "United are 12th with 5 points from 5 games, and Michael Carrick is reportedly under pressure.",
             "Spurs are bottom and winless in five; Roberto De Zerbi has made 13 starting-XI changes, the most in the league.",
-            "United are without Sesko, Dorgu, Mazraoui, Ugarte and de Ligt; Mainoo and Rashford are doubts, and new signing Carlos Baleba could debut.",
+            "United are without Sesko, Dorgu, Mazraoui, Ugarte and de Ligt; Amad is in contention, Mainoo and Rashford are being assessed, and new signing Carlos Baleba should be fit to debut.",
             "United have won only one of the last nine meetings (3 draws, 5 defeats), though they won 2-0 here last season."
           ]
         },
@@ -376,6 +376,21 @@
   ],
   "family_fun": [
     {
+      "title": "Shipwreck Odyssey (Box of Birds)",
+      "category": "Immersive show",
+      "start": "2026-10-10",
+      "end": "2026-10-18",
+      "when": "Daily 10am–4pm, 45-minute timed sessions; not running Mon 12 or Tue 13 Oct",
+      "venue": "Carriageworks, Bay 19",
+      "suburb": "Eveleigh",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 15 min from home",
+      "cost": "Free weekdays, $5 weekends",
+      "summary": "Immersive undersea adventure for the whole family, following the ghost ship Jenny Lind through Great Barrier Reef waters.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/shipwreck-odyssey"
+    },
+    {
       "title": "Wild Things International Kids' Festival",
       "category": "Festival",
       "start": "2026-09-26",
@@ -541,8 +556,9 @@
     "Champions League kick-offs now come from UEFA's fixture list. Stan Sport is the Australian Champions League broadcaster; its Premier League coverage was only confirmed by a single secondary source.",
     "Big-match entries have no talking points because I couldn't find reliable team news for them.",
     "Bledisloe Test (17 Oct) broadcaster wasn't confirmed, so it stays under live sport. Sydney Flames and Phoenix times/prices aren't listed on the source pages.",
-    "Little confirmed this run for matcha pop-ups, Pokémon/Minecraft/Roblox events, kids' runs, tennis or sports-gear sales in Sydney. The Hungry Jack's free cheeseburger on OzBargain couldn't be confirmed at the source, so it is left out.",
-    "Man United's Carabao Cup round 4 (week of 26 Oct) isn't scheduled yet."
+    "Man United's Carabao Cup round 4 (week of 26 Oct) isn't scheduled yet.",
+    "Search results were thin this run, so most sections are carried over from last time with only confirmed items added. Little confirmed for matcha pop-ups, Pokémon/Minecraft/Roblox events, kids' runs, tennis or sports-gear sales.",
+    "Groceries: only one healthy special was confirmed (Coles); Woolworths and Aldi food specials couldn't be read from catalogue sites. The Hungry Jack's free cheeseburger is now confirmed on OzBargain and ends Sunday."
   ],
   "deals": [
     {
@@ -574,6 +590,48 @@
       "cost": "$10",
       "summary": "Dine-in or takeaway burger deal.",
       "url": "https://www.ozbargain.com.au/node/978365"
+    },
+    {
+      "title": "Free Hungry Jack's cheeseburger",
+      "category": "Food",
+      "start": "2026-10-10",
+      "end": "2026-10-11",
+      "when": null,
+      "venue": "Hungry Jack's (app required)",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Free",
+      "summary": "Free cheeseburger in-store or drive-thru via the app, or with a $1 minimum online spend. Link valid to end of Sunday; one per account per round.",
+      "url": "https://www.ozbargain.com.au/node/978402"
+    },
+    {
+      "title": "Mafia III: Definitive Edition free",
+      "category": "Gaming",
+      "start": "2026-10-10",
+      "end": "2026-10-29",
+      "when": null,
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Free",
+      "summary": "Free for owners of a PS4 or digital Xbox One version of the game; mature-rated, so more for parents than kids.",
+      "url": "https://www.ozbargain.com.au/node/978314"
+    }
+  ],
+  "groceries": [
+    {
+      "item": "Farmers Union Greek Style or No Added Sugar Kids Yogurt Pouch 130g",
+      "store": "Coles",
+      "price": "$1.45",
+      "was": "$2.90",
+      "saving": "Half price",
+      "note": null,
+      "ends": "2026-10-13",
+      "url": "https://www.salefinder.com.au/coles-catalogue"
     }
   ]
 }
