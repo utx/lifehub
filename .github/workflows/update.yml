@@ -61,6 +61,12 @@ jobs:
         if: env.RESEARCH == 'true'
         run: npm install -g @anthropic-ai/claude-code
 
+      - name: Fetch private pages
+        if: env.RESEARCH == 'true'
+        env:
+          LOCAL_CONTEXT: ${{ secrets.LOCAL_CONTEXT }}
+        run: python3 scripts/fetch_private.py
+
       - name: Research and write the briefing
         if: env.RESEARCH == 'true'
         timeout-minutes: 50
@@ -85,6 +91,9 @@ jobs:
           if [ -n "$LOCAL_CONTEXT" ]; then
             echo "Private local context: provided ($(printf '%s\n' "$LOCAL_CONTEXT" | grep -c .) lines)"
             prompt+=$'\n\n'"## Private local context"$'\n\n'"Use this to find local news and school events for the \`local\` section. It is private: never write the street address anywhere, and never say or imply which child attends which school."$'\n\n'"$LOCAL_CONTEXT"
+          fi
+          if [ -s .private/index.txt ]; then
+            prompt+=$'\n\n'"## Downloaded school pages"$'\n\n'"The pages listed above have been downloaded into .private/ (see .private/index.txt): text copies plus calendar and newsletter images and PDFs. Read every file listed there with the Read tool (it can read images and PDFs) and use the dates you find for school events in the \`local\` section. Treat the latest weekly update as more current than the term calendar. Link each event to the school page it came from."
           fi
 
           args=(

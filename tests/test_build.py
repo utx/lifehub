@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
 import build  # noqa: E402
+import fetch_private  # noqa: E402
 
 # 8pm Thursday 15 October 2026 in Sydney (AEDT, UTC+11).
 NOW = datetime(2026, 10, 15, 9, 0, tzinfo=timezone.utc)
@@ -243,3 +244,20 @@ class RenderTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class FetchPrivateTests(unittest.TestCase):
+    def test_finds_calendar_images_and_newsletter_pdfs(self):
+        page = """
+          <img alt="Term 4 Calendar.jpg" src="./media_abc.jpg?width=750&amp;format=jpg" width="1654">
+          <img alt="School logo" src="./logo.png">
+          <img alt="Principal Update Week 2" src="./media_def.jpg?width=750" width="4504">
+          <a href="/files/Newsletter_T3.pdf">Newsletter - Term 3</a>
+          <a href="/files/menu.pdf">Canteen menu</a>
+        """
+        files = fetch_private.find_files(page, "https://school.example/school-life/events")
+        urls = [url for _, url, _ in files]
+        self.assertEqual(len(files), 3)
+        self.assertIn("https://school.example/school-life/media_abc.jpg?width=1654&format=jpg", urls)
+        self.assertIn("https://school.example/school-life/media_def.jpg?width=2000&format=jpg", urls)
+        self.assertIn("https://school.example/files/Newsletter_T3.pdf", urls)

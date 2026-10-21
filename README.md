@@ -44,6 +44,8 @@ more than a day old.
    **Source** to **GitHub Actions**.
 3. **Add your private local details (optional).** Add a secret called `LOCAL_CONTEXT`
    with your street address (on a line starting `Address:`) and the schools to follow.
+   Add `Page: <url>` lines for school pages with calendars or newsletters: before each
+   run, their calendar and newsletter images and PDFs are downloaded for Claude to read.
    It's only ever given to Claude during the nightly run and never written to the repo,
    and the run refuses to publish if the street address appears in the briefing.
 4. **Do the first run.** Go to **Actions → Update LifeHub → Run workflow**.
