@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:30:00+11:00",
+  "generated_at": "2026-10-24T07:30:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -13,15 +13,15 @@
           "kickoff": "2026-10-25T14:00:00+00:00",
           "time_confirmed": true,
           "venue": "Old Trafford",
-          "broadcast": ["Stan Sport"],
-          "preview": "United host Bournemouth on Sunday, three days after a 4-1 Champions League defeat at Como, with Michael Carrick under pressure.",
+          "broadcast": [],
+          "preview": "United host Bournemouth on Sunday, three days after a 4-1 Champions League defeat at Como, with Michael Carrick's side winless in seven.",
           "talking_points": [
-            "The Como loss extended United's winless run to seven games in all competitions, and they have 3 points from 3 Champions League games.",
-            "Carrick is reported to be staying in charge for Sunday despite the pressure.",
-            "Lisandro Martínez (thigh) is a doubt after going off against Leeds; Carrick has played it down as 'not that bad'.",
-            "Kobbie Mainoo is about ten more days away, Luke Shaw is out longer, Rashford has a hip problem and Ayden Heaven is ill; Matthijs de Ligt is fit again."
+            "United are winless in seven in all competitions and have not kept a clean sheet this season, per Sky Sports.",
+            "Bruno Fernandes has publicly criticised the tactical plan, adding to the pressure on Carrick.",
+            "Marcus Rashford (hip), Lisandro Martínez and Ayden Heaven are possible returns; Benjamin Sesko (shin) is doubtful with no return date.",
+            "Kobbie Mainoo is expected back around the Chelsea game and Luke Shaw around the Roma game; Sky lists Leny Yoro as suspended."
           ],
-          "url": "https://www.livescore.com/en/news/football/premier-league/carrick-gives-latest-updates-on-several-man-utd-injuries-hayters/"
+          "url": "https://britbrief.co.uk/sports/football/man-united-injury-news-sesko-mainoo-rashford-doubts.html"
         },
         {
           "opponent": "Chelsea",
@@ -30,8 +30,8 @@
           "kickoff": "2026-10-31T12:30:00+00:00",
           "time_confirmed": true,
           "venue": "Stamford Bridge",
-          "broadcast": ["Stan Sport"],
-          "preview": "A 12:30pm UK trip to Stamford Bridge on Saturday 31 October.",
+          "broadcast": [],
+          "preview": "A 12:30pm UK trip to Stamford Bridge on Saturday 31 October; Mainoo is expected to be back around then.",
           "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
         },
         {
@@ -41,8 +41,8 @@
           "kickoff": "2026-11-03T21:00:00+01:00",
           "time_confirmed": true,
           "venue": "Old Trafford",
-          "broadcast": ["Stan Sport"],
-          "preview": "Matchday 4 of the Champions League league phase brings Roma to Old Trafford, with United on 3 points from 3 games.",
+          "broadcast": [],
+          "preview": "Matchday 4 of the Champions League league phase brings Roma to Old Trafford, where Shaw could return.",
           "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
         },
         {
@@ -52,7 +52,7 @@
           "kickoff": "2026-11-08T16:30:00+00:00",
           "time_confirmed": true,
           "venue": "Old Trafford",
-          "broadcast": ["Stan Sport"],
+          "broadcast": [],
           "preview": "A Sunday 4:30pm UK home game against Aston Villa, picked for TV.",
           "url": "https://www.premierleague.com/en/news/4675097/all-380-fixtures-for-202627-premier-league-season"
         },
@@ -63,7 +63,7 @@
           "kickoff": "2026-11-22T16:30:00+00:00",
           "time_confirmed": true,
           "venue": "Anfield",
-          "broadcast": ["Stan Sport"],
+          "broadcast": [],
           "preview": "The trip to Anfield is set for Sunday 22 November at 4:30pm UK time, live on Sky Sports in the UK.",
           "url": "https://www.liverpoolfc.com/news/fixture-updates-three-premier-league-changes-liverpool-november"
         }
@@ -84,11 +84,12 @@
           "broadcast": ["Paramount+"],
           "preview": "A Sunday 3pm home game, part of a double-header with Sydney FC Women v Melbourne City at 5:45pm.",
           "talking_points": [
-            "Sydney opened with a 0-0 derby draw against Western Sydney, and coach Patrick Kisnorbo called the effort a foundation to build on.",
-            "Adelaide kick off at 2:30pm local time (3pm Sydney); I couldn't find their form or team news for Sunday.",
-            "Sydney's Australia Cup run ended with a 0-2 semi-final loss to Melbourne Victory on 9 September."
+            "Sydney opened with a 0-0 derby draw against Western Sydney, with no shot on target until the 91st minute.",
+            "Sydney have kept 13 clean sheets since the start of last season, the most in the league.",
+            "They are winless in seven at Allianz Stadium (five draws, two losses) and have drawn their last three there.",
+            "I couldn't find Adelaide's form or team news for Sunday."
           ],
-          "url": "https://sydneyfc.com/tickets/"
+          "url": "https://www.beinsports.com/en-asia/football/a-league-men/articles/sydney-fc-0-0-western-sydney-wanderers-drab-derby-draw-kicks-off-a-league-season-2026-10-16"
         },
         {
           "opponent": "Melbourne City",
@@ -144,14 +145,15 @@
       "competition": "LaLiga",
       "kickoff": "2026-10-25T21:00:00+01:00",
       "time_confirmed": true,
-      "broadcast": [],
-      "why": "First Clásico of the season at Camp Nou, with José Mourinho now in charge of Real Madrid.",
+      "broadcast": ["beIN Sports"],
+      "why": "First Clásico of the season at Camp Nou, with Barcelona top of LaLiga and Real Madrid third (Mon 26 Oct, 7am Sydney).",
       "talking_points": [
-        "Barcelona lost 4-2 at PSG on Tuesday in the Champions League.",
-        "Real Madrid beat Leipzig 4-1 on Wednesday, so they arrive in better form.",
-        "Hansi Flick's Barcelona host Mourinho's Madrid."
+        "Barcelona lead LaLiga and have scored 39 goals in nine matches; Madrid, third, have 23.",
+        "Barcelona have won six of the last seven Clásicos in all competitions.",
+        "Vinícius Júnior is banned and Barcelona's Olmo is out; Raphinha's status is unclear.",
+        "Mbappé has one win from six against Barcelona."
       ],
-      "url": "https://www.football-espana.net/2026/09/02/2026-27-el-clasico-date"
+      "url": "https://www.beinsports.com/en-au/football/laliga/articles/how-to-watch-barcelona-v-real-madrid-in-australia-2026-10-21"
     },
     {
       "title": "Liverpool v Arsenal",
@@ -159,7 +161,7 @@
       "competition": "Premier League",
       "kickoff": "2026-11-01T16:30:00+00:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [],
       "why": "A heavyweight clash at Anfield, moved to Sunday 4:30pm UK time for TV.",
       "talking_points": [
         "Liverpool beat Villarreal 4-3 in the Champions League on Tuesday.",
@@ -173,7 +175,7 @@
       "competition": "Champions League",
       "kickoff": "2026-11-03T21:00:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [],
       "why": "Two European heavyweights meet on matchday 4 in Madrid.",
       "talking_points": [
         "Atlético drew 1-1 at Stuttgart on matchday 3.",
@@ -187,7 +189,7 @@
       "competition": "Champions League",
       "kickoff": "2026-11-03T21:00:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [],
       "why": "Barcelona need a response after their 4-2 loss at PSG.",
       "talking_points": [
         "Aston Villa beat Viking 3-1 on matchday 3, so they arrive in form.",
@@ -201,7 +203,7 @@
       "competition": "Champions League",
       "kickoff": "2026-11-04T18:45:00+01:00",
       "time_confirmed": true,
-      "broadcast": ["Stan Sport"],
+      "broadcast": [],
       "why": "Liverpool host Fenerbahçe on matchday 4 after a 4-3 win over Villarreal.",
       "talking_points": [
         "Fenerbahçe drew 2-2 with Slavia Praha on matchday 3."
@@ -223,14 +225,46 @@
       "nearest_station": "Redfern",
       "trip": "about 15 min from home",
       "cost": "Free entry",
-      "summary": "Weekly farmers market next door to South Eveleigh.",
+      "summary": "Weekly farmers market next door to South Eveleigh (not re-confirmed this run).",
       "url": "https://www.carriageworks.com.au/whats-on/"
+    },
+    {
+      "title": "Mad Hatter's Halloween Workshop (kids 3+)",
+      "kind": "event",
+      "category": "Community",
+      "start": "2026-10-24T14:30:00+11:00",
+      "end": null,
+      "when": "Sat 24 Oct, 2:30pm; Halloween program runs to 31 Oct",
+      "venue": "The Grounds Coffee Factory, Locomotive Workshop, South Eveleigh",
+      "suburb": "Eveleigh",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 15 min from home",
+      "cost": "$5 per child (includes $10 café voucher)",
+      "summary": "Kids decorate spooky hats, masks or accessories; bookings essential.",
+      "url": "https://www.ellaslist.com.au/sydney/events/halloween-south-eveleigh"
+    },
+    {
+      "title": "Winnie the Pooh installation at The Grounds of Alexandria",
+      "kind": "event",
+      "category": "Community",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "when": "Until Sun 1 Nov",
+      "venue": "The Grounds of Alexandria, Huntley Street",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 15 min walk",
+      "cost": "Free for diners at the cafe, garden or potting shed",
+      "summary": "A Hundred Acre Wood installation for Winnie the Pooh's centenary; the listing's start date is inconsistent, so check The Grounds' page.",
+      "url": "https://www.ellaslist.com.au/sydney/events/grounds-of-alexandria-installation"
     },
     {
       "title": "Adaptive Tennis at Alexandria Park",
       "kind": "event",
       "category": "Sport",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2026-12-23",
       "when": "Wednesdays and Saturdays, 10am–12pm",
       "venue": "Alexandria Park Tennis Courts, Park Road",
@@ -275,19 +309,19 @@
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/erko-berzerko-2026"
     },
     {
-      "title": "MADD Night: music, art, drama and dance",
+      "title": "Year 6 fundraiser: mufti day",
       "kind": "event",
       "category": "School",
-      "start": "2026-11-13T17:00:00+11:00",
+      "start": "2026-10-28",
       "end": null,
-      "when": "Fri 13 Nov, from 5pm",
+      "when": "Wed 28 Oct",
       "venue": "Alexandria Park Community School",
       "suburb": "Alexandria",
       "transport": null,
       "nearest_station": null,
       "trip": "about 10–15 min walk",
-      "cost": null,
-      "summary": "The school's big annual showcase of music, art, drama and dance; the P&C is running a BBQ and cake stall and needs volunteers and nut-free cake donations.",
+      "cost": "Gold coin donation",
+      "summary": "Students wear mufti and bring a gold coin for end-of-year Year 6 celebrations.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
@@ -307,22 +341,6 @@
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
-      "title": "Year 6 fundraiser: mufti day",
-      "kind": "event",
-      "category": "School",
-      "start": "2026-10-28",
-      "end": null,
-      "when": "Wed 28 Oct",
-      "venue": "Alexandria Park Community School",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": "Gold coin donation",
-      "summary": "Students wear mufti and bring a gold coin for end-of-year Year 6 celebrations.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
-    {
       "title": "School tours (primary and high school)",
       "kind": "event",
       "category": "School",
@@ -336,6 +354,38 @@
       "trip": "about 10–15 min walk",
       "cost": null,
       "summary": "Tours for prospective families from the Term 4 calendars; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
+    },
+    {
+      "title": "MADD Night: music, art, drama and dance",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-13T17:00:00+11:00",
+      "end": null,
+      "when": "Fri 13 Nov, from 5pm",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "The school's big annual showcase of music, art, drama and dance; the P&C is running a BBQ and cake stall and needs volunteers and nut-free cake donations.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "Bandanna Day fundraising week",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-16",
+      "end": "2026-11-20",
+      "when": "Mon 16 to Fri 20 Nov",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Listed on the Term 4 primary calendar; the calendar says dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -466,9 +516,24 @@
   ],
   "daughter": [
     {
+      "title": "David Hockney: Bigger & Closer (immersive)",
+      "category": "Arts and crafts",
+      "start": "2026-10-22",
+      "end": "2027-01-24",
+      "when": "Daily; see site for session times",
+      "venue": "Bay 17, Carriageworks, 245 Wilson Street",
+      "suburb": "Eveleigh",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 15 min from home",
+      "cost": "From $39.90 plus booking fee",
+      "summary": "A 360-degree projection of Hockney's work; moving images may bother sensitive visitors.",
+      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
+    },
+    {
       "title": "Harry Potter: The Exhibition",
       "category": "Books",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2027-01-31",
       "when": "Closed Tue and Wed; Mon and Thu 10am–5:30pm, Fri 12–7:30pm, Sat–Sun 9am–6:30pm",
       "venue": "Paddington Pavilion, Sydney Showground",
@@ -530,9 +595,9 @@
     {
       "title": "Sculpture by the Sea, Bondi",
       "category": "Outdoor art",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2026-11-02",
-      "when": "Along the Bondi to Tamarama coastal walk; opening hours not listed",
+      "when": "Daily until 2 Nov along the Bondi to Tamarama walk",
       "venue": "Bondi to Tamarama coastal walk",
       "suburb": "Bondi",
       "transport": "train",
@@ -541,6 +606,21 @@
       "cost": "Free",
       "summary": "The world's largest free-to-the-public sculpture exhibition, on until 2 November.",
       "url": "https://www.sculpturebythesea.com/bondi"
+    },
+    {
+      "title": "Nolan: Origins Kids Club workshop (ages 5–12)",
+      "category": "Art",
+      "start": "2026-10-25",
+      "end": null,
+      "when": "Sun 25 Oct; session time not listed",
+      "venue": "Art Gallery of NSW, The Domain",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "St James",
+      "trip": "about 15 min from Redfern",
+      "cost": "Included with exhibition ticket; under-12s free",
+      "summary": "Hands-on art workshop alongside the Sidney Nolan exhibition; check the event page for booking.",
+      "url": "https://www.ellaslist.com.au/sydney/events/art-gallery-of-new-south-wales-nolan-origins"
     },
     {
       "title": "Ghost Festival (Halloween at The Rocks)",
@@ -575,9 +655,24 @@
   ],
   "deals": [
     {
+      "title": "Mouse: P.I. For Hire (Switch 2) 20% off",
+      "category": "Gaming",
+      "start": "2026-10-24",
+      "end": "2026-11-01",
+      "when": "Ends 1 Nov",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$35.16 (was $43.95)",
+      "summary": "Nintendo eShop price cut on the retro-style shooter.",
+      "url": "https://www.ozbargain.com.au/node/980159"
+    },
+    {
       "title": "Free Terraspace on Epic Games (PC)",
       "category": "Freebies and competitions",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2026-10-28",
       "when": "Ends 7am Wed 28 Oct",
       "venue": "Online",
@@ -592,7 +687,7 @@
     {
       "title": "Free double passes to Affordable Art Fair Sydney",
       "category": "Ticket deals",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2026-11-08",
       "when": "Fair runs 5–8 Nov",
       "venue": "Online",
@@ -607,7 +702,7 @@
     {
       "title": "Win a share of $20,000 in The Good Guys eGift Cards",
       "category": "Freebies and competitions",
-      "start": "2026-10-23",
+      "start": "2026-10-24",
       "end": "2026-11-18",
       "when": "Closes 18 Nov",
       "venue": "Online",
@@ -652,6 +747,26 @@
       "url": "https://au-catalogues.com/coles-specials"
     },
     {
+      "item": "Yoplait Petit Miam Kids Yoghurt Pouch 70g",
+      "store": "Woolworths",
+      "price": "$1.00",
+      "was": null,
+      "saving": "Special price",
+      "note": "Lunchbox snack",
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/woolworths-specials"
+    },
+    {
+      "item": "Dairy Farmers Thick & Creamy Yoghurt 140-150g",
+      "store": "Woolworths",
+      "price": "$1.65",
+      "was": null,
+      "saving": "Special price",
+      "note": null,
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/woolworths-specials"
+    },
+    {
       "item": "Tamar Valley Dairy Kids Greek Style Yoghurt Pouch 110g",
       "store": "Coles",
       "price": "$1.75",
@@ -670,6 +785,16 @@
       "note": "Lunchbox snack",
       "ends": "2026-10-27",
       "url": "https://au-catalogues.com/coles-specials"
+    },
+    {
+      "item": "Australian Carrots",
+      "store": "Woolworths",
+      "price": "$1.70",
+      "was": null,
+      "saving": "Special price",
+      "note": "Pack size not stated",
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
       "item": "Australian Asparagus bunch",
@@ -729,15 +854,16 @@
       "start": "2027-10-01",
       "end": "2027-11-13",
       "location": "Australia (seven host cities incl. Sydney; final at Accor Stadium)",
-      "status": "unchanged",
+      "status": "updated",
       "key_dates": [
-        { "date": "2026-02-18", "label": "Presale opened for registered fans" },
-        { "date": "2026-05-19", "label": "Application phase opened (per the ticketing plan)" },
+        { "date": "2026-05-19", "label": "Ticket application phase opened" },
+        { "date": "2026-06-02", "label": "Application phase closed" },
+        { "date": "2026-06-23", "label": "Ballot results emailed from this date" },
         { "date": "2027-10-01", "label": "Tournament opens" },
         { "date": "2027-11-13", "label": "Final" }
       ],
-      "notes": "Over 750,000 tickets sold in the presale; pool-match tickets start from A$40 (children A$20). Check the official site for what's still available.",
-      "url": "https://www.rugbyworldcup.com/2027/en/news/1038217/purchasing-tickets-for-mens-rugby-world-cup-2027"
+      "notes": "The application phase has closed; later sale phases haven't been published, so check the official site for what's still available.",
+      "url": "https://www.world.rugby/news/1044035/ticket-applications-open-as-500-day-countdown-begins-to-mens-rugby-world-cup-2027"
     },
     {
       "title": "Australian Open 2027",
@@ -815,15 +941,14 @@
     }
   ],
   "notes": [
-    "Searches were thin and many sites blocked access (HTTP 403), so several sections are shorter than their limits rather than padded.",
-    "Man Utd: team news (Martínez doubtful, Mainoo and Shaw out, Carrick expected to stay) comes from search summaries of Livescore and other reporting; I couldn't open manutd.com. The Premier League fixture list shows Sky/TNT as UK broadcasters, and Stan Sport as the Australian broadcaster is assumed from its Premier League rights. United v Brentford on 28 Nov has no time yet.",
-    "Sydney FC: kick-off times for 25 Oct, 6 Nov and 6 Dec are from the club's ticket page; the Melbourne City (31 Oct) and Brisbane (21 Nov) times weren't re-checked. Paramount+ is assumed as the A-Leagues broadcaster.",
-    "Big matches: I couldn't confirm the Australian broadcaster for El Clásico (beIN is likely but its page didn't list the match), so broadcast is blank. Wallabies November Tests had no confirmed times.",
+    "Many sites blocked access (HTTP 403) or returned stale results, so several sections are shorter than their limits rather than padded.",
+    "Man Utd: team news is from Sky Sports (22 Oct) and Brit Brief (23 Oct), and the sources differ on some players (e.g. Yoro suspended, Sesko doubtful). I couldn't open manutd.com, so later fixtures weren't re-checked against the club site. Australian broadcasters for Premier League and Champions League games weren't confirmed, so broadcast is blank.",
+    "Sydney FC: fixtures after 25 Oct were carried over and not re-checked; Paramount+ is assumed as the A-Leagues broadcaster. No Adelaide team news was found.",
+    "Big matches: only El Clásico has a confirmed Australian broadcaster (beIN Sports). Check Stan Sport or Paramount+ for the others. Wallabies November Tests had no confirmed times.",
     "Live sport: Kings start times aren't published on the venue page. No rugby union or tennis in Sydney in the next 4 weeks was found.",
-    "Local: school events come from the downloaded Term 4 calendars and Week 2 updates; no local news from the past 7 days was found beyond the street-works note. The other school's public site had no events.",
-    "Not found: matcha pop-ups in Sydney, junior parkrun or kids' fun runs near home, Pokémon/Minecraft/Roblox events, kids' ticket deals and football-boot sales with confirmed dates.",
-    "Groceries: Woolworths and Coles half-price lists were not accessible, so most prices have no was-price. The Aldi tuna price is from the catalogue running to 30 Nov.",
-    "Horizon: entries were carried over; I couldn't re-open the Rugby World Cup ticket page this run, so check the official site for what's still on sale.",
-    "Deals: expired freebies from the last run were dropped; the Pitt Street Mall coffee giveaway couldn't be re-confirmed."
+    "Local: school events come from the downloaded Term 4 calendars and Week 2 updates. Nothing was found for the other school, and no South Eveleigh events page could be opened.",
+    "Not found: matcha pop-ups in Sydney, junior parkrun or kids' fun runs near home, Pokémon/Minecraft/Roblox events, and confirmed sports-gear sales.",
+    "Groceries: Woolworths and Coles half-price lists weren't accessible, so most items have no was-price. Aldi tuna runs to 30 Nov; the other Aldi items end 27 Oct.",
+    "Horizon: entries other than the Rugby World Cup were carried over without re-checking."
   ]
 }
