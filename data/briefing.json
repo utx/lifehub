@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T06:45:00+11:00",
+  "generated_at": "2026-10-27T08:05:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -14,14 +14,14 @@
           "time_confirmed": true,
           "venue": "Stamford Bridge",
           "broadcast": ["Stan Sport"],
-          "preview": "A badly timed trip to fifth-placed Chelsea, six days after a 3-0 home defeat to Bournemouth left United 16th and Michael Carrick's future in doubt (11:30pm Sat 31 Oct Sydney).",
+          "preview": "A tough trip to fifth-placed Chelsea with United 16th and manager Michael Carrick's future in doubt (11:30pm Sat 31 Oct Sydney).",
           "talking_points": [
-            "United sit 16th on 7 points, one above the drop zone, after the Bournemouth loss, which followed a 4-1 defeat at Como in the Champions League.",
-            "Carrick said he doesn't know what happens next; reports say his job is at risk, but no club decision had been reported at the time of writing.",
-            "Bruno Fernandes was dropped against Bournemouth after criticising the tactics, and Lisandro Martínez was reportedly fined for an incident with director of football Jason Wilcox.",
-            "Chelsea are fifth on 13 points but lost 2-0 at home to Tottenham on Saturday; team news for both sides isn't confirmed yet."
+            "United are 16th on 7 points, just above the drop zone, according to the Sky Sports table updated after Sunday's games.",
+            "ESPN reports Carrick left Carrington after talks with Omar Berrada and Jason Wilcox about his future; the club hasn't said whether he stays, and clarity is expected only once players return to training.",
+            "United have reportedly won just two of 12 games in all competitions, their worst start since 1986.",
+            "Chelsea are fifth on 13 points; team news for both sides isn't confirmed."
           ],
-          "url": "https://www.skysports.com/manchester-united-fixtures"
+          "url": "https://www.skysports.com/premier-league-table"
         },
         {
           "opponent": "Roma",
@@ -53,7 +53,7 @@
           "time_confirmed": true,
           "venue": "Anfield",
           "broadcast": ["Stan Sport"],
-          "preview": "The trip to Anfield is set for Sunday 22 November at 4:30pm UK time, live on Sky Sports in the UK.",
+          "preview": "The trip to Anfield is set for Sunday 22 November at 4:30pm UK time.",
           "url": "https://www.liverpoolfc.com/news/fixture-updates-three-premier-league-changes-liverpool-november"
         },
         {
@@ -82,14 +82,14 @@
           "time_confirmed": true,
           "venue": "AAMI Park",
           "broadcast": ["Paramount+"],
-          "preview": "A 5pm Halloween game in round 3 at AAMI Park, Melbourne City's home opener, with Sydney fresh from a comeback win over Adelaide.",
+          "preview": "A 5pm Halloween game in round 3 at AAMI Park, with Sydney fresh from their first win of the season.",
           "talking_points": [
-            "Sydney came from behind to beat Adelaide United 2-1 on Sunday, with Rhys Youlley and Oriola Sunday scoring their first A-League goals.",
+            "Sydney came from behind to beat Adelaide United 2-1, with Rhys Youlley and Oriola Sunday scoring, and coach Kisnorbo praised the team's character.",
             "That followed a 0-0 draw with Western Sydney in round 1.",
-            "City are still winless after two games, including a 1-1 Melbourne Derby, and the club is billing this as a family Halloween outing.",
-            "Last season City won in Sydney through a Max Caputo header after a 0-0 draw at AAMI Park; team news for this game isn't published yet."
+            "City are winless after two games, including a 1-1 Melbourne Derby, per last run's reporting.",
+            "A March 2026 preview noted Sydney hadn't beaten City in the league since December 2022; team news isn't published yet."
           ],
-          "url": "https://melbournecityfc.com.au/news/20260715-home-opener-revealed/"
+          "url": "https://sydneyfc.com/news/"
         },
         {
           "opponent": "Central Coast Mariners",
@@ -110,7 +110,7 @@
           "time_confirmed": true,
           "venue": "Kayo Stadium",
           "broadcast": ["Paramount+"],
-          "preview": "An away trip to Brisbane Roar in round 5, 6:40pm Brisbane time (7:40pm Sydney).",
+          "preview": "An away trip to Brisbane Roar, 6:40pm Brisbane time (7:40pm Sydney).",
           "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/"
         },
         {
@@ -132,7 +132,7 @@
           "time_confirmed": true,
           "venue": "GO Media Stadium",
           "broadcast": ["Paramount+"],
-          "preview": "A Grand Final rematch in Auckland on Saturday 12 December, listed at 5pm (treated here as New Zealand time).",
+          "preview": "An away game in Auckland on Saturday 12 December, listed at 5pm (treated here as New Zealand time).",
           "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/"
         }
       ]
@@ -140,32 +140,16 @@
   ],
   "big_matches": [
     {
-      "title": "Barcelona v Real Madrid (El Clásico)",
-      "sport": "Football",
-      "competition": "LaLiga",
-      "kickoff": "2026-10-25T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": ["beIN Sports"],
-      "why": "First Clásico of the season at Camp Nou, with unbeaten Barcelona six points clear of third-placed Madrid (7am Mon 26 Oct Sydney).",
-      "talking_points": [
-        "Barcelona have won all nine LaLiga games; Madrid are third, six points back, and last lost in their most recent league match.",
-        "Vinícius Júnior is suspended for Madrid, so Kylian Mbappé is expected to lead the attack.",
-        "Barcelona are without Dani Olmo, Jules Koundé, Andreas Christensen and Eric García.",
-        "It's José Mourinho's first Clásico since returning to Madrid, against Hansi Flick."
-      ],
-      "url": "https://www.beinsports.com/en-au/football/laliga/articles/how-to-watch-barcelona-v-real-madrid-in-australia-2026-10-21"
-    },
-    {
       "title": "Liverpool v Arsenal",
       "sport": "Football",
       "competition": "Premier League",
       "kickoff": "2026-11-01T16:30:00+00:00",
       "time_confirmed": true,
       "broadcast": ["Stan Sport"],
-      "why": "Second-placed Arsenal visit fourth-placed Liverpool at Anfield, moved to Sunday 4:30pm UK time for TV (3:30am Mon 2 Nov Sydney).",
+      "why": "Second-placed Arsenal visit fourth-placed Liverpool at Anfield (3:30am Mon 2 Nov Sydney).",
       "talking_points": [
-        "Arsenal are level on 21 points with leaders Manchester City after beating Everton 2-0 on Saturday.",
-        "Liverpool are fourth on 15 points after a 2-0 win over Brighton on Sunday.",
+        "Arsenal are on 21 points, level with leaders Manchester City, per the Sky Sports table.",
+        "Liverpool are fourth on 15 points.",
         "Team news isn't confirmed yet."
       ],
       "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
@@ -187,10 +171,10 @@
       "kickoff": "2026-11-03T21:00:00+01:00",
       "time_confirmed": true,
       "broadcast": ["Stan Sport"],
-      "why": "Barcelona host Villa a week after the Clásico, with Villa fresh from beating Manchester City.",
+      "why": "Barcelona host a Villa side that beat Manchester City at the weekend (7am Wed 4 Nov Sydney).",
       "talking_points": [
-        "Villa beat Manchester City 2-1 on Saturday, ending City's unbeaten league record.",
-        "Barcelona are unbeaten in LaLiga with nine wins from nine."
+        "Villa's 2-1 win over City left City level on points with Arsenal at the top.",
+        "Barcelona played El Clásico on 25 Oct; I didn't confirm the result."
       ],
       "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
     },
@@ -203,7 +187,7 @@
       "broadcast": ["Stan Sport"],
       "why": "Premier League leaders City travel to Germany on matchday 4 (7am Thu 5 Nov Sydney).",
       "talking_points": [
-        "City top the Premier League on goal difference but lost 2-1 at Aston Villa on Saturday."
+        "City top the league on goal difference but have lost once in eight games."
       ],
       "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
     },
@@ -240,26 +224,10 @@
   ],
   "local": [
     {
-      "title": "Redfern student housing plan: submissions close Tuesday",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-10-20",
-      "end": "2026-10-27",
-      "when": "Submissions close 5pm Tue 27 Oct",
-      "venue": "44-78 Rosehill Street",
-      "suburb": "Redfern",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home",
-      "cost": null,
-      "summary": "Council is consulting on a planning proposal for roughly 327 co-living student units about 150 metres from Redfern Station.",
-      "url": "https://redfernnews.com.au/have-your-say-redfern-student-accommodation-plan-seeks-local-feedback/"
-    },
-    {
       "title": "Belmont Street changes near the school",
       "kind": "news",
       "category": "News",
-      "start": "2026-10-22",
+      "start": "2026-10-21",
       "end": null,
       "when": null,
       "venue": "Belmont Street",
@@ -270,38 +238,6 @@
       "cost": null,
       "summary": "Council has finished phase one of adjusted bike lanes and crossing works, Fountain Street crossing works start shortly, and the school asks drivers to use only the Power Avenue entrance.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
-    {
-      "title": "Winnie the Pooh installation at The Grounds of Alexandria",
-      "kind": "event",
-      "category": "Community",
-      "start": "2026-09-12",
-      "end": "2026-11-01",
-      "when": "Until Sun 1 Nov",
-      "venue": "The Grounds of Alexandria, Huntley Street",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 15 min walk",
-      "cost": "Free for diners (book a table at the Cafe, Garden or Potting Shed)",
-      "summary": "The laneways become the Hundred Acre Wood for Winnie the Pooh's centenary; access is for diners only.",
-      "url": "https://www.ellaslist.com.au/sydney/events/grounds-of-alexandria-installation"
-    },
-    {
-      "title": "Carriageworks Farmers Market",
-      "kind": "event",
-      "category": "Markets",
-      "start": "2026-10-31",
-      "end": null,
-      "when": "Every Saturday, 8am–1pm",
-      "venue": "Carriageworks, 245 Wilson Street",
-      "suburb": "Eveleigh",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home",
-      "cost": "Free entry",
-      "summary": "Weekly farmers market next door to South Eveleigh.",
-      "url": "https://www.carriageworks.com.au/whats-on/"
     },
     {
       "title": "Adaptive Tennis at Alexandria Park",
@@ -320,36 +256,20 @@
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/inclusion-tennis"
     },
     {
-      "title": "Erko Berzerko 2026 community fair",
+      "title": "Carriageworks Farmers Market",
       "kind": "event",
-      "category": "Community",
-      "start": "2026-11-07T10:00:00+11:00",
-      "end": "2026-11-07T16:00:00+11:00",
-      "when": "Sat 7 Nov, 10am–4pm",
-      "venue": "Erskineville Public School, Swanson Street",
-      "suburb": "Erskineville",
-      "transport": "train",
-      "nearest_station": "Erskineville",
-      "trip": "about 20 min walk; the station is opposite",
-      "cost": "Free entry",
-      "summary": "Rides, games, live music, market stalls, food, raffles and a silent auction; the full program is still to be confirmed.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/events/erko-berzerko-2026"
-    },
-    {
-      "title": "Tenjo, a rooftop Japanese venue, set to open at The Eve Hotel",
-      "kind": "news",
-      "category": "Food",
-      "start": "2026-11-01",
+      "category": "Markets",
+      "start": "2026-10-31",
       "end": null,
-      "when": "Planned for November; opening date to be announced",
-      "venue": "The Eve Hotel, 8 Baptist Street",
-      "suburb": "Redfern",
+      "when": "Every Saturday, 8am–1pm",
+      "venue": "Carriageworks, 245 Wilson Street",
+      "suburb": "Eveleigh",
       "transport": "train",
       "nearest_station": "Redfern",
       "trip": "about 15 min from home",
       "cost": null,
-      "summary": "The 100-seat Apollo Group venue replaces Lottie, with French restaurant Baptiste also planned next door. Reported 6 Oct, so it falls outside the 7-day news window; kept for the planned November opening.",
-      "url": "https://redfernnews.com.au/former-lottie-site-in-redfern-to-become-japanese-venue-tenjo/"
+      "summary": "Weekly farmers market next door to South Eveleigh.",
+      "url": "https://www.carriageworks.com.au/whats-on/"
     },
     {
       "title": "Year 6 fundraiser: mufti day",
@@ -368,6 +288,22 @@
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
+      "title": "World Teachers' Day",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-10-30",
+      "end": null,
+      "when": "Fri 30 Oct",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "The school invites the community to share comments about a teacher who has inspired them via a NSW Government link.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
       "title": "OC World Expo",
       "kind": "event",
       "category": "School",
@@ -380,7 +316,7 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Listed on the school's Term 4 primary calendar; the calendar says dates may change, so check the latest Principal Update.",
+      "summary": "Listed on the Term 4 primary calendar; dates may change, so check the latest Principal Update.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -389,14 +325,14 @@
       "category": "School",
       "start": "2026-11-09",
       "end": "2026-11-19",
-      "when": "High school tours Mon 9 Nov and Thu 19 Nov, 4pm; primary tour Tue 17 Nov, 10am",
+      "when": "High school tours Mon 9 and Thu 19 Nov, 4pm; primary tour Tue 17 Nov, 10am",
       "venue": "Alexandria Park Community School",
       "suburb": "Alexandria",
       "transport": null,
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Tours for prospective families from the Term 4 calendars; dates may change.",
+      "summary": "Tours for prospective families from the Term 4 calendar; dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -428,26 +364,11 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Listed on the Term 4 primary calendar; the calendar says dates may change.",
+      "summary": "Listed on the Term 4 primary calendar; dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     }
   ],
   "live_sport": [
-    {
-      "title": "Macarthur FC v Western Sydney Wanderers",
-      "category": "Football",
-      "start": "2026-10-31T19:40:00+11:00",
-      "end": null,
-      "when": null,
-      "venue": "Campbelltown Sports Stadium",
-      "suburb": "Leumeah",
-      "transport": "train",
-      "nearest_station": "Leumeah",
-      "trip": "about 1 hr from Redfern (estimate)",
-      "cost": null,
-      "summary": "Round 3 derby between two Sydney-area sides; a longer trip.",
-      "url": "https://aleagues.com.au/news/aleague-men-2026-27-fixture-guide-season-sydney-derby-fixture-information/"
-    },
     {
       "title": "Sydney FC v Central Coast Mariners",
       "category": "Football",
@@ -460,7 +381,7 @@
       "nearest_station": "Moore Park",
       "trip": "about 30 min from Redfern via Central",
       "cost": null,
-      "summary": "Friday-night home game at 7:40pm; Sydney won their last game 2-1 at Adelaide.",
+      "summary": "Friday-night A-League Men home game at 7:40pm; Sydney won 2-1 at Adelaide last time out.",
       "url": "https://sydneyfc.com/tickets/"
     },
     {
@@ -468,14 +389,14 @@
       "category": "Basketball",
       "start": "2026-11-08",
       "end": null,
-      "when": "Sunday; start time not published (3pm per Austadiums)",
+      "when": "Sunday; start time not published on the source page",
       "venue": "Afterpay Arena (formerly Qudos Bank Arena), Sydney Olympic Park",
       "suburb": "Sydney Olympic Park",
       "transport": "train",
       "nearest_station": "Olympic Park",
       "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
       "cost": null,
-      "summary": "NBL home game; tickets through Ticketek.",
+      "summary": "NBL home game.",
       "url": "https://www.sydneyolympicpark.nsw.gov.au/things-to-see-and-do/sydney-kings-2627-season"
     },
     {
@@ -490,7 +411,7 @@
       "nearest_station": "Olympic Park",
       "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
       "cost": null,
-      "summary": "NBL home game; tickets through Ticketek.",
+      "summary": "NBL home game.",
       "url": "https://www.nbl.com.au/news/each-teams-biggest-game-of-nbl27-schedule"
     },
     {
@@ -505,7 +426,7 @@
       "nearest_station": "Parramatta",
       "trip": "about 35 min from Redfern (estimate)",
       "cost": null,
-      "summary": "Friday-night A-League Men game at 7:40pm; the club says home games are at CommBank Stadium.",
+      "summary": "Friday-night A-League Men game at 7:40pm.",
       "url": "https://wswanderersfc.com.au/news/wanderers-confirm-2026-27-isuzu-ute-a-league-home-fixtures/"
     },
     {
@@ -520,30 +441,15 @@
       "nearest_station": "Olympic Park",
       "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
       "cost": null,
-      "summary": "A-League Women home game, not at Allianz Stadium; tickets via the club's page.",
+      "summary": "A-League Women home game, not at Allianz Stadium.",
       "url": "https://sydneyfc.com/tickets/"
     }
   ],
   "son": [
     {
-      "title": "Free Kids Boxing Class",
-      "category": "Sport",
-      "start": "2026-10-29",
-      "end": "2026-12-10",
-      "when": "Thursdays, 4pm–5pm",
-      "venue": "Elouera Tony Mundine Gym, Little Eveleigh Street",
-      "suburb": "Redfern",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 10–15 min from home (estimate)",
-      "cost": "Free",
-      "summary": "After-school class tagged for children and open to all levels; no age range is listed, so call or email the gym to confirm.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/events/free-kids-boxing-class"
-    },
-    {
       "title": "Free game: Mafia Hotel (Epic Games, PC)",
       "category": "Gaming",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2026-11-02",
       "when": "Claim by 4:02am Mon 2 Nov",
       "venue": "Online",
@@ -568,9 +474,9 @@
       "transport": "train",
       "nearest_station": "Redfern",
       "trip": "about 15 min from home",
-      "cost": "From $39.90 plus booking fee",
-      "summary": "A 360-degree projection of Hockney's work, about an hour long; moving images may bother sensitive visitors.",
-      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
+      "cost": null,
+      "summary": "A 360-degree projection of Hockney's work at Carriageworks; moving images may bother sensitive visitors.",
+      "url": "https://www.sydney.com/events"
     },
     {
       "title": "Affordable Art Fair Sydney",
@@ -586,21 +492,6 @@
       "cost": "From $29.79",
       "summary": "Art fair with the Kaleidoscope Children's Art Studio (toys and kawaii-inspired) and family activities.",
       "url": "https://www.broadsheet.com.au/sydney/event/affordable-art-fair-sydney-2026"
-    },
-    {
-      "title": "Book Fair Australia Sydney 2026",
-      "category": "Books",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "when": "Sat 7 and Sun 8 Nov, 10am–5pm",
-      "venue": "Sydney Showground, Exhibition Hall 5",
-      "suburb": "Sydney Olympic Park",
-      "transport": "train",
-      "nearest_station": "Olympic Park",
-      "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
-      "cost": "Adults from $30; children free to $10",
-      "summary": "Book fair with a children's section (face painting, storytelling, colouring).",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/events/book-fair-australia-sydney-2026-presented-by-book-addiction"
     },
     {
       "title": "The Finders Keepers Sydney Design Market",
@@ -620,7 +511,7 @@
     {
       "title": "Harry Potter: The Exhibition",
       "category": "Books",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2027-01-31",
       "when": "Closed Tue and Wed; Mon and Thu 10am–5:30pm, Fri 12–7:30pm, Sat–Sun 9am–6:30pm",
       "venue": "Paddington Pavilion, Sydney Showground",
@@ -637,7 +528,7 @@
     {
       "title": "Sculpture by the Sea, Bondi",
       "category": "Outdoor art",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2026-11-02",
       "when": "Daily until 2 Nov along the Bondi to Tamarama walk",
       "venue": "Bondi to Tamarama coastal walk",
@@ -647,7 +538,7 @@
       "trip": "about 40 min from Redfern, plus a bus to the coast",
       "cost": "Free",
       "summary": "The world's largest free-to-the-public sculpture exhibition, on until 2 November.",
-      "url": "https://www.sculpturebythesea.com/bondi"
+      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     },
     {
       "title": "Ghost Festival (Halloween at The Rocks)",
@@ -661,7 +552,7 @@
       "nearest_station": "Circular Quay",
       "trip": "about 20 min from Redfern",
       "cost": "Free",
-      "summary": "Halloween street festival with roaming performers and big installations; George Street closes 7pm–midnight on Fri 30 and Sat 31 Oct.",
+      "summary": "Halloween street festival with giant installations; George Street closes 7pm–midnight on Fri 30 and Sat 31 Oct. No age rating is given.",
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/australias-biggest-halloween-festival-is-back"
     },
     {
@@ -680,49 +571,19 @@
       "url": "https://www.destinationnsw.com.au/newsroom/powerhouse-parramatta-opening-date-confirmed"
     },
     {
-      "title": "Nolan: Origins at the Art Gallery of NSW",
-      "category": "Art",
-      "start": "2026-10-26",
-      "end": "2027-02-07",
-      "when": "Daily 10am–5pm (Wed to 10pm)",
-      "venue": "Art Gallery of NSW, The Domain",
-      "suburb": "Sydney CBD",
-      "transport": "train",
-      "nearest_station": "St James",
-      "trip": "about 15 min from Redfern",
-      "cost": "Under-12s free; youth $10; adults from $35; family $80",
-      "summary": "Sidney Nolan exhibition including all 27 Ned Kelly paintings, with a family ticket.",
-      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
-    },
-    {
-      "title": "Cirque du Soleil: KOOZA",
-      "category": "Circus",
-      "start": "2026-10-17",
-      "end": "2027-01-03",
-      "when": "Check the booking site for session times",
-      "venue": "The Big Top, The Entertainment Quarter, Lang Road",
+      "title": "Mediterranean Market",
+      "category": "Markets",
+      "start": "2026-11-08",
+      "end": null,
+      "when": "Sun 8 Nov, 8am–3pm",
+      "venue": "Market Canopy, The Entertainment Quarter, 122 Lang Road",
       "suburb": "Moore Park",
       "transport": "light rail",
       "nearest_station": "Moore Park",
-      "trip": "about 30 min from Redfern via Central",
-      "cost": "From $79",
-      "summary": "Acrobatics-and-clowning show; loud or intense moments may frighten young children.",
-      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
-    },
-    {
-      "title": "LUNA: A Journey to the Moon",
-      "category": "Immersive",
-      "start": "2026-10-26",
-      "end": null,
-      "when": "Ongoing from September 2026; ages 10+",
-      "venue": "Fever Pavilion, Sydney Olympic Park",
-      "suburb": "Sydney Olympic Park",
-      "transport": "train",
-      "nearest_station": "Olympic Park",
-      "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
-      "cost": "Adults $49.50; kids 10–17 $40.50",
-      "summary": "An immersive walk-through space experience for ages 10 and up.",
-      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
+      "trip": "about 30 min from Redfern via Central (estimate)",
+      "cost": "Free",
+      "summary": "Mediterranean food, live music, maker stalls and family activities; dogs are welcome.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/mediterranean-market"
     },
     {
       "title": "Chinatown Night Market",
@@ -735,16 +596,46 @@
       "transport": "light rail",
       "nearest_station": "Paddy's Market",
       "trip": "about 15 min from Redfern via Central (estimate)",
-      "cost": "Free entry",
+      "cost": null,
       "summary": "Weekly Friday street food and stalls until Christmas.",
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
+    },
+    {
+      "title": "Bush food discovery tour",
+      "category": "Outdoors",
+      "start": "2026-11-14",
+      "end": null,
+      "when": "Sat 14 Nov, 9:30–11am or 12–1:30pm; bookings essential",
+      "venue": "Sydney City Farm, 52 Barwon Park Road",
+      "suburb": "St Peters",
+      "transport": "train",
+      "nearest_station": "St Peters",
+      "trip": "about 15 min from home (estimate)",
+      "cost": "Adult $20, concession $15",
+      "summary": "Guided walk with Koori Kinnections educators: taste bush foods and pot up a plant to take home. Suitable for all ages.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/bush-food-discovery-tour"
+    },
+    {
+      "title": "The Social Enterprise Festival",
+      "category": "Community",
+      "start": "2026-11-14T10:00:00+11:00",
+      "end": "2026-11-14T15:00:00+11:00",
+      "when": "Sat 14 Nov, 10am–3pm",
+      "venue": "Belinda Hutchinson Building, Codrington Street",
+      "suburb": "Darlington",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 20 min from home (estimate, short walk from Redfern)",
+      "cost": "Free (ticket link via Humanitix)",
+      "summary": "Fair-trade stalls, free workshops and talks from NSW and ACT social enterprises.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-social-enterprise-festival"
     }
   ],
   "deals": [
     {
       "title": "Merrell Trail Glove 6 running shoes",
       "category": "Sports gear",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2026-10-29",
       "when": "Ends 29 Oct",
       "venue": "Online",
@@ -753,28 +644,28 @@
       "nearest_station": null,
       "trip": null,
       "cost": "$59 plus shipping (code TGLOVE)",
-      "summary": "Minimalist men's and women's trail shoes at Brand House Direct; the was-price isn't listed and some sizes may be sold out.",
+      "summary": "Minimalist men's and women's trail shoes at Brand House Direct; the was-price isn't listed and some sizes and links were reported as unavailable.",
       "url": "https://www.ozbargain.com.au/node/980311"
     },
     {
-      "title": "Mouse: P.I. For Hire (Switch 2) 20% off",
-      "category": "Gaming",
-      "start": "2026-10-26",
-      "end": "2026-11-01",
-      "when": "Ends 1 Nov",
+      "title": "KFC 6 Wicked Wings + Chips",
+      "category": "Fun food",
+      "start": "2026-10-27",
+      "end": "2026-11-02",
+      "when": "Ends 2 Nov",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$35.16 (was $43.95)",
-      "summary": "Nintendo eShop price cut on the retro-style shooter; digital only.",
-      "url": "https://www.ozbargain.com.au/node/980159"
+      "cost": "$6.95 pickup",
+      "summary": "App or web order only; it's a targeted offer, so some accounts saw $9.95 or different deals.",
+      "url": "https://www.ozbargain.com.au/node/980367"
     },
     {
       "title": "Free double passes to Affordable Art Fair Sydney",
       "category": "Ticket deals",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2026-11-08",
       "when": "Fair runs 5–8 Nov",
       "venue": "Online",
@@ -789,7 +680,7 @@
     {
       "title": "Win a share of $20,000 in The Good Guys eGift Cards",
       "category": "Freebies and competitions",
-      "start": "2026-10-26",
+      "start": "2026-10-27",
       "end": "2026-11-18",
       "when": "Closes 18 Nov",
       "venue": "Online",
@@ -809,99 +700,59 @@
       "price": "$4.25",
       "was": "$8.50",
       "saving": "Half price",
-      "note": "Crunchy and Salted Caramel are also on special",
+      "note": "Last day Tue 27 Oct; Crunchy and Salted Caramel also on special",
       "ends": "2026-10-27",
       "url": "https://www.ozbargain.com.au/node/979831"
     },
     {
-      "item": "Sirena Tuna With Beans 170g",
+      "item": "Australian Green Asparagus bunch",
       "store": "Woolworths",
-      "price": "$2.35",
-      "was": null,
-      "saving": "Half price (per OzBargain)",
-      "note": "Lunchbox protein; was-price not stated",
-      "ends": "2026-10-27",
-      "url": "https://www.ozbargain.com.au/node/979996"
-    },
-    {
-      "item": "Tamar Valley Dairy The Creamery Greek Style Yoghurt 170g",
-      "store": "Coles",
-      "price": "$1.50",
+      "price": "$1.20",
       "was": null,
       "saving": "Special price",
-      "note": null,
-      "ends": "2026-10-27",
-      "url": "https://au-catalogues.com/coles-specials"
+      "note": "Starts Wed 28 Oct",
+      "ends": "2026-11-03",
+      "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
-      "item": "Yoplait Petit Miam Kids Yoghurt Pouch 70g",
+      "item": "Yoplait YOP Kids Yoghurt Pouch 130g",
       "store": "Woolworths",
-      "price": "$1.00",
+      "price": "$1.40",
       "was": null,
       "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-10-27",
+      "note": "Lunchbox snack; starts Wed 28 Oct",
+      "ends": "2026-11-03",
+      "url": "https://au-catalogues.com/woolworths-specials"
+    },
+    {
+      "item": "Cocobella Dairy Free Coconut Yoghurt Pouch 110g",
+      "store": "Woolworths",
+      "price": "$1.30",
+      "was": null,
+      "saving": "Special price",
+      "note": "Lunchbox snack; starts Wed 28 Oct",
+      "ends": "2026-11-03",
       "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
       "item": "Dairy Farmers Thick & Creamy Yoghurt 140-150g",
-      "store": "Woolworths",
+      "store": "Coles",
       "price": "$1.65",
       "was": null,
       "saving": "Special price",
-      "note": null,
-      "ends": "2026-10-27",
-      "url": "https://au-catalogues.com/woolworths-specials"
-    },
-    {
-      "item": "Tamar Valley Dairy Kids Greek Style Yoghurt Pouch 110g",
-      "store": "Coles",
-      "price": "$1.75",
-      "was": null,
-      "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-10-27",
+      "note": "Starts Wed 28 Oct",
+      "ends": "2026-11-03",
       "url": "https://au-catalogues.com/coles-specials"
     },
     {
-      "item": "Farmers Union Greek Style or No Added Sugar Kids Yogurt Pouch 130g",
+      "item": "Peckish Fancies Rice Crackers",
       "store": "Coles",
-      "price": "$2.00",
+      "price": "$1.50",
       "was": null,
       "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-10-27",
+      "note": "Lunchbox snack; starts Wed 28 Oct",
+      "ends": "2026-11-03",
       "url": "https://au-catalogues.com/coles-specials"
-    },
-    {
-      "item": "Australian Carrots",
-      "store": "Woolworths",
-      "price": "$1.70",
-      "was": null,
-      "saving": "Special price",
-      "note": "Pack size not stated",
-      "ends": "2026-10-27",
-      "url": "https://au-catalogues.com/woolworths-specials"
-    },
-    {
-      "item": "Australian Asparagus bunch",
-      "store": "Aldi",
-      "price": "$1.19",
-      "was": null,
-      "saving": "Weekly special",
-      "note": "Last day Tue 27 Oct",
-      "ends": "2026-10-27",
-      "url": "https://au-catalogues.com/aldi-specials"
-    },
-    {
-      "item": "Australian Carrots 1kg",
-      "store": "Aldi",
-      "price": "$1.49",
-      "was": null,
-      "saving": "Weekly special",
-      "note": "Last day Tue 27 Oct",
-      "ends": "2026-10-27",
-      "url": "https://au-catalogues.com/aldi-specials"
     },
     {
       "item": "Australian Baby Broccoli Bunch",
@@ -939,9 +790,39 @@
       "price": "$1.29",
       "was": null,
       "saving": "Spring catalogue price",
-      "note": "Lunchbox protein; size not stated, valid in the 1 Sep–30 Nov catalogue",
+      "note": "Lunchbox protein; size not stated",
       "ends": "2026-11-30",
       "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "Australian Carrots 1kg",
+      "store": "Aldi",
+      "price": "$1.49",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "Last day Tue 27 Oct",
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "Australian Asparagus bunch",
+      "store": "Aldi",
+      "price": "$1.19",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "Last day Tue 27 Oct",
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "Australian Carrots",
+      "store": "Woolworths",
+      "price": "$1.70",
+      "was": null,
+      "saving": "Special price",
+      "note": "Last day Tue 27 Oct; pack size not stated",
+      "ends": "2026-10-27",
+      "url": "https://au-catalogues.com/woolworths-specials"
     }
   ],
   "horizon": [
@@ -957,7 +838,7 @@
         { "date": "2027-10-01", "label": "Tournament opens" },
         { "date": "2027-11-13", "label": "Final" }
       ],
-      "notes": "The official site says every match is available now; hospitality and travel packages are sold separately. Later sale phases haven't been published.",
+      "notes": "Per last run's check of the official site, every match is available now; hospitality and travel packages are sold separately. Not re-checked this run.",
       "url": "https://www.rugbyworldcup.com/2027/en/tickets"
     },
     {
@@ -972,7 +853,7 @@
         { "date": "2027-01-11", "label": "Tournament starts" },
         { "date": "2027-01-31", "label": "Men's final" }
       ],
-      "notes": "Tickets are on sale through Ticketmaster; Ground Passes start at $49 and daily allocations are capped for the first time.",
+      "notes": "Tickets are on sale through Ticketmaster; Ground Passes start at $49. Not re-checked this run.",
       "url": "https://www.melbournepark.com.au/news/australian-open-2027-your-ultimate-guide/"
     },
     {
@@ -986,7 +867,7 @@
         { "date": "2026-11-29", "label": "Men's T20I v England at the SCG" },
         { "date": "2027-01-04", "label": "New Year's Test v New Zealand starts (to 8 Jan)" }
       ],
-      "notes": "The SCG says ticket details will be released later this year; register on Cricket Plus for priority pre-sale access.",
+      "notes": "The SCG says ticket details will be released later this year; register on Cricket Plus for priority pre-sale access. Not re-checked this run.",
       "url": "https://www.sydneycricketground.com.au/articles/summer_2026_27_international_cricket_locked_in_for"
     },
     {
@@ -995,13 +876,13 @@
       "start": "2027-01-07",
       "end": "2027-02-05",
       "location": "Saudi Arabia",
-      "status": "updated",
+      "status": "unchanged",
       "key_dates": [
         { "date": "2026-11-14", "label": "Qatar v Socceroos in Doha (warm-up, 1:45am AEDT, Paramount+)" },
         { "date": "2026-11-18", "label": "Jordan v Socceroos in Amman (warm-up, Paramount+, time to be confirmed)" },
         { "date": "2027-01-09", "label": "Socceroos v Singapore (Group D opener)" }
       ],
-      "notes": "Socceroos are in Group D with Singapore, Iraq and Tajikistan; the Jordan warm-up is now listed for Wed 18 Nov (AEDT).",
+      "notes": "Socceroos are in Group D with Singapore, Iraq and Tajikistan. Not re-checked this run.",
       "url": "https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm"
     },
     {
@@ -1016,7 +897,7 @@
         { "date": "2027-06-24", "label": "Opening match at the Maracanã" },
         { "date": "2027-07-25", "label": "Final" }
       ],
-      "notes": "Ticket sales haven't been announced; register interest at FIFA.com/tickets (800,000+ have already).",
+      "notes": "Ticket sales haven't been announced; register interest at FIFA.com/tickets. Not re-checked this run.",
       "url": "https://matildas.com.au/news/final-draw-date-confirmed-fifa-womens-world-cup-brazil-2027tm"
     },
     {
@@ -1029,7 +910,7 @@
       "key_dates": [
         { "date": "2027-01-16", "label": "Event starts" }
       ],
-      "notes": "Registration is listed as not yet announced; the event is in person only.",
+      "notes": "Registration was listed as not yet announced; the event is in person only. Not re-checked this run.",
       "url": "https://www.dittobase.com/championships/events/sydney-2027"
     },
     {
@@ -1038,25 +919,25 @@
       "start": "2027-08-29",
       "end": "2027-08-29",
       "location": "Sydney (finish at the Opera House)",
-      "status": "new",
+      "status": "unchanged",
       "key_dates": [
         { "date": "2026-10-19", "label": "General ballot closed" },
         { "date": "2026-11-03", "label": "Ballot results emailed (per Time Out)" },
         { "date": "2027-08-29", "label": "Race day" }
       ],
-      "notes": "If unsuccessful, charity and travel-program places may open later; details were promised but not yet published.",
+      "notes": "If unsuccessful, charity and travel-program places may open later. Not re-checked this run.",
       "url": "https://www.timeout.com/australia/news/how-to-enter-the-2027-sydney-marathon-090126"
     }
   ],
   "notes": [
-    "Search quality was poor this run: many sites (BBC, Guardian, manutd.com, footballwebpages) blocked access, and fresh news searches often returned old seasons. Several sections are shorter than their limits rather than padded.",
-    "Man Utd: the 0-3 Bournemouth result and league position come from Sky Sports and NBC Sports; reports on Carrick's future are unconfirmed and could change before the Chelsea game. I found no confirmed team news for Chelsea. The Sporting CP date and time are from UEFA's fixture list, and the Lisbon venue is from fixture sites, not UEFA.",
-    "Sydney FC: the 2-1 win over Adelaide comes from the club's news index, and I couldn't open a full match report. Paramount+ is named as an A-Leagues partner, but per-match broadcasters aren't published; the Auckland game's 5pm start is treated as NZ time and there may be another round between 21 Nov and 6 Dec that I couldn't find.",
-    "Big matches: Stan Sport is listed as the Champions League broadcaster and for all three Wallabies November Tests; beIN lists the Clásico, which kicks off at 7am Monday Sydney time. I couldn't confirm an Australian broadcaster for the F1 or the ATP Finals, so they're left out. I found no confirmed talking points for Atlético v Bayern or England v Wallabies.",
-    "Live sport: no rugby union, tennis or Matildas/Socceroos games in Sydney in the next 4 weeks were found. Kings v Phoenix has no published start time.",
-    "Local: school events come from the downloaded Term 4 calendars and Week 2 updates; nothing was found for the other school. No current South Eveleigh events page could be opened. Tenjo is older than 7 days but kept for its planned November opening.",
-    "Not found: matcha pop-ups in Sydney, junior parkrun or kids' fun runs near home, Pokémon/Minecraft/Roblox events, children's author talks, kids' craft workshops in November, and confirmed sports-gear sales (Rebel's boots sale ended 11 Oct). Black Friday is Fri 27 Nov, just outside the window, with some early sales from about 23 Nov.",
-    "Groceries: Woolworths and Coles half-price lists weren't accessible, so most items have no was-price and there are no fresh fruit, meat or egg specials. Aldi's new-week specials start Wed 28 Oct; the other Woolworths and Coles items end Tue 27 Oct.",
-    "Horizon: all entries were re-checked this run; the Sydney Marathon was added, and ballot-result dates differ between sources (29 Oct vs 3 Nov)."
+    "Search and page-fetch quality was poor this run: many searches returned old seasons, and manutd.com, ESPN, NBL and several store sites blocked or returned nothing. Several sections are shorter than their limits rather than padded.",
+    "Man Utd: standings come from the Sky Sports table; the Carrick details come from an ESPN report summarised in search results (I couldn't open the article), and his status may change before the Chelsea game. No confirmed team news was found for any fixture.",
+    "Sydney FC: the win over Adelaide comes from the club's news page. Per-match broadcasters aren't published, so Paramount+ (an A-Leagues partner) is listed as the likely home but isn't confirmed per match.",
+    "Big matches: the El Clásico (25 Oct) has passed and was dropped. Stan Sport is the listed Champions League and Wallabies broadcaster from last run's checks; I didn't re-open broadcaster pages this run. No Australian broadcaster was confirmed for F1 or tennis, so they're left out.",
+    "Live sport: no rugby union, tennis or Matildas/Socceroos games in Sydney in the next 4 weeks were found. The Kings v Phoenix start time isn't published on the source page. The Macarthur v Wanderers game from last run couldn't be re-confirmed and was dropped.",
+    "Local: school events come from the downloaded Term 4 primary calendar and Week 2 Principal Update; I didn't re-read the high school update this run, and nothing was found for the other school. Items I couldn't re-confirm this run (Erko Berzerko fair, Tenjo rooftop opening, Winnie the Pooh installation, Redfern housing consultation) were dropped.",
+    "Not found: matcha pop-ups in Sydney in November, junior parkrun or kids' fun runs near home, Pokémon/Minecraft/Roblox events, children's author talks, kids' craft workshops, and confirmed sports-gear sales. Items from last run not re-confirmed (Kooza, LUNA, Book Fair Australia, free kids boxing) were dropped.",
+    "Groceries: Woolworths, Coles and Aldi lists come from the au-catalogues.com roundup, which shows no was-prices and no fresh fruit, meat, egg or nut specials. Specials ending Tue 27 Oct are the last days of the old week; most new specials start Wed 28 Oct.",
+    "Horizon: entries were carried over from last run and not re-checked this run, so details may have changed."
   ]
 }
