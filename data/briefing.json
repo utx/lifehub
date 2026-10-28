@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T07:55:00+11:00",
+  "generated_at": "2026-10-29T08:30:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -14,12 +14,12 @@
           "time_confirmed": true,
           "venue": "Stamford Bridge",
           "broadcast": ["Stan Sport"],
-          "preview": "A winless-in-eight United, 16th and just above the drop zone, visit fifth-placed Chelsea with Michael Carrick kept on for this game (11:30pm Sat 31 Oct Sydney).",
+          "preview": "A winless-in-eight United, 16th and one point above the drop zone, visit fifth-placed Chelsea with Michael Carrick kept on as head coach (11:30pm Sat 31 Oct Sydney).",
           "talking_points": [
-            "Sky Sports reports Carrick stays in charge at Chelsea after the 3-0 home loss to Bournemouth, with the club giving him at least one more match.",
-            "United are 16th on 7 points from 8 games (1 win), per Sky's table updated on 25 October; Chelsea are 5th on 13.",
-            "Bruno Fernandes was dropped for the Bournemouth game; Sky says his return depends on his attitude, not an injury, and no injury news was reported.",
-            "Eddie Howe and Julian Nagelsmann are named as contenders if Carrick goes, so a result matters; team news isn't confirmed."
+            "Sky Sports reports Carrick stays in charge after the 3-0 home loss to Bournemouth, with the club reportedly unable to agree on a replacement.",
+            "United are 16th on 7 points from 8 games, per Sky's table updated on 25 October; Chelsea are 5th on 13.",
+            "Bruno Fernandes was dropped for the Bournemouth game; Sky says his return depends on relations with Carrick, not injury, and reports the pair have held talks.",
+            "Sky's news feed says striker Benjamin Sesko is out until at least January; no line-up has been confirmed."
           ],
           "url": "https://www.skysports.com/football/news/13604361/michael-carrick-why-man-utd-head-coach-will-stay-on-and-could-bruno-fernandes-play-vs-chelsea-plus-other-key-questions"
         },
@@ -85,9 +85,9 @@
           "preview": "Sydney head to AAMI Park for a 5pm Halloween game after their first win of the season (Sat 31 Oct, 5pm Melbourne time).",
           "talking_points": [
             "Sydney came from behind to beat Adelaide United 2-1, with Rhys Youlley and Oriola Sunday scoring their first A-League goals for the club.",
-            "Coach Patrick Kisnorbo praised his side's character after that first win of the season.",
-            "Academy graduate Akol Akon is one of 17 A-League Men players picked for the Joeys' FIFA U-17 World Cup squad, so his availability is a question.",
-            "Wellington Phoenix topped the ladder after matchweek 2; no Sydney or City team news has been published yet."
+            "The club says coach Patrick Kisnorbo praised his side's character after that first win of the season.",
+            "Academy players Akol Akon and Dionn Nigro are in the Australian U17 squad for the FIFA U17 World Cup in Qatar, so their availability is a question.",
+            "No Melbourne City preview or confirmed team news has been published yet."
           ],
           "url": "https://sydneyfc.com/news/"
         },
@@ -288,22 +288,6 @@
       "url": "https://www.carriageworks.com.au/whats-on/"
     },
     {
-      "title": "Year 6 fundraiser: mufti day",
-      "kind": "event",
-      "category": "School",
-      "start": "2026-10-28",
-      "end": null,
-      "when": "Wed 28 Oct",
-      "venue": "Alexandria Park Community School",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": "Gold coin donation",
-      "summary": "Students wear mufti and bring a gold coin for end-of-year Year 6 celebrations.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
-    {
       "title": "World Teachers' Day",
       "kind": "event",
       "category": "School",
@@ -316,7 +300,7 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "The school invites the community to share comments about a teacher who has inspired them via a NSW Government link.",
+      "summary": "The community is invited to give a shout-out to a favourite teacher via the NSW Government link.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
@@ -384,10 +368,10 @@
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
-      "title": "Premier's Debating Challenge: high school team in NSW top 8",
+      "title": "Premier's Debating Challenge: high school team into the semi-finals",
       "kind": "news",
       "category": "News",
-      "start": "2026-10-27",
+      "start": "2026-10-28",
       "end": null,
       "when": null,
       "venue": "Alexandria Park Community School",
@@ -396,8 +380,24 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "The school's debating team beat Oxley High and goes into the quarter-finals against Tempe High.",
+      "summary": "After beating Tempe High the school's debating team is one of the last four of about 360 teams, one win from the Grand Final.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "P&C meeting",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-11T18:00:00+11:00",
+      "end": null,
+      "when": "Wed 11 Nov, 6pm",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Term 4 P&C meeting listed on the primary and high school calendars; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     }
   ],
   "live_sport": [
@@ -414,6 +414,21 @@
       "trip": "about 30 min from Redfern via Central",
       "cost": null,
       "summary": "Friday-night A-League Men home game at 7:40pm; Sydney beat Adelaide 2-1 last time out.",
+      "url": "https://sydneyfc.com/tickets/"
+    },
+    {
+      "title": "Sydney FC Women v Canberra United",
+      "category": "Football",
+      "start": "2026-11-21T17:00:00+11:00",
+      "end": null,
+      "when": null,
+      "venue": "Sydney Olympic Park Athletic Centre",
+      "suburb": "Sydney Olympic Park",
+      "transport": "train",
+      "nearest_station": "Olympic Park",
+      "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
+      "cost": null,
+      "summary": "A-League Women home game, 5pm Sat 21 Nov; tickets via Ticketmaster.",
       "url": "https://sydneyfc.com/tickets/"
     },
     {
@@ -530,7 +545,7 @@
       "category": "Books",
       "start": "2026-10-28",
       "end": "2027-01-31",
-      "when": "Closed Tue and Wed; Mon and Thu 10am–5:30pm, Fri 12–7:30pm, Sat–Sun 9am–6:30pm",
+      "when": "Closed Tue and Wed; hours vary by day, check the ticketing page",
       "venue": "Paddington Pavilion, Sydney Showground",
       "suburb": "Sydney Olympic Park",
       "transport": "train",
@@ -706,53 +721,38 @@
       "nearest_station": null,
       "trip": null,
       "cost": "$104.50 (free shipping over $150)",
-      "summary": "Carbon-plated road racer at Running Warehouse, reported as about 50% off; extra codes weren't working and these are race shoes.",
+      "summary": "Carbon-plated road racer at Running Warehouse, about 50% off; OzBargain comments say extra codes are unreliable and these are race shoes.",
       "url": "https://www.ozbargain.com.au/node/980594"
     },
     {
-      "title": "SanDisk 256GB microSD Express card for Nintendo Switch 2",
-      "category": "Gaming",
-      "start": "2026-10-28",
-      "end": null,
-      "when": "Expiry not stated",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$59 ($49 with new-subscriber code on $50+)",
-      "summary": "Switch 2 only works with microSD Express cards; Click & Collect is free.",
-      "url": "https://www.ozbargain.com.au/node/980507"
-    },
-    {
-      "title": "KFC 15 Wicked Wings",
+      "title": "Free Whopper or Jack's Fried Chicken burger (Hungry Jack's)",
       "category": "Fun food",
       "start": "2026-10-28",
-      "end": "2026-10-28",
-      "when": "Ends 10pm tonight",
+      "end": "2026-11-11",
+      "when": "Voucher expires 11 Nov",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$15.95 pickup",
-      "summary": "App or web order only.",
-      "url": "https://www.ozbargain.com.au/node/980548"
+      "cost": "Free",
+      "summary": "App voucher, pickup only; OzBargain tags it targeted, so it may not appear on every account.",
+      "url": "https://www.ozbargain.com.au/node/980680"
     },
     {
-      "title": "Win a $500 July gift card",
-      "category": "Freebies and competitions",
-      "start": "2026-10-28",
-      "end": "2026-10-29",
-      "when": "Closes 11:59pm Thu 29 Oct",
+      "title": "Sker Ritual free on Epic Games (PC)",
+      "category": "Gaming",
+      "start": "2026-10-29",
+      "end": "2026-10-30",
+      "when": "Ends 1am AEST Fri 30 Oct",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "Free entry",
-      "summary": "Entry needs a sign-up to July's mailing list.",
-      "url": "https://www.ozbargain.com.au/node/980352"
+      "cost": "Free",
+      "summary": "Free game on the Epic Games Store; check the age rating before downloading.",
+      "url": "https://www.ozbargain.com.au/node/979154"
     }
   ],
   "groceries": [
@@ -962,14 +962,14 @@
     }
   ],
   "notes": [
-    "Search and fetch quality was poor again: bbc.com, Austadiums, Sydney Open and several store sites were blocked, and many searches returned old seasons. Sections are shorter than their limits rather than padded.",
-    "Man Utd: Carrick staying for Chelsea comes from Sky Sports (opened); no injury or team news was published. The table is Sky's, updated 25 Oct. Broadcasters (Stan Sport) are carried from last run and not re-checked.",
-    "Sydney FC: no Melbourne City preview or team news was published. Paramount+ is the assumed A-Leagues broadcaster but isn't confirmed per match. Last run's Sydney FC Women v Canberra and Wanderers v Adelaide listings couldn't be re-confirmed and were dropped.",
-    "Big matches: fixtures and Stan Sport/Paramount+ broadcasters are carried from last run's checks and weren't re-opened this run.",
-    "Live sport: the Kings v Phoenix 3pm start comes from a secondary listing; no Sydney tennis, rugby union, Matildas or Socceroos games were found for the next 4 weeks.",
-    "Local: school events come from the downloaded Term 4 calendars and Week 2 Principal Updates (both read). Nothing was found for the second school's November events.",
-    "Not found: Sydney matcha pop-ups in November, junior parkrun events, Pokémon/Minecraft/Roblox events, children's author talks, kids' craft workshops, football-boot or running-shoe sales, and Woolworths/Coles half-price lists with was-prices. Catalogue sites show no fresh fruit, meat, egg or nut specials this week.",
-    "Items from last run not re-confirmed this run (Chinatown Night Market, bush food tour, Mafia Hotel free game, Merrell shoes, Good Guys competition, Broadsheet art-fair passes) were dropped.",
-    "Horizon: entries are carried over from last run and only the Rugby World Cup was checked; other details may have changed."
+    "Search quality was poor again: many searches returned old seasons, and manutd.com and several store sites were blocked. Sections are shorter than their limits rather than padded.",
+    "Man Utd: Carrick staying for Chelsea, Fernandes being dropped and Sesko's absence come from Sky Sports pages (opened); no confirmed line-up or other injury news. Last run's Chelsea preview wrongly described Carrick as Chelsea's coach; corrected. The table is Sky's, updated 25 Oct. Broadcasters (Stan Sport) are carried from earlier checks and not re-confirmed.",
+    "Sydney FC: Mariners, Victory and the women's fixture were re-checked on the club tickets page; Melbourne City, Brisbane and Auckland times are carried from last run. No Melbourne City preview or confirmed team news exists yet. Paramount+ is the assumed A-Leagues broadcaster, not confirmed per match.",
+    "Big matches: fixtures and broadcasters are carried from earlier checks and weren't re-opened this run.",
+    "Live sport: Kings kick-off times come from secondary listings (Austadiums, Koobit). No Sydney tennis, rugby union, Matildas or Socceroos games were found for the next 4 weeks.",
+    "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school's November events. No new local news from the last 7 days was found; the Belmont Street item is from the 21 Oct update.",
+    "Not found: Sydney matcha pop-ups in November, junior parkrun events, Pokémon/Minecraft/Roblox events, children's author talks, football-boot sales with verifiable prices, and Woolworths/Coles half-price lists. Catalogue sites show no fresh fruit, meat, egg or nut specials this week.",
+    "Dropped as expired or not re-confirmed: KFC wings, July gift card, SanDisk card, the Year 6 mufti day (done), and a Mad Hatter's workshop at The Grounds (only a 24 Oct date was seen).",
+    "Horizon: entries are carried over from last run and were not re-checked; details may have changed."
   ]
 }
