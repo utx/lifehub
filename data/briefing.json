@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T08:30:00+11:00",
+  "generated_at": "2026-10-30T08:45:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -14,14 +14,14 @@
           "time_confirmed": true,
           "venue": "Stamford Bridge",
           "broadcast": ["Stan Sport"],
-          "preview": "A winless-in-eight United, 16th and one point above the drop zone, visit fifth-placed Chelsea with Michael Carrick kept on as head coach (11:30pm Sat 31 Oct Sydney).",
+          "preview": "A winless-in-eight United, 16th and one point above the drop zone, visit fifth-placed Chelsea with Michael Carrick still in charge (11:30pm Sat 31 Oct Sydney).",
           "talking_points": [
-            "Sky Sports reports Carrick stays in charge after the 3-0 home loss to Bournemouth, with the club reportedly unable to agree on a replacement.",
-            "United are 16th on 7 points from 8 games, per Sky's table updated on 25 October; Chelsea are 5th on 13.",
-            "Bruno Fernandes was dropped for the Bournemouth game; Sky says his return depends on relations with Carrick, not injury, and reports the pair have held talks.",
-            "Sky's news feed says striker Benjamin Sesko is out until at least January; no line-up has been confirmed."
+            "Carrick stays on after the 3-0 home loss to Bournemouth, but senior officials have reportedly held talks and no decision on his future has been announced.",
+            "United have 7 points from 8 league games, their worst start since 1986-87; Chelsea are six points clear but have lost two in a row (Spurs, then the Carabao Cup shootout at Liverpool).",
+            "Bruno Fernandes, an unused sub against Bournemouth who keeps the captaincy, is expected to return; Kobbie Mainoo is back in training and Marcus Rashford's fitness is unclear.",
+            "Sesko, Shaw, Ugarte and Dorgu are reported out; for Chelsea, Cole Palmer returns from suspension while Joao Pedro is out and Lacroix is expected to miss out (hamstring)."
           ],
-          "url": "https://www.skysports.com/football/news/13604361/michael-carrick-why-man-utd-head-coach-will-stay-on-and-could-bruno-fernandes-play-vs-chelsea-plus-other-key-questions"
+          "url": "https://dave.sport/news/chelsea-vs-man-utd-preview-palmer-fernandes/"
         },
         {
           "opponent": "Roma",
@@ -82,14 +82,14 @@
           "time_confirmed": true,
           "venue": "AAMI Park",
           "broadcast": ["Paramount+"],
-          "preview": "Sydney head to AAMI Park for a 5pm Halloween game after their first win of the season (Sat 31 Oct, 5pm Melbourne time).",
+          "preview": "Sydney visit Melbourne City for their Halloween home opener (5pm Sat 31 Oct Melbourne time) after their first win of the season.",
           "talking_points": [
-            "Sydney came from behind to beat Adelaide United 2-1, with Rhys Youlley and Oriola Sunday scoring their first A-League goals for the club.",
-            "The club says coach Patrick Kisnorbo praised his side's character after that first win of the season.",
-            "Academy players Akol Akon and Dionn Nigro are in the Australian U17 squad for the FIFA U17 World Cup in Qatar, so their availability is a question.",
-            "No Melbourne City preview or confirmed team news has been published yet."
+            "City's club site says Aurelio Vidmar has named a largely unchanged squad after a 1-1 draw with Victory, with Rossetto, Caputo, Mazzeo, Lopane and Kalms listed unavailable.",
+            "City's new signings Emiliano Marcondes and Julio Cascante made an impact off the bench against Victory, so expect them to push for starts.",
+            "Sydney came from behind to beat Adelaide 2-1 last time, and Patrick Kisnorbo, a former City coach, returns to AAMI Park.",
+            "No Sydney FC squad or injury news was found; Akol Akon and Dionn Nigro are away with the Australian U17 squad at the World Cup in Qatar."
           ],
-          "url": "https://sydneyfc.com/news/"
+          "url": "https://aamipark.com.au/event/melbourne-city-fc-vs-sydney-fc-round-3-2026-27/"
         },
         {
           "opponent": "Central Coast Mariners",
@@ -148,9 +148,8 @@
       "broadcast": ["Stan Sport"],
       "why": "Second-placed Arsenal visit fourth-placed Liverpool at Anfield (3:30am Mon 2 Nov Sydney).",
       "talking_points": [
-        "Arsenal are on 21 points, level with leaders Manchester City, per the Sky Sports table.",
-        "Liverpool are fourth on 15 points.",
-        "Team news isn't confirmed yet."
+        "Liverpool's rescheduled home game against Arsenal is confirmed for Sunday 1 November at 4:30pm GMT.",
+        "Table positions and team news weren't re-checked this run."
       ],
       "url": "https://www.liverpoolfc.com/news/fixture-updates-new-dates-anfield-games-against-man-city-and-arsenal"
     },
@@ -202,6 +201,16 @@
       "url": "https://www.rugby.com.au/news/2026-nations-rugby-championship-fixtures-schedule-how-to-watch-international-rugby-wallabies-fixtures-2026-2026630"
     },
     {
+      "title": "Scotland v Wallabies",
+      "sport": "Rugby union",
+      "competition": "Nations Championship",
+      "kickoff": "2026-11-15T15:10:00+00:00",
+      "time_confirmed": true,
+      "broadcast": ["Stan Sport"],
+      "why": "Round five of the Wallabies' northern tour, in Edinburgh (2:10am Mon 16 Nov Sydney).",
+      "url": "https://www.rugby.com.au/news/2026-nations-rugby-championship-fixtures-schedule-how-to-watch-international-rugby-wallabies-fixtures-2026-2026630"
+    },
+    {
       "title": "Qatar v Socceroos",
       "sport": "Football",
       "competition": "International friendly",
@@ -223,22 +232,6 @@
     }
   ],
   "local": [
-    {
-      "title": "Belmont Street changes near the school",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-10-21",
-      "end": null,
-      "when": null,
-      "venue": "Belmont Street",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": null,
-      "summary": "Council has finished phase one of adjusted bike lanes and crossing works, Fountain Street crossing works start shortly, and the school asks drivers to use only the Power Avenue entrance.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
     {
       "title": "Winnie the Pooh at The Grounds",
       "kind": "event",
@@ -350,6 +343,22 @@
       "cost": null,
       "summary": "The school's big annual showcase; the P&C is running a BBQ and cake stall and needs volunteers and nut-free cake donations.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "Kindy, Year 6 and support unit Teddy Bear Picnic",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-20",
+      "end": null,
+      "when": "Fri 20 Nov",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Listed on the Term 4 primary calendar; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
       "title": "Bandanna Day fundraising week",
@@ -573,9 +582,9 @@
     {
       "title": "Art After Hours (Art Gallery of NSW)",
       "category": "Arts and crafts",
-      "start": "2026-10-28",
+      "start": "2026-11-04",
       "end": null,
-      "when": "Wednesdays, including 28 Oct and 4 Nov; evening",
+      "when": "Wednesday evenings, next on 4 Nov",
       "venue": "Art Gallery of NSW",
       "suburb": "Sydney CBD",
       "transport": "train",
@@ -693,6 +702,21 @@
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/the-social-enterprise-festival"
     },
     {
+      "title": "Sydney Open",
+      "category": "Architecture",
+      "start": "2026-11-01",
+      "end": null,
+      "when": "Sun 1 Nov; ticket required",
+      "venue": "Various buildings across Sydney",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "Central",
+      "trip": "varies by building",
+      "cost": null,
+      "summary": "One-day event opening up buildings across the city; ticket price isn't listed on the source.",
+      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
+    },
+    {
       "title": "Cirque du Soleil KOOZA",
       "category": "Show",
       "start": "2026-10-28",
@@ -712,22 +736,37 @@
     {
       "title": "New Balance SuperComp Elite V5 race shoes",
       "category": "Sports gear",
-      "start": "2026-10-28",
+      "start": "2026-10-30",
       "end": null,
-      "when": "Expiry not stated",
+      "when": "No expiry stated",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$104.50 (free shipping over $150)",
-      "summary": "Carbon-plated road racer at Running Warehouse, about 50% off; OzBargain comments say extra codes are unreliable and these are race shoes.",
-      "url": "https://www.ozbargain.com.au/node/980594"
+      "cost": "$135 delivered",
+      "summary": "About 50% off last-season On shoes (men's and women's) with free change-of-mind returns.",
+      "url": "https://www.ozbargain.com.au/node/980861"
+    },
+    {
+      "title": "PS5 DualSense controller, all colours",
+      "category": "Gaming",
+      "start": "2026-10-30",
+      "end": null,
+      "when": "No expiry stated",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$99 (RRP $134.95)",
+      "summary": "Amazon AU marketplace listing; the poster says it's the lowest price in several weeks but not a record low.",
+      "url": "https://www.ozbargain.com.au/node/980889"
     },
     {
       "title": "Free Whopper or Jack's Fried Chicken burger (Hungry Jack's)",
       "category": "Fun food",
-      "start": "2026-10-28",
+      "start": "2026-10-30",
       "end": "2026-11-11",
       "when": "Voucher expires 11 Nov",
       "venue": "Online",
@@ -740,19 +779,34 @@
       "url": "https://www.ozbargain.com.au/node/980680"
     },
     {
-      "title": "Sker Ritual free on Epic Games (PC)",
+      "title": "Galaxy Kart free on Epic Games (Android)",
       "category": "Gaming",
-      "start": "2026-10-29",
-      "end": "2026-10-30",
-      "when": "Ends 1am AEST Fri 30 Oct",
+      "start": "2026-10-30",
+      "end": "2026-11-06",
+      "when": "Until 3am Fri 6 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "Free",
-      "summary": "Free game on the Epic Games Store; check the age rating before downloading.",
-      "url": "https://www.ozbargain.com.au/node/979154"
+      "summary": "Free Android game on the Epic Games Store; check the age rating first.",
+      "url": "https://www.ozbargain.com.au/node/980895"
+    },
+    {
+      "title": "Hexologic free on Steam (PC)",
+      "category": "Gaming",
+      "start": "2026-10-30",
+      "end": "2026-11-01",
+      "when": "Until 4am Sun 1 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Free",
+      "summary": "Free PC game on Steam; check the age rating first.",
+      "url": "https://www.ozbargain.com.au/node/980897"
     }
   ],
   "groceries": [
@@ -827,6 +881,16 @@
       "url": "https://au-catalogues.com/coles-specials"
     },
     {
+      "item": "Health Lab Dubai Choc Protein Ball 40g",
+      "store": "Coles",
+      "price": "$2.00",
+      "was": null,
+      "saving": "Special price",
+      "note": "Lunchbox snack",
+      "ends": "2026-11-03",
+      "url": "https://au-catalogues.com/coles-specials"
+    },
+    {
       "item": "Australian Fine Cut Salad Mix",
       "store": "Aldi",
       "price": "$1.99",
@@ -864,7 +928,7 @@
       "start": "2027-10-01",
       "end": "2027-11-13",
       "location": "Australia (13 matches in Sydney; final at Stadium Australia)",
-      "status": "updated",
+      "status": "unchanged",
       "key_dates": [
         { "date": "2026-10-01", "label": "Remaining tickets went on general sale (virtual queue)" },
         { "date": "2027-10-01", "label": "Tournament opens" },
@@ -963,13 +1027,13 @@
   ],
   "notes": [
     "Search quality was poor again: many searches returned old seasons, and manutd.com and several store sites were blocked. Sections are shorter than their limits rather than padded.",
-    "Man Utd: Carrick staying for Chelsea, Fernandes being dropped and Sesko's absence come from Sky Sports pages (opened); no confirmed line-up or other injury news. Last run's Chelsea preview wrongly described Carrick as Chelsea's coach; corrected. The table is Sky's, updated 25 Oct. Broadcasters (Stan Sport) are carried from earlier checks and not re-confirmed.",
-    "Sydney FC: Mariners, Victory and the women's fixture were re-checked on the club tickets page; Melbourne City, Brisbane and Auckland times are carried from last run. No Melbourne City preview or confirmed team news exists yet. Paramount+ is the assumed A-Leagues broadcaster, not confirmed per match.",
-    "Big matches: fixtures and broadcasters are carried from earlier checks and weren't re-opened this run.",
-    "Live sport: Kings kick-off times come from secondary listings (Austadiums, Koobit). No Sydney tennis, rugby union, Matildas or Socceroos games were found for the next 4 weeks.",
-    "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school's November events. No new local news from the last 7 days was found; the Belmont Street item is from the 21 Oct update.",
-    "Not found: Sydney matcha pop-ups in November, junior parkrun events, Pokémon/Minecraft/Roblox events, children's author talks, football-boot sales with verifiable prices, and Woolworths/Coles half-price lists. Catalogue sites show no fresh fruit, meat, egg or nut specials this week.",
-    "Dropped as expired or not re-confirmed: KFC wings, July gift card, SanDisk card, the Year 6 mufti day (done), and a Mad Hatter's workshop at The Grounds (only a 24 Oct date was seen).",
-    "Horizon: entries are carried over from last run and were not re-checked; details may have changed."
+    "Man Utd: the Chelsea preview uses Dave Sport (29 Oct), Sports Mole and Al Jazeera pages; no line-up is confirmed, and Fernandes' return and Rashford's fitness are only expected or unclear. Broadcasters (Stan Sport) are carried from earlier checks. Later fixtures were not re-checked.",
+    "Sydney FC: the Melbourne City kick-off (5pm, 31 Oct) is confirmed on the AAMI Park page; no Sydney team news was found. Other fixtures and Paramount+ as broadcaster were not re-checked.",
+    "Big matches: Champions League dates and times were re-checked on UEFA's fixture list, Liverpool v Arsenal on Liverpool's site and the Wallabies' times on rugby.com.au; other items and all broadcasters are carried from earlier checks.",
+    "Live sport: Kings kick-off times still come from secondary listings (Austadiums, Koobit). No Sydney tennis, rugby union, Matildas or Socceroos games were found.",
+    "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school. The only local news from the last 7 days is the debating item; the older Belmont Street item was dropped.",
+    "Not found: Sydney matcha pop-ups in November, kids' fun runs or junior parkrun, Pokémon/Minecraft/Roblox events, children's author talks with confirmed dates, South Eveleigh events, football-boot sales. Woolworths and Coles half-price lists weren't found for this week; grocery items come from catalogue sites (28 Oct to 3 Nov) and the Cobram oil from OzBargain.",
+    "Dropped as expired: the New Balance SuperComp deal (price rose on 29 Oct) and the Sker Ritual freebie.",
+    "Horizon: entries are carried over and were not re-checked; details may have changed."
   ]
 }
