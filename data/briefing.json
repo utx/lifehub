@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T08:45:00+11:00",
+  "generated_at": "2026-10-31T08:30:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -14,14 +14,14 @@
           "time_confirmed": true,
           "venue": "Stamford Bridge",
           "broadcast": ["Stan Sport"],
-          "preview": "A winless-in-eight United, 16th and one point above the drop zone, visit fifth-placed Chelsea with Michael Carrick still in charge (11:30pm Sat 31 Oct Sydney).",
+          "preview": "A winless-in-eight United, 16th on 7 points, visit fifth-placed Chelsea with Michael Carrick still in charge (11:30pm Sat 31 Oct Sydney).",
           "talking_points": [
-            "Carrick stays on after the 3-0 home loss to Bournemouth, but senior officials have reportedly held talks and no decision on his future has been announced.",
-            "United have 7 points from 8 league games, their worst start since 1986-87; Chelsea are six points clear but have lost two in a row (Spurs, then the Carabao Cup shootout at Liverpool).",
-            "Bruno Fernandes, an unused sub against Bournemouth who keeps the captaincy, is expected to return; Kobbie Mainoo is back in training and Marcus Rashford's fitness is unclear.",
-            "Sesko, Shaw, Ugarte and Dorgu are reported out; for Chelsea, Cole Palmer returns from suspension while Joao Pedro is out and Lacroix is expected to miss out (hamstring)."
+            "United have 7 points from 8 league games, their worst Premier League start, and are winless in eight in all competitions.",
+            "Bruno Fernandes, benched against Bournemouth in what Carrick called a tactical call, is likely to return; Kobbie Mainoo is back in training.",
+            "Marcus Rashford faces a fitness test; Sesko (out until the new year), Shaw, Dorgu and Ugarte are out, so Dalot is expected at left-back.",
+            "Chelsea get Cole Palmer back from suspension but are reported without Joao Pedro (thigh) and Emiliano Martinez (jaw surgery)."
           ],
-          "url": "https://dave.sport/news/chelsea-vs-man-utd-preview-palmer-fernandes/"
+          "url": "https://khelnow.com/football/manchester-united-injury-news-ahead-chelsea-premier-league-202610"
         },
         {
           "opponent": "Roma",
@@ -82,12 +82,12 @@
           "time_confirmed": true,
           "venue": "AAMI Park",
           "broadcast": ["Paramount+"],
-          "preview": "Sydney visit Melbourne City for their Halloween home opener (5pm Sat 31 Oct Melbourne time) after their first win of the season.",
+          "preview": "Unbeaten Sydney visit a winless Melbourne City for their Halloween home opener (5pm Sat 31 Oct Melbourne time).",
           "talking_points": [
-            "City's club site says Aurelio Vidmar has named a largely unchanged squad after a 1-1 draw with Victory, with Rossetto, Caputo, Mazzeo, Lopane and Kalms listed unavailable.",
-            "City's new signings Emiliano Marcondes and Julio Cascante made an impact off the bench against Victory, so expect them to push for starts.",
-            "Sydney came from behind to beat Adelaide 2-1 last time, and Patrick Kisnorbo, a former City coach, returns to AAMI Park.",
-            "No Sydney FC squad or injury news was found; Akol Akon and Dionn Nigro are away with the Australian U17 squad at the World Cup in Qatar."
+            "Sydney are unbeaten after two rounds, including a 2-1 win over Adelaide; City have not won yet after a 1-1 draw with Victory.",
+            "Per a match preview, Sydney are without Gus Hoefsloot, Jacob Farrell, Abel Walatee and Jake Hollman, all still sidelined.",
+            "City are reported missing Mazzeo, Caputo, Lopane, Kalms and Rossetto, but new signings Marcondes and Cascante may push for starts.",
+            "Patrick Kisnorbo, a former City coach, returns to AAMI Park; City lead the all-time head-to-head 19-17."
           ],
           "url": "https://aamipark.com.au/event/melbourne-city-fc-vs-sydney-fc-round-3-2026-27/"
         },
@@ -233,22 +233,6 @@
   ],
   "local": [
     {
-      "title": "Winnie the Pooh at The Grounds",
-      "kind": "event",
-      "category": "Family",
-      "start": "2026-10-28",
-      "end": "2026-11-01",
-      "when": "Until Sun 1 Nov",
-      "venue": "The Grounds of Alexandria",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": "Free for diners at The Cafe, The Garden or The Potting Shed",
-      "summary": "Storybook-themed installation at The Grounds; free if you're dining there.",
-      "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
-    },
-    {
       "title": "Adaptive Tennis at Alexandria Park",
       "kind": "event",
       "category": "Sport",
@@ -265,36 +249,20 @@
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/inclusion-tennis"
     },
     {
-      "title": "Carriageworks Farmers Market",
+      "title": "Bush food discovery tour",
       "kind": "event",
-      "category": "Markets",
-      "start": "2026-10-31",
+      "category": "Community",
+      "start": "2026-11-14",
       "end": null,
-      "when": "Every Saturday, 8am–1pm",
-      "venue": "Carriageworks, 245 Wilson Street",
-      "suburb": "Eveleigh",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home",
-      "cost": null,
-      "summary": "Weekly farmers market next door to South Eveleigh.",
-      "url": "https://www.carriageworks.com.au/whats-on/"
-    },
-    {
-      "title": "World Teachers' Day",
-      "kind": "event",
-      "category": "School",
-      "start": "2026-10-30",
-      "end": null,
-      "when": "Fri 30 Oct",
-      "venue": "Alexandria Park Community School",
+      "when": "Sat 14 Nov; time not listed",
+      "venue": "Sydney City Farm, Sydney Park",
       "suburb": "Alexandria",
       "transport": null,
       "nearest_station": null,
-      "trip": "about 10–15 min walk",
+      "trip": "about 15 min walk",
       "cost": null,
-      "summary": "The community is invited to give a shout-out to a favourite teacher via the NSW Government link.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+      "summary": "A City of Sydney guided tour of native bush foods at the Sydney Park city farm.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/bush-food-discovery-tour"
     },
     {
       "title": "OC World Expo",
@@ -593,6 +561,21 @@
       "cost": "Free",
       "summary": "Free after-hours access to exhibitions including Nolan: Origins.",
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
+    },
+    {
+      "title": "Jewellery shorts: make your own metal bangle or cuff",
+      "category": "Arts and crafts",
+      "start": "2026-11-01",
+      "end": null,
+      "when": "Sun 1 Nov; 2.5-hour beginner session",
+      "venue": "Pine Street Creative Arts Centre",
+      "suburb": "Chippendale",
+      "transport": "train",
+      "nearest_station": "Central",
+      "trip": "about 20 min from home (estimate)",
+      "cost": null,
+      "summary": "Beginner metalwork workshop; check the booking page for price and age limits.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/jewellery-shorts-create-your-own-metal-bangle-or-cuff"
     }
   ],
   "family_fun": [
@@ -730,96 +713,116 @@
       "cost": "From $79",
       "summary": "Acrobatic circus show under the Big Top.",
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
+    },
+    {
+      "title": "Halloween at Hay St",
+      "category": "Festival",
+      "start": "2026-11-01",
+      "end": null,
+      "when": "Sun 1 Nov; times not listed",
+      "venue": "Hay Street",
+      "suburb": "Haymarket",
+      "transport": "train",
+      "nearest_station": "Central",
+      "trip": "about 15 min from home (estimate)",
+      "cost": null,
+      "summary": "Halloween street event with kids' activities.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/halloween-at-hay-st"
     }
   ],
   "deals": [
     {
-      "title": "New Balance SuperComp Elite V5 race shoes",
+      "title": "Paddy Pallin club sale: 20% off store-wide",
       "category": "Sports gear",
-      "start": "2026-10-30",
-      "end": null,
-      "when": "No expiry stated",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$135 delivered",
-      "summary": "About 50% off last-season On shoes (men's and women's) with free change-of-mind returns.",
-      "url": "https://www.ozbargain.com.au/node/980861"
-    },
-    {
-      "title": "PS5 DualSense controller, all colours",
-      "category": "Gaming",
-      "start": "2026-10-30",
-      "end": null,
-      "when": "No expiry stated",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$99 (RRP $134.95)",
-      "summary": "Amazon AU marketplace listing; the poster says it's the lowest price in several weeks but not a record low.",
-      "url": "https://www.ozbargain.com.au/node/980889"
-    },
-    {
-      "title": "Free Whopper or Jack's Fried Chicken burger (Hungry Jack's)",
-      "category": "Fun food",
-      "start": "2026-10-30",
+      "start": "2026-11-05",
       "end": "2026-11-11",
-      "when": "Voucher expires 11 Nov",
+      "when": "Thu 5 to Wed 11 Nov",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "Free",
-      "summary": "App voucher, pickup only; OzBargain tags it targeted, so it may not appear on every account.",
-      "url": "https://www.ozbargain.com.au/node/980680"
+      "cost": "$10 membership",
+      "summary": "20% off store-wide for members; the $10 membership is required.",
+      "url": "https://www.paddypallin.com.au/club-sale-save-the-date-november-2026"
     },
     {
-      "title": "Galaxy Kart free on Epic Games (Android)",
+      "title": "A New Beginning: Final Cut free on GOG",
       "category": "Gaming",
-      "start": "2026-10-30",
-      "end": "2026-11-06",
-      "when": "Until 3am Fri 6 Nov (per OzBargain)",
+      "start": "2026-10-31",
+      "end": "2026-11-03",
+      "when": "Until 1am Tue 3 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "Free",
-      "summary": "Free Android game on the Epic Games Store; check the age rating first.",
-      "url": "https://www.ozbargain.com.au/node/980895"
+      "summary": "Free PC adventure game; check the age rating first.",
+      "url": "https://www.gog.com/en/game/a_new_beginning"
     },
     {
-      "title": "Hexologic free on Steam (PC)",
+      "title": "Football Manager 2027 launch preview free",
       "category": "Gaming",
-      "start": "2026-10-30",
-      "end": "2026-11-01",
-      "when": "Until 4am Sun 1 Nov (per OzBargain)",
+      "start": "2026-10-31",
+      "end": "2026-11-04",
+      "when": "Until 4 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "Free",
-      "summary": "Free PC game on Steam; check the age rating first.",
-      "url": "https://www.ozbargain.com.au/node/980897"
+      "summary": "Free preview of the new Football Manager on PC and Game Pass.",
+      "url": "https://www.footballmanager.com/fm27"
+    },
+    {
+      "title": "Pokémon GO Plus+ at BIG W",
+      "category": "Gaming",
+      "start": "2026-10-31",
+      "end": null,
+      "when": "No expiry stated",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$69 delivered",
+      "summary": "Pokémon GO Plus+ at $69 delivered or click and collect.",
+      "url": "https://www.bigw.com.au/product/pokemon-go-plus-/p/283292"
+    },
+    {
+      "title": "10% off Dymocks, Nintendo eShop and cinema gift cards (Woolworths)",
+      "category": "Gift cards",
+      "start": "2026-11-04",
+      "end": "2026-11-10",
+      "when": "Wed 4 to Tue 10 Nov, in store with Everyday Rewards",
+      "venue": "Woolworths (in store)",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "10% off",
+      "summary": "Woolworths gift card discount; limits of five Village Cinemas and ten other cards a day.",
+      "url": "https://www.woolworths.com.au/shop/catalogue"
+    },
+    {
+      "title": "Betty's Burgers 2 for 1 (Spooky Bestie Day)",
+      "category": "Fun food",
+      "start": "2026-10-31",
+      "end": "2026-10-31",
+      "when": "Sat 31 Oct only",
+      "venue": "Betty's Burgers (participating stores)",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Buy one, get one free",
+      "summary": "In-store 2-for-1 burgers today; check your nearest store takes part.",
+      "url": "https://www.instagram.com/bettys_burgers/reel/DfD-A85uUxa/?hl=en"
     }
   ],
   "groceries": [
-    {
-      "item": "Cobram Estate Classic Extra Virgin Olive Oil 750mL",
-      "store": "Woolworths",
-      "price": "$12.50",
-      "was": "$25.00",
-      "saving": "Half price",
-      "note": "Rich & Robust also on special",
-      "ends": "2026-11-03",
-      "url": "https://www.ozbargain.com.au/node/980562"
-    },
     {
       "item": "Australian Green Asparagus bunch",
       "store": "Woolworths",
@@ -871,16 +874,6 @@
       "url": "https://au-catalogues.com/coles-specials"
     },
     {
-      "item": "Peckish Fancies Rice Crackers",
-      "store": "Coles",
-      "price": "$1.50",
-      "was": null,
-      "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-11-03",
-      "url": "https://au-catalogues.com/coles-specials"
-    },
-    {
       "item": "Health Lab Dubai Choc Protein Ball 40g",
       "store": "Coles",
       "price": "$2.00",
@@ -918,6 +911,26 @@
       "saving": "Spring catalogue price",
       "note": "Lunchbox protein; size not stated",
       "ends": "2026-11-30",
+      "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "Portview Flavoured Tuna 95g",
+      "store": "Aldi",
+      "price": "$0.99",
+      "was": null,
+      "saving": "Special Buy from Wed 4 Nov",
+      "note": "Lunchbox protein; starts next week",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "Ocean Rise Yellowfin Tuna",
+      "store": "Aldi",
+      "price": "$1.29",
+      "was": null,
+      "saving": "Special Buy from Wed 4 Nov",
+      "note": "Starts next week",
+      "ends": "2026-11-10",
       "url": "https://au-catalogues.com/aldi-specials"
     }
   ],
@@ -1027,13 +1040,13 @@
   ],
   "notes": [
     "Search quality was poor again: many searches returned old seasons, and manutd.com and several store sites were blocked. Sections are shorter than their limits rather than padded.",
-    "Man Utd: the Chelsea preview uses Dave Sport (29 Oct), Sports Mole and Al Jazeera pages; no line-up is confirmed, and Fernandes' return and Rashford's fitness are only expected or unclear. Broadcasters (Stan Sport) are carried from earlier checks. Later fixtures were not re-checked.",
-    "Sydney FC: the Melbourne City kick-off (5pm, 31 Oct) is confirmed on the AAMI Park page; no Sydney team news was found. Other fixtures and Paramount+ as broadcaster were not re-checked.",
+    "Man Utd: the Chelsea team news comes from a Khel Now preview (30 Oct) and other pre-match reports; no line-up is confirmed, and Fernandes is only likely and Rashford faces a fitness test. Broadcasters (Stan Sport) are carried from earlier checks. Later fixtures were not re-checked.",
+    "Sydney FC: the Melbourne City kick-off (5pm, 31 Oct) is confirmed on the AAMI Park page; the team news comes from search summaries of a match preview because that page was blocked. Other fixtures and Paramount+ as broadcaster were not re-checked.",
     "Big matches: Champions League dates and times were re-checked on UEFA's fixture list, Liverpool v Arsenal on Liverpool's site and the Wallabies' times on rugby.com.au; other items and all broadcasters are carried from earlier checks.",
     "Live sport: Kings kick-off times still come from secondary listings (Austadiums, Koobit). No Sydney tennis, rugby union, Matildas or Socceroos games were found.",
     "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school. The only local news from the last 7 days is the debating item; the older Belmont Street item was dropped.",
     "Not found: Sydney matcha pop-ups in November, kids' fun runs or junior parkrun, Pokémon/Minecraft/Roblox events, children's author talks with confirmed dates, South Eveleigh events, football-boot sales. Woolworths and Coles half-price lists weren't found for this week; grocery items come from catalogue sites (28 Oct to 3 Nov) and the Cobram oil from OzBargain.",
-    "Dropped as expired: the New Balance SuperComp deal (price rose on 29 Oct) and the Sker Ritual freebie.",
+    "Dropped this run: World Teachers' Day (past), and the Winnie the Pooh, Carriageworks market, DualSense, Hungry Jack's, Galaxy Kart and Hexologic items, which couldn't be re-verified.",
     "Horizon: entries are carried over and were not re-checked; details may have changed."
   ]
 }
