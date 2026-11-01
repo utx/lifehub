@@ -98,10 +98,14 @@ sensible calls and note anything uncertain in `notes`.
   shows" in `interests.md`): a mix of big tours, smaller gigs, theatre, comedy,
   exhibitions and family-friendly shows. Use `category` for the type (e.g. "Gig",
   "Theatre", "Musical", "Comedy", "Exhibition", "Family show").
-  - Gig guides: Whatslively, sydneymusic.net, Gigged In and Bondi Lines (dance music),
-    Live Nation, Ticketek, Ticketmaster, Moshtix, Oztix, and venue pages such as the
-    Enmore Theatre, Metro Theatre, Factory Theatre, Oxford Art Factory, Lansdowne,
-    Sydney Opera House and the ICC.
+  - Gig guides you can open directly: https://sydneymusic.net/ (the best all-round
+    gig list), https://www.whatslively.com/ (gig announcements),
+    https://www.giggedin.com/ and https://bondilines.com/ (dance music and club
+    nights), and Humanitix, Moshtix, Oztix, Ticketek, Ticketmaster and Live Nation.
+    Bandsintown, Resident Advisor and Songkick block automated access, so use them only
+    through search results. Also check venue pages such as the Enmore Theatre, Metro
+    Theatre, Factory Theatre, Oxford Art Factory, Lansdowne, Sydney Opera House and the
+    ICC, and FBi Radio's and Time Out's gig picks.
   - Theatre: Sydney Theatre Company, Belvoir, Griffin, Hayes Theatre, New Theatre,
     Flight Path, KXT (Kings Cross Theatre), the Old Fitz, Ensemble, Carriageworks,
     the Capitol, Lyric and Theatre Royal for big musicals.
