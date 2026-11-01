@@ -106,11 +106,21 @@ sensible calls and note anything uncertain in `notes`.
     through search results. Also check venue pages such as the Enmore Theatre, Metro
     Theatre, Factory Theatre, Oxford Art Factory, Lansdowne, Sydney Opera House and the
     ICC, and FBi Radio's and Time Out's gig picks.
+  - Promoters announce tours first: Frontier Touring (https://www.frontiertouring.com/)
+    and Live Nation (https://www.livenation.com.au/). Check both for new Sydney dates
+    and pre-sale or on-sale times.
+  - Listings and roundups: Time Out Sydney, Broadsheet, City of Sydney What's On
+    (https://whatson.cityofsydney.nsw.gov.au/), Eventbrite and Humanitix. The Urban
+    List blocks automated access, so use it only through search results.
+  - Theatre deals: TodayTix (https://www.todaytix.com/sydney) for discounted and
+    last-minute theatre tickets.
   - Theatre: Sydney Theatre Company, Belvoir, Griffin, Hayes Theatre, New Theatre,
     Flight Path, KXT (Kings Cross Theatre), the Old Fitz, Ensemble, Carriageworks,
     the Capitol, Lyric and Theatre Royal for big musicals.
-  - Galleries and culture: the Art Gallery of NSW, MCA, Powerhouse, Australian Museum,
-    the Royal Botanic Garden, and City of Sydney and Inner West Council what's-on pages.
+  - Galleries and culture: check the what's-on pages of the Art Gallery of NSW, MCA,
+    Powerhouse, Australian Museum, Museums of History NSW, State Library, Royal Botanic
+    Garden and Chau Chak Wing Museum (these are what people's mailing lists bring), and
+    the City of Sydney and Inner West Council what's-on pages.
   - Facebook and Instagram usually need a login, so they can't be read directly. Use
     web search results that quote public posts (search with site:facebook.com or
     site:instagram.com plus the venue or council name), then confirm the details on a
