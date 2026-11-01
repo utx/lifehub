@@ -46,6 +46,12 @@ NBA Finals, big fights, F1 title deciders, and the like.
 - Then tennis, rugby union and basketball.
 - **No AFL and no NRL.**
 
+## Music, theatre and shows (next 3–4 weeks)
+
+Live music and gigs, theatre, musicals, comedy, dance, exhibitions and festivals, plus
+family-friendly shows the kids would enjoy. A mix of big-name tours and good smaller
+local gigs and productions. Flag on-sale dates for big tours.
+
 ## For my son (9)
 
 Sport, computer and video games (gaming expos, Minecraft, Roblox or Pokémon events,

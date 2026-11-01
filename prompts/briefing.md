@@ -19,7 +19,7 @@ sensible calls and note anything uncertain in `notes`.
    league and venue sites, ticketing pages, broadcasters' guides and event organisers.
    Use news and listings sites to discover things, then confirm the details at the source.
    - Be thorough. This runs overnight and there's no rush. For each of `live_sport`,
-     `local`, `son`, `daughter`, `family_fun`, `deals` and `groceries`, run at least 6 different searches from
+     `local`, `arts`, `son`, `daughter`, `family_fun`, `deals` and `groceries`, run at least 6 different searches from
      different angles (specific interests, venues, "this weekend", "school holidays",
      "free", and so on) before deciding what to include.
    - Good places to discover Sydney events: City of Sydney What's On, Sydney.com,
@@ -82,7 +82,8 @@ sensible calls and note anything uncertain in `notes`.
   "Around the neighbourhood" in `interests.md`, and the private local context below if
   there is one).
   - Look at: City of Sydney news and What's On for Alexandria, Erskineville, Eveleigh,
-    Redfern and Waterloo; South Eveleigh's own events page; local news (City Hub,
+    Redfern and Waterloo; public Facebook and Instagram posts from the council, venues
+    and community groups that show up in web search; South Eveleigh's own events page; local news (City Hub,
     the Inner West Courier, SMH local stories); and the schools' public websites,
     newsletters and event calendars.
   - Events use the normal event fields. For **news** (something that happened or was
@@ -93,6 +94,24 @@ sensible calls and note anything uncertain in `notes`.
     the home street address anywhere; refer to "home" instead.
   - For things within walking distance, set `trip` to something like "about 10 min walk".
   - If you find nothing for the schools, say so in `notes` (without naming them).
+- `arts`: up to 12 music, theatre and show picks in Sydney (see "Music, theatre and
+  shows" in `interests.md`): a mix of big tours, smaller gigs, theatre, comedy,
+  exhibitions and family-friendly shows. Use `category` for the type (e.g. "Gig",
+  "Theatre", "Musical", "Comedy", "Exhibition", "Family show").
+  - Gig guides: Whatslively, sydneymusic.net, Gigged In and Bondi Lines (dance music),
+    Live Nation, Ticketek, Ticketmaster, Moshtix, Oztix, and venue pages such as the
+    Enmore Theatre, Metro Theatre, Factory Theatre, Oxford Art Factory, Lansdowne,
+    Sydney Opera House and the ICC.
+  - Theatre: Sydney Theatre Company, Belvoir, Griffin, Hayes Theatre, New Theatre,
+    Flight Path, KXT (Kings Cross Theatre), the Old Fitz, Ensemble, Carriageworks,
+    the Capitol, Lyric and Theatre Royal for big musicals.
+  - Galleries and culture: the Art Gallery of NSW, MCA, Powerhouse, Australian Museum,
+    the Royal Botanic Garden, and City of Sydney and Inner West Council what's-on pages.
+  - Facebook and Instagram usually need a login, so they can't be read directly. Use
+    web search results that quote public posts (search with site:facebook.com or
+    site:instagram.com plus the venue or council name), then confirm the details on a
+    page you can open, such as the venue or ticketing site.
+  - Put big-tour on-sale dates that are more than a few weeks away in `horizon`.
 - `live_sport`: up to 10 events in Sydney (football first, then tennis, rugby union,
   basketball; never AFL or NRL).
 - `son`: up to 8 things for a 9-year-old boy (sport, gaming, running).
@@ -209,6 +228,7 @@ Don't repeat an item across sections. Put it where it fits best.
       "url": "https://..."
     }
   ],
+  "arts": [],
   "son": [],
   "daughter": [],
   "family_fun": [],

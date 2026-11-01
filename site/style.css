@@ -409,6 +409,7 @@ a.stub:hover { transform: translateY(-2px); box-shadow: var(--shadow); }
 
 .events--local { --accent: #b45309; }
 .events--live-sport { --accent: var(--sport); }
+.events--arts { --accent: #6d3fc0; }
 .events--son { --accent: var(--son); }
 .events--daughter { --accent: var(--daughter); }
 .events--family-fun { --accent: var(--fun); }

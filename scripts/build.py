@@ -33,6 +33,7 @@ SYDNEY = ZoneInfo("Australia/Sydney")
 EVENT_SECTIONS = [
     ("local", "Around the neighbourhood", "Local news and events", "What's happening around Alexandria, Erskineville, Eveleigh, Redfern and Waterloo, plus school community events."),
     ("live_sport", "Get out to a game", "Live sport near you", "Football first, then tennis, rugby union and basketball."),
+    ("arts", "On stage", "Music, theatre and shows", "Gigs, theatre, comedy, exhibitions and family shows around Sydney."),
     ("son", "For your son", "Sport, games and running", "Things a 9-year-old will be into."),
     ("daughter", "For your daughter", "Crafts, books and matcha", "Things a 12-year-old will be into."),
     ("family_fun", "For everyone", "Out and about", "Events, festivals, open days and school-holiday fun."),
@@ -728,6 +729,7 @@ def render_page(briefing: dict, now: datetime) -> str:
             ("big-matches", "On TV"),
             ("local", "Local"),
             ("live-sport", "Live sport"),
+            ("arts", "Shows"),
             ("son", "Son"),
             ("daughter", "Daughter"),
             ("family-fun", "Family"),

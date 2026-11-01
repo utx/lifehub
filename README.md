@@ -9,6 +9,7 @@ It covers:
 - **Around the neighbourhood**: local news and events near home, plus school community
   events.
 - **Live sport near you**: football first, then tennis, rugby union and basketball.
+- **Music, theatre and shows**: gigs, theatre, comedy, exhibitions and family shows.
 - Things to do **for your son**, **for your daughter**, and **for everyone**, all
   reachable by train, metro or light rail.
 - **Deals, sales and pop-ups**: sports gear, fun food, gaming, books and ticket deals,

@@ -206,6 +206,7 @@ class RenderTests(unittest.TestCase):
         page = build.render_page(briefing, NOW)
         self.assertIn("News · Mon 12 Oct", page)
         self.assertIn('href="#local"', page)
+        self.assertIn('href="#arts"', page)
 
     def test_seed_briefing_builds(self):
         with tempfile.TemporaryDirectory() as tmp:
