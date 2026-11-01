@@ -230,6 +230,15 @@ class RenderTests(unittest.TestCase):
             )
             self.assertEqual(result.returncode, 1)
 
+    def test_stamp_sets_generated_at(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "briefing.json"
+            path.write_text(json.dumps({"generated_at": "2020-01-01T00:00:00+11:00", "teams": []}))
+            build_run = [sys.executable, str(ROOT / "scripts" / "build.py"), "--data", str(path)]
+            self.assertEqual(subprocess.run(build_run + ["--stamp"], capture_output=True).returncode, 0)
+            fresh = subprocess.run(build_run + ["--check", "--require-fresh", "1"], capture_output=True)
+            self.assertEqual(fresh.returncode, 0, fresh.stderr)
+
     def test_invalid_json_fails(self):
         with tempfile.TemporaryDirectory() as tmp:
             bad = Path(tmp) / "briefing.json"

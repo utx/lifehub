@@ -779,15 +779,34 @@ def render_page(briefing: dict, now: datetime) -> str:
 # --- Entry point -------------------------------------------------------------
 
 
+def stamp(path: Path, now: datetime) -> int:
+    """Set generated_at to the time the briefing was actually written."""
+    try:
+        raw = json.loads(path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError) as exc:
+        print(f"error: can't stamp {path}: {exc}", file=sys.stderr)
+        return 1
+    if not isinstance(raw, dict):
+        print(f"error: can't stamp {path}: not a JSON object", file=sys.stderr)
+        return 1
+    raw["generated_at"] = now.astimezone(SYDNEY).replace(microsecond=0).isoformat()
+    path.write_text(json.dumps(raw, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"stamped generated_at = {raw['generated_at']}")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--check", action="store_true", help="validate only, don't render")
+    parser.add_argument("--stamp", action="store_true", help="set generated_at to now and exit")
     parser.add_argument("--require-fresh", type=float, metavar="HOURS", help="fail if generated_at is older than this")
     parser.add_argument("--data", type=Path, default=DATA)
     parser.add_argument("--out", type=Path, default=OUT)
     args = parser.parse_args(argv)
 
     now = datetime.now(timezone.utc)
+    if args.stamp:
+        return stamp(args.data, now)
     try:
         raw = json.loads(args.data.read_text(encoding="utf-8"))
     except FileNotFoundError:

@@ -21,8 +21,10 @@ Live page: <https://utx.github.io/lifehub/>
 
 ## How it works
 
-1. Every night around 2–3am Sydney time, the GitHub Actions workflow
+1. Overnight, the GitHub Actions workflow
    ([`.github/workflows/update.yml`](.github/workflows/update.yml)) runs Claude Code.
+   GitHub often starts scheduled runs hours late, so it has four start times between
+   about 11pm and 4am; the first to start does the research and the rest skip.
 2. Claude reads [`interests.md`](interests.md) and the instructions in
    [`prompts/briefing.md`](prompts/briefing.md), searches the web, and writes
    [`data/briefing.json`](data/briefing.json).

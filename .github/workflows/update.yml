@@ -2,9 +2,13 @@ name: Update LifeHub
 
 on:
   schedule:
-    # 16:23 UTC is 3:23am in Sydney during daylight saving (AEDT) and 2:23am otherwise
-    # (AEST). Scheduled runs can start late, so this leaves plenty of room before 6am.
-    - cron: "23 16 * * *"
+    # GitHub often starts scheduled runs hours late, so there are several chances a
+    # night. The first to start does the research; the gate job skips the rest once a
+    # briefing less than 6 hours old exists. In Sydney time (AEDT / AEST):
+    - cron: "17 12 * * *"  # 11:17pm / 10:17pm
+    - cron: "07 14 * * *"  #  1:07am / 12:07am
+    - cron: "37 15 * * *"  #  2:37am /  1:37am
+    - cron: "07 17 * * *"  #  4:07am /  3:07am
   workflow_dispatch:
     inputs:
       research:
@@ -30,7 +34,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          persist-credentials: false
+
+      - id: check
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && python3 scripts/build.py --check --require-fresh 6 > /dev/null 2>&1; then
+            echo "A briefing from the last 6 hours already exists, so this scheduled run is skipped."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+
   update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 75
     environment:
@@ -106,23 +131,34 @@ jobs:
             args+=(--model "$CLAUDE_MODEL")
           fi
           # The repo is public, and so are its Actions logs. Keep Claude's output (which
-          # could quote the private local context) out of them.
-          status=0
-          claude "${args[@]}" > "$RUNNER_TEMP/claude-output.json" 2> "$RUNNER_TEMP/claude-stderr.txt" || status=$?
-          # A safe summary only: no text from Claude.
-          jq -r '"Claude run: subtype=\(.subtype // "?") is_error=\(.is_error | tostring) turns=\(.num_turns // "?") duration=\((.duration_ms // 0) / 60000 | floor)min"' \
-            "$RUNNER_TEMP/claude-output.json" 2>/dev/null || echo "Claude run: no summary available"
-          if [ "$(jq -r '.is_error' "$RUNNER_TEMP/claude-output.json" 2>/dev/null)" = "true" ]; then
-            status=1
-          fi
-          if [ "$status" -ne 0 ]; then
-            echo "::error::Claude Code exited with status $status. Its output is withheld from the public log."
-            exit 1
-          fi
+          # could quote the private local context) out of them. If a run ends without a
+          # new briefing, try once more.
+          before="$(sha256sum data/briefing.json)"
+          for attempt in 1 2; do
+            status=0
+            claude "${args[@]}" > "$RUNNER_TEMP/claude-output.json" 2> "$RUNNER_TEMP/claude-stderr.txt" || status=$?
+            # A safe summary only: no text from Claude.
+            jq -r --arg a "$attempt" '"Claude run \($a): subtype=\(.subtype // "?") is_error=\(.is_error | tostring) turns=\(.num_turns // "?") duration=\((.duration_ms // 0) / 60000 | floor)min"' \
+              "$RUNNER_TEMP/claude-output.json" 2>/dev/null || echo "Claude run $attempt: no summary available"
+            if [ "$(jq -r '.is_error' "$RUNNER_TEMP/claude-output.json" 2>/dev/null)" = "true" ]; then
+              status=1
+            fi
+            if [ "$status" -eq 0 ] && [ "$(sha256sum data/briefing.json)" != "$before" ]; then
+              break
+            fi
+            if [ "$attempt" -eq 2 ]; then
+              echo "::error::Claude didn't write a new briefing (exit status $status). Its output is withheld from the public log."
+              exit 1
+            fi
+            echo "Attempt $attempt didn't produce a new briefing; trying again."
+          done
 
           # Only the briefing should change. Restore anything else Claude touched so the
           # repo's own build script validates the result.
           git checkout -- . ':(exclude)data/briefing.json'
+
+          # Record when this briefing was actually made.
+          python3 scripts/build.py --stamp
 
       - name: Privacy check
         if: env.RESEARCH == 'true'
