@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T16:38:13+11:00",
+  "generated_at": "2026-11-02T05:00:09+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -16,12 +16,12 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Winless in nine and one point above the Premier League drop zone, United host Roma on Champions League matchday 4 (7am Wed 4 Nov Sydney).",
+          "preview": "United host Roma on Champions League matchday 4, Tuesday 3 Nov 8pm UK (7am Wed 4 Nov Sydney), after a poor run of results.",
           "talking_points": [
-            "United have lost their last two Champions League games, to Atlético Madrid and Como (4-1), and have one win so far, over Sabah.",
-            "Saturday's 2-0 defeat at Chelsea, with Lisandro Martínez sent off, has raised doubts about Michael Carrick's future.",
-            "Roma beat Slovan Bratislava 4-0 last time out, and Donyell Malen already has three Champions League goals.",
-            "Bruno Fernandes and Bryan Mbeumo are the names tipped to lift United; no team news is confirmed yet."
+            "United have lost their last two Champions League games, to Atlético Madrid and Como (4-1), with one win so far, over Sabah.",
+            "Roma opened with a 1-1 draw at Fenerbahçe, lost 4-3 to Real Madrid, then beat Slovan Bratislava 4-0.",
+            "Donyell Malen has three Champions League goals for Roma, while Bruno Fernandes and Bryan Mbeumo are the names United need to deliver.",
+            "United won 7-1 against Roma in the 2006-07 quarter-final second leg; no team news for this game is confirmed."
           ],
           "url": "https://www.paramountplus.com/sneak-peak/how-to-watch-manchester-united-vs-roma-ucl-matchday-4-2026/"
         },
@@ -97,8 +97,8 @@
           "preview": "Sydney look to bounce back at home on Friday night after losing their first game of the season at Melbourne City.",
           "talking_points": [
             "Sydney lost 2-1 at Melbourne City after Al-Hassan Toure's 37th-minute opener, conceding in the 46th and 63rd minutes.",
-            "Coach Patrick Kisnorbo said 'we made two mistakes and that cost us', and a Toure goal was ruled offside before City's second.",
-            "Akol Akon started in place of Tiago Quintal against City; the line-up for Friday isn't confirmed."
+            "Coach Patrick Kisnorbo said 'we made two mistakes and that cost us' after a dominant first half.",
+            "Toure also had a second goal ruled out for offside; no line-up for Friday is confirmed."
           ],
           "url": "https://sydneyfc.com/news/sydney-fc-suffer-first-defeat-of-the-season/"
         },
@@ -819,18 +819,19 @@
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     },
     {
-      "title": "Sculpture by the Sea, Bondi",
-      "category": "Outdoor art",
-      "start": "2026-11-01",
-      "end": "2026-11-02",
-      "when": "Last day Mon 2 Nov along the Bondi to Tamarama walk",
-      "venue": "Bondi to Tamarama coastal walk",
-      "suburb": "Bondi",
+      "title": "Made in the Inner West",
+      "kind": "event",
+      "category": "Festival",
+      "start": "2026-11-06",
+      "end": "2026-11-15",
+      "when": "6–15 Nov; Ben Lee plays four breweries on 7 Nov",
+      "venue": "Marrickville and Inner West Ale Trail breweries",
+      "suburb": "Marrickville",
       "transport": "train",
-      "nearest_station": "Bondi Junction",
-      "trip": "about 40 min from Redfern, plus a bus to the coast",
-      "cost": "Free",
-      "summary": "The world's largest free sculpture exhibition ends tomorrow, per Time Out and Ella's List (one source gave 8 Nov, so check).",
+      "nearest_station": "Marrickville",
+      "trip": "about 15–20 min from home (estimate)",
+      "cost": "Free entry",
+      "summary": "Free Inner West makers' and brewery trail event; Time Out says families are welcome, but many venues are breweries.",
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     }
   ],
@@ -838,7 +839,7 @@
     {
       "title": "Gladiator: Blades of Fury free on Epic Games",
       "category": "Gaming",
-      "start": "2026-11-01",
+      "start": "2026-11-02",
       "end": "2026-11-09",
       "when": "Until 5:30am Mon 9 Nov (per OzBargain)",
       "venue": "Online",
@@ -894,6 +895,66 @@
       "cost": null,
       "summary": "Black Friday is 27 Nov; Nike and Adidas start dates (about 24 Nov) are only estimates until the brands confirm.",
       "url": "https://www.shopback.com.au/blog/finance/australia-black-friday-2026-sale-calendar"
+    },
+    {
+      "title": "Run for APPIZZA: free 5km night run and pizza",
+      "category": "Freebies",
+      "start": "2026-11-04T17:30:00+11:00",
+      "end": "2026-11-04T23:00:00+11:00",
+      "when": "Wed 4 Nov, 5:30–11pm; walk-ins only",
+      "venue": "Centennial Park, then APPIZZA Taylor Square",
+      "suburb": "Centennial Park",
+      "transport": "light rail",
+      "nearest_station": "Moore Park",
+      "trip": "about 35 min from Redfern (estimate), then a walk",
+      "cost": "Free",
+      "summary": "AP Run Club and Gozney host a 5km run with free pizza slices, DJs and giveaways afterwards; the listing doesn't say if kids can join.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/run-for-appizza"
+    },
+    {
+      "title": "8BitDo Ultimate 2C wireless controller",
+      "category": "Gaming",
+      "start": "2026-11-02",
+      "end": "2026-11-19",
+      "when": "Expires 19 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "About $25.45 delivered (code AUD1103)",
+      "summary": "Wireless gaming controller from the 8BitDo AliExpress store.",
+      "url": "https://www.ozbargain.com.au/node/981179"
+    },
+    {
+      "title": "Tomb Raider GOTY and Rise of the Tomb Raider on GOG",
+      "category": "Gaming",
+      "start": "2026-11-02",
+      "end": "2026-11-07",
+      "when": "Expires 7 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$2.99 and $4.49",
+      "summary": "Cheap PC games on GOG; check age ratings first.",
+      "url": "https://www.ozbargain.com.au/node/981181"
+    },
+    {
+      "title": "Skechers Arch Fit Road Walker shoes",
+      "category": "Sports gear",
+      "start": "2026-11-02",
+      "end": "2026-11-05",
+      "when": "Expires 5 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$59.85 (RRP $169.95) plus shipping",
+      "summary": "Men's walking shoes at Brand House Direct with code ROADW.",
+      "url": "https://www.ozbargain.com.au/node/981184"
     }
   ],
   "groceries": [
@@ -1157,15 +1218,15 @@
     }
   ],
   "notes": [
-    "Search quality was poor again and many results were old seasons, so some sections are shorter than their limits rather than padded.",
-    "Man Utd: Saturday's 2-0 loss at Chelsea is confirmed by Sky Sports (Martínez sent off, winless nine). Roma talking points come from a Paramount+ preview; no team news is confirmed. The Brentford 3pm time comes from a fan-site report that the page blocked, so check manutd.com. Stan Sport is the Premier League and Champions League broadcaster in Australia.",
+    "This run's search and fetch tools were weak: many results were old seasons and several official sites (manutd.com, Carriageworks, South Eveleigh, austadiums) blocked access or showed no listings. Most sections are carried over from the last run and only re-checked where noted, so some are shorter than their limits rather than padded.",
+    "Man Utd v Roma: facts come from a Paramount+ preview published 27 Oct; no team news is confirmed. The other United fixtures were not re-checked this run, and the Brentford 3pm time should be checked on manutd.com. Stan Sport is the Premier League and Champions League broadcaster in Australia.",
     "Sydney FC: the Melbourne City result (2-1 loss) comes from the club's report. I couldn't find the matchweek 6 fixture (around 27–29 Nov), so one match may be missing between Brisbane and Melbourne Victory. Paramount+ streams every A-League game, but per-match broadcasters were not listed. The Auckland kick-off is treated as New Zealand time.",
     "Big matches: Champions League times were re-checked on UEFA's list; Wallabies, Socceroos and Rugby broadcasters are carried from earlier checks. Liverpool v Arsenal (1 Nov) was dropped as it has been played, and table points were as of Saturday night.",
     "Live sport: no Sydney tennis, rugby union, Matildas or Socceroos games were found for the next four weeks. A Sydney Kings home game on 8 Nov appears on third-party listings, but the NBL page only lists 15 Nov, so it was left out.",
     "Arts: Beetlejuice and Whispering Jack details come from search results because the venue pages couldn't be opened. Foo Fighters, Robbie Williams (times TBC) and the Enmore shows are from official pages; Northlane (11 Nov) is postponed.",
     "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school. No local news from the last 7 days was found beyond the debating item; South Eveleigh November events weren't found.",
     "Not found: Sydney matcha pop-ups in November, kids' fun runs or junior parkrun, Pokémon, Minecraft or Roblox events, children's author talks with confirmed dates, football-boot sales and kids' sport events, so the section for the son is empty. Woolworths and Coles half-price lists for the 4 Nov week weren't available; groceries come from catalogue sites (28 Oct to 3 Nov, plus Aldi's 4 Nov specials).",
-    "Dropped this run: events that have finished (Sydney Open, Ghost Festival, Halloween events, Le Marché, jewellery workshop, Betty's Burgers) and the Paddy Pallin sale, Hockey One game, parkrun item, Football Manager and gift-card deals, which couldn't be re-verified.",
+    "Dropped this run: Sculpture by the Sea (ended 2 Nov) and the earlier finished or unverifiable items. The Hurricane's Grill and Viewfinder deals are carried over and weren't re-verified.",
     "Horizon: entries are carried over and were not re-checked; details may have changed."
   ]
 }
