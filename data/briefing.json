@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T05:00:09+11:00",
+  "generated_at": "2026-11-03T08:50:42+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -16,14 +16,14 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "United host Roma on Champions League matchday 4, Tuesday 3 Nov 8pm UK (7am Wed 4 Nov Sydney), after a poor run of results.",
+          "preview": "United host Roma on Champions League matchday 4 (8pm Tue 3 Nov UK, 7am Wed 4 Nov Sydney) in poor domestic form under Michael Carrick.",
           "talking_points": [
-            "United have lost their last two Champions League games, to Atlético Madrid and Como (4-1), with one win so far, over Sabah.",
-            "Roma opened with a 1-1 draw at Fenerbahçe, lost 4-3 to Real Madrid, then beat Slovan Bratislava 4-0.",
-            "Donyell Malen has three Champions League goals for Roma, while Bruno Fernandes and Bryan Mbeumo are the names United need to deliver.",
-            "United won 7-1 against Roma in the 2006-07 quarter-final second leg; no team news for this game is confirmed."
+            "United are on a nine-match winless run and sit just above the Premier League relegation zone after a loss to Chelsea, per Sports Mole.",
+            "Benjamin Sesko and Manuel Ugarte are out; Amad Diallo, Patrick Dorgu, Marcus Rashford and Luke Shaw are doubtful, so the line-up is not confirmed.",
+            "Roma, under Gian Piero Gasperini, are on a five-game unbeaten run but are without Paulo Dybala, Lorenzo Pellegrini, Manuel Kone and Mile Svilar.",
+            "Donyell Malen leads Roma's attack, while Bruno Fernandes and Bryan Mbeumo are the names United need to deliver."
           ],
-          "url": "https://www.paramountplus.com/sneak-peak/how-to-watch-manchester-united-vs-roma-ucl-matchday-4-2026/"
+          "url": "https://www.sportsmole.co.uk/football/man-utd/champions-league/team-news/man-utd-vs-roma-injury-suspension-list-predicted-xis_608223.html"
         },
         {
           "opponent": "Aston Villa",
@@ -35,7 +35,7 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Ninth-placed Villa (12 points) visit Old Trafford on Sunday at 4:30pm UK time (3:30am Mon 9 Nov Sydney).",
+          "preview": "Aston Villa visit Old Trafford on Sunday 8 Nov at 4:30pm UK time (3:30am Mon 9 Nov Sydney).",
           "url": "https://www.unitedinfocus.com/news/manchester-uniteds-first-3pm-kick-off-of-the-2026-27-season-has-now-officially-been-set/"
         },
         {
@@ -74,7 +74,7 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Sixth-placed Brentford (14 points) visit on Saturday 28 November at 3pm UK time (2am Sun 29 Nov Sydney), United's first 3pm Saturday kick-off of the season.",
+          "preview": "Brentford visit on Saturday 28 Nov at 3pm UK time (2am Sun 29 Nov Sydney), United's first 3pm Saturday kick-off of the season.",
           "url": "https://www.unitedinfocus.com/news/manchester-uniteds-first-3pm-kick-off-of-the-2026-27-season-has-now-officially-been-set/"
         }
       ]
@@ -96,11 +96,11 @@
           ],
           "preview": "Sydney look to bounce back at home on Friday night after losing their first game of the season at Melbourne City.",
           "talking_points": [
-            "Sydney lost 2-1 at Melbourne City after Al-Hassan Toure's 37th-minute opener, conceding in the 46th and 63rd minutes.",
-            "Coach Patrick Kisnorbo said 'we made two mistakes and that cost us' after a dominant first half.",
+            "Sydney lost 2-1 at Melbourne City on Saturday 31 Oct after Al-Hassan Toure's first-half opener, conceding twice after the break.",
+            "Coach Patrick Kisnorbo has backed his young side to learn from the defeat, per the club site.",
             "Toure also had a second goal ruled out for offside; no line-up for Friday is confirmed."
           ],
-          "url": "https://sydneyfc.com/news/sydney-fc-suffer-first-defeat-of-the-season/"
+          "url": "https://www.flicks.com.au/sport/football/a-league/aleague-18/"
         },
         {
           "opponent": "Brisbane Roar",
@@ -544,19 +544,34 @@
       "url": "https://www.enmoretheatre.com.au/"
     },
     {
-      "title": "Men I Trust",
+      "title": "Human Nature",
       "category": "Gig",
-      "start": "2026-11-21",
+      "start": "2026-11-04T19:00:00+11:00",
       "end": null,
-      "when": "Sat 21 Nov; Friday 20 Nov is sold out",
+      "when": "Wed 4 Nov, 7pm",
       "venue": "Enmore Theatre",
       "suburb": "Newtown",
       "transport": "train",
       "nearest_station": "Newtown",
       "trip": "about 20 min from home (estimate)",
       "cost": "Ticketed (Ticketek)",
-      "summary": "Dream-pop band; Saturday's show was still on sale when checked.",
-      "url": "https://www.enmoretheatre.com.au/"
+      "summary": "Vocal group at the Enmore tomorrow night; check Ticketek for remaining tickets.",
+      "url": "https://sydneymusic.net/"
+    },
+    {
+      "title": "Australian Geographic Nature Photographer of the Year",
+      "category": "Exhibition",
+      "start": "2026-11-03",
+      "end": "2027-02-14",
+      "when": "Until 14 Feb 2027",
+      "venue": "Australian Museum",
+      "suburb": "Darlinghurst",
+      "transport": "train",
+      "nearest_station": "Museum",
+      "trip": "about 20 min from Redfern (estimate)",
+      "cost": "Free",
+      "summary": "Free photography exhibition listed by Time Out this week.",
+      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     },
     {
       "title": "Silver Tongue",
@@ -819,6 +834,22 @@
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     },
     {
+      "title": "Chinatown Night Market (Haymarket)",
+      "kind": "event",
+      "category": "Markets",
+      "start": "2026-11-06",
+      "end": "2026-12-25",
+      "when": "Fridays from 5pm until 25 Dec",
+      "venue": "Beside the Paddy's Markets light rail stop",
+      "suburb": "Haymarket",
+      "transport": "light rail",
+      "nearest_station": "Paddy's Market",
+      "trip": "about 15 min from home via Central (estimate)",
+      "cost": null,
+      "summary": "Friday-night street food and stalls; Time Out gives no price or family notes.",
+      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
+    },
+    {
       "title": "Made in the Inner West",
       "kind": "event",
       "category": "Festival",
@@ -837,49 +868,49 @@
   ],
   "deals": [
     {
-      "title": "Gladiator: Blades of Fury free on Epic Games",
+      "title": "Li-Ning RED Hare 9 PRO racing shoes",
+      "category": "Sports gear",
+      "start": "2026-11-03",
+      "end": "2026-11-19",
+      "when": "Expires 19 Nov, 6:59pm (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "About A$82 delivered (US$57.67)",
+      "summary": "Men's racing running shoes on AliExpress with stacking Singles' Day codes; adult sizes only.",
+      "url": "https://www.ozbargain.com.au/node/981351"
+    },
+    {
+      "title": "Final Fantasy VII Remake Intergrade (Switch 2)",
       "category": "Gaming",
-      "start": "2026-11-02",
-      "end": "2026-11-09",
-      "when": "Until 5:30am Mon 9 Nov (per OzBargain)",
+      "start": "2026-11-03",
+      "end": "2026-11-16",
+      "when": "Expires 16 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$13.99",
+      "summary": "Nintendo eShop price; check the age rating before the kids play.",
+      "url": "https://www.ozbargain.com.au/node/981371"
+    },
+    {
+      "title": "Borderlands Golden Keys (SHiFT code)",
+      "category": "Freebies",
+      "start": "2026-11-03",
+      "end": "2026-11-16",
+      "when": "Expires 16 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "Free",
-      "summary": "Free PC game; check the age rating before the kids play.",
-      "url": "https://www.ozbargain.com.au/deals"
-    },
-    {
-      "title": "Viewfinder (Switch) 70% off",
-      "category": "Gaming",
-      "start": "2026-11-01",
-      "end": null,
-      "when": "No expiry shown",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$11.38",
-      "summary": "The puzzle game Viewfinder on the Nintendo eShop at 70% off.",
-      "url": "https://www.ozbargain.com.au/deals"
-    },
-    {
-      "title": "Hurricane's Grill Circular Quay: half-price pork ribs",
-      "category": "Fun food",
-      "start": "2026-11-01",
-      "end": null,
-      "when": "Tied to the restaurant's 10th birthday; end date not listed",
-      "venue": "Hurricane's Grill, Circular Quay",
-      "suburb": "Sydney CBD",
-      "transport": "train",
-      "nearest_station": "Circular Quay",
-      "trip": "about 20 min from Redfern (estimate)",
-      "cost": "$35 for a full rack",
-      "summary": "50% off a full rack of pork ribs; check the terms with the restaurant.",
-      "url": "https://www.ozbargain.com.au/deals"
+      "summary": "20 free Golden Keys across Borderlands 1-4; check age ratings.",
+      "url": "https://www.ozbargain.com.au/node/981375"
     },
     {
       "title": "Early Black Friday sales",
@@ -959,63 +990,63 @@
   ],
   "groceries": [
     {
-      "item": "Australian Green Asparagus bunch",
+      "item": "Australian Continental Cucumber",
       "store": "Woolworths",
-      "price": "$1.20",
+      "price": "$1.50",
       "was": null,
       "saving": "Special price",
-      "note": null,
-      "ends": "2026-11-03",
+      "note": "From Wed 4 Nov (per catalogue site)",
+      "ends": "2026-11-10",
       "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
-      "item": "Yoplait YOP Kids Yoghurt Pouch 130g",
+      "item": "Vaalia Kids Probiotics Yoghurt Pouch 140g",
       "store": "Woolworths",
-      "price": "$1.40",
+      "price": "$1.55",
       "was": null,
       "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-11-03",
-      "url": "https://au-catalogues.com/woolworths-specials"
-    },
-    {
-      "item": "Cocobella Dairy Free Coconut Yoghurt Pouch 110g",
-      "store": "Woolworths",
-      "price": "$1.30",
-      "was": null,
-      "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-11-03",
+      "note": "Lunchbox snack; from Wed 4 Nov",
+      "ends": "2026-11-10",
       "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
       "item": "Dairy Farmers Thick & Creamy Yoghurt 140-150g",
-      "store": "Coles",
+      "store": "Woolworths",
       "price": "$1.65",
       "was": null,
       "saving": "Special price",
-      "note": null,
-      "ends": "2026-11-03",
-      "url": "https://au-catalogues.com/coles-specials"
+      "note": "Listed on the Woolworths 4-10 Nov catalogue page",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
-      "item": "Tamar Valley Kids Greek Yoghurt Pouch 110g or Vaalia Kids Probiotic Pouch 140g",
-      "store": "Coles",
-      "price": "$2.00",
+      "item": "Tasti Smooshed Wholefood Balls 58-69g",
+      "store": "Woolworths",
+      "price": "$1.75",
       "was": null,
       "saving": "Special price",
-      "note": "Lunchbox snack",
-      "ends": "2026-11-03",
-      "url": "https://au-catalogues.com/coles-specials"
+      "note": "Lunchbox snack; from Wed 4 Nov",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
-      "item": "Australian Fine Cut Salad Mix",
+      "item": "Rokeby Protein Smoothie 425ml",
+      "store": "Woolworths",
+      "price": "$3.00",
+      "was": null,
+      "saving": "Special price",
+      "note": "Pick the no-added-sugar flavours; from Wed 4 Nov",
+      "ends": "2026-11-10",
+      "url": "https://www.ozbargain.com.au/node/981357"
+    },
+    {
+      "item": "Ocean Rise Smoked Oysters 85g",
       "store": "Aldi",
-      "price": "$1.99",
+      "price": "$1.39",
       "was": null,
       "saving": "Weekly special",
-      "note": null,
-      "ends": "2026-11-03",
+      "note": "From Wed 4 Nov",
+      "ends": "2026-11-10",
       "url": "https://au-catalogues.com/aldi-specials"
     },
     {
@@ -1198,7 +1229,7 @@
       "start": "2027-08-29",
       "end": "2027-08-29",
       "location": "Sydney (finish at the Opera House)",
-      "status": "unchanged",
+      "status": "updated",
       "key_dates": [
         {
           "date": "2026-10-19",
@@ -1213,20 +1244,19 @@
           "label": "Race day"
         }
       ],
-      "notes": "If unsuccessful, charity and travel-program places may open later. Not re-checked this run.",
+      "notes": "Ballot results are due by email on 3 Nov per Time Out and marathonballot.com; check your inbox. If unsuccessful, charity and travel places may follow.",
       "url": "https://www.timeout.com/australia/news/how-to-enter-the-2027-sydney-marathon-090126"
     }
   ],
   "notes": [
-    "This run's search and fetch tools were weak: many results were old seasons and several official sites (manutd.com, Carriageworks, South Eveleigh, austadiums) blocked access or showed no listings. Most sections are carried over from the last run and only re-checked where noted, so some are shorter than their limits rather than padded.",
-    "Man Utd v Roma: facts come from a Paramount+ preview published 27 Oct; no team news is confirmed. The other United fixtures were not re-checked this run, and the Brentford 3pm time should be checked on manutd.com. Stan Sport is the Premier League and Champions League broadcaster in Australia.",
-    "Sydney FC: the Melbourne City result (2-1 loss) comes from the club's report. I couldn't find the matchweek 6 fixture (around 27–29 Nov), so one match may be missing between Brisbane and Melbourne Victory. Paramount+ streams every A-League game, but per-match broadcasters were not listed. The Auckland kick-off is treated as New Zealand time.",
-    "Big matches: Champions League times were re-checked on UEFA's list; Wallabies, Socceroos and Rugby broadcasters are carried from earlier checks. Liverpool v Arsenal (1 Nov) was dropped as it has been played, and table points were as of Saturday night.",
-    "Live sport: no Sydney tennis, rugby union, Matildas or Socceroos games were found for the next four weeks. A Sydney Kings home game on 8 Nov appears on third-party listings, but the NBL page only lists 15 Nov, so it was left out.",
-    "Arts: Beetlejuice and Whispering Jack details come from search results because the venue pages couldn't be opened. Foo Fighters, Robbie Williams (times TBC) and the Enmore shows are from official pages; Northlane (11 Nov) is postponed.",
-    "Local: school events come from the downloaded Term 4 calendars and Week 3 Principal Updates (all read). Nothing was found for the second school. No local news from the last 7 days was found beyond the debating item; South Eveleigh November events weren't found.",
-    "Not found: Sydney matcha pop-ups in November, kids' fun runs or junior parkrun, Pokémon, Minecraft or Roblox events, children's author talks with confirmed dates, football-boot sales and kids' sport events, so the section for the son is empty. Woolworths and Coles half-price lists for the 4 Nov week weren't available; groceries come from catalogue sites (28 Oct to 3 Nov, plus Aldi's 4 Nov specials).",
-    "Dropped this run: Sculpture by the Sea (ended 2 Nov) and the earlier finished or unverifiable items. The Hurricane's Grill and Viewfinder deals are carried over and weren't re-verified.",
-    "Horizon: entries are carried over and were not re-checked; details may have changed."
+    "Search and fetch tools were weak again: many results were old seasons, and manutd.com, the BBC, Sydney FC's fixtures list and the Coles and Woolworths sites could not be read. Sections not fully re-checked are labelled below, so some are shorter than their limits rather than padded.",
+    "Man Utd v Roma: team news is from a Sports Mole preview published 2 Nov; doubtful players and the predicted XI are not confirmed. Other United fixtures and times are carried from the last run and weren't re-verified; Stan Sport is assumed as the broadcaster.",
+    "Sydney FC v Mariners: date, time and Paramount+ confirmed on a Flicks listing. Fixtures after Brisbane were not fully verified, and one matchweek (around 27-29 Nov) may be missing between Brisbane and Melbourne Victory. The Auckland kick-off is treated as New Zealand time.",
+    "Big matches and live sport are carried from the last run (UEFA times were checked then). A search could not confirm Stan Sport for Wallabies v England in 2026; the 3:10pm UK kick-off was matched by two sources. No Sydney tennis, rugby union, Matildas or Socceroos games were found.",
+    "Arts: Beetlejuice and Whispering Jack details come from search results because the venue pages couldn't be opened. Frontier Touring lists presales for Beth Orton (4 Nov, Mar 2027) and Jonah Kagen (5 Nov, Apr 2027); their Sydney dates weren't confirmed.",
+    "Groceries: Woolworths and Aldi items for 4-10 Nov come from catalogue sites (no was-prices shown); Coles' 4-10 Nov specials could not be found. Items that ended 3 Nov were dropped.",
+    "Local: school events were re-read from the Term 4 calendars and Week 3 Principal Updates and are unchanged. Nothing was found for the second school or for South Eveleigh in November.",
+    "Not found: Sydney matcha pop-ups in November, a Sydney junior parkrun, Pokemon or Minecraft events, and kids' football-boot sales, so the section for the son is empty and the daughter section is carried over.",
+    "Deals that only linked the OzBargain front page (Gladiator, Viewfinder, Hurricane's Grill) were dropped. Horizon entries are carried over and were not re-checked, apart from the marathon ballot date."
   ]
 }
