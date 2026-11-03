@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-03T08:50:42+11:00",
+  "generated_at": "2026-11-04T06:35:15+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -16,14 +16,14 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "United host Roma on Champions League matchday 4 (8pm Tue 3 Nov UK, 7am Wed 4 Nov Sydney) in poor domestic form under Michael Carrick.",
+          "preview": "United host Roma on Champions League matchday 4 (8pm Tue 3 Nov UK, 7am Wed 4 Nov Sydney) in poor form under Michael Carrick.",
           "talking_points": [
-            "United are on a nine-match winless run and sit just above the Premier League relegation zone after a loss to Chelsea, per Sports Mole.",
-            "Benjamin Sesko and Manuel Ugarte are out; Amad Diallo, Patrick Dorgu, Marcus Rashford and Luke Shaw are doubtful, so the line-up is not confirmed.",
-            "Roma, under Gian Piero Gasperini, are on a five-game unbeaten run but are without Paulo Dybala, Lorenzo Pellegrini, Manuel Kone and Mile Svilar.",
-            "Donyell Malen leads Roma's attack, while Bruno Fernandes and Bryan Mbeumo are the names United need to deliver."
+            "United are on a nine-match winless run (three draws, six losses) after a 2-0 defeat at Chelsea, with three points from three league-phase games.",
+            "Amad is uncertain after coming off at Chelsea; Sesko, Dorgu and Shaw are injury concerns and Rashford needs assessment. Martinez is available for this match.",
+            "Roma, under Gian Piero Gasperini, arrive off a 5-2 win over Udinese; Kone and Svilar are out and Dybala is uncertain.",
+            "Donyell Malen is Roma's main threat with eight Serie A and three Champions League goals, per an Opta preview; line-ups are due on matchday."
           ],
-          "url": "https://www.sportsmole.co.uk/football/man-utd/champions-league/team-news/man-utd-vs-roma-injury-suspension-list-predicted-xis_608223.html"
+          "url": "https://dave.sport/news/man-utd-vs-roma-preview-november-2026/"
         },
         {
           "opponent": "Aston Villa",
@@ -604,6 +604,21 @@
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
     },
     {
+      "title": "Black Myth",
+      "category": "Exhibition",
+      "start": "2026-11-04",
+      "end": "2026-11-15",
+      "when": "Until 15 Nov; check opening hours",
+      "venue": "White Rabbit Gallery",
+      "suburb": "Chippendale",
+      "transport": "train",
+      "nearest_station": "Central",
+      "trip": "about 15 min from home (estimate)",
+      "cost": null,
+      "summary": "Contemporary Chinese art show closing 15 Nov; Time Out lists it without prices.",
+      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
+    },
+    {
       "title": "Nolan: Origins",
       "category": "Exhibition",
       "start": "2026-10-01",
@@ -973,19 +988,49 @@
       "url": "https://www.ozbargain.com.au/node/981181"
     },
     {
-      "title": "Skechers Arch Fit Road Walker shoes",
-      "category": "Sports gear",
-      "start": "2026-11-02",
-      "end": "2026-11-05",
-      "when": "Expires 5 Nov (per OzBargain)",
+      "title": "Football Manager 2027 Launch Preview",
+      "category": "Gaming",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "when": "Expires 4 Nov, 5:59pm (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$59.85 (RRP $169.95) plus shipping",
-      "summary": "Men's walking shoes at Brand House Direct with code ROADW.",
-      "url": "https://www.ozbargain.com.au/node/981184"
+      "cost": "Free",
+      "summary": "Free-to-play preview on PC and Mac via Steam, Epic or Game Pass.",
+      "url": "https://www.ozbargain.com.au/node/980967"
+    },
+    {
+      "title": "Humble Choice November bundle",
+      "category": "Gaming",
+      "start": "2026-11-04",
+      "end": "2026-12-02",
+      "when": "Expires 2 Dec (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$20.95",
+      "summary": "PC/Steam bundle including Outer Worlds 2 and Yakuza 6; check age ratings.",
+      "url": "https://www.ozbargain.com.au/node/981527"
+    },
+    {
+      "title": "Free 3-month PromoTix VIP membership",
+      "category": "Ticket deals",
+      "start": "2026-11-04",
+      "end": "2026-11-30",
+      "when": "Expires 30 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Free",
+      "summary": "Code FREEVIP2026 for NSW and VIC; members can save on tickets to previews, concerts and festivals.",
+      "url": "https://www.ozbargain.com.au/node/981432"
     }
   ],
   "groceries": [
@@ -1030,14 +1075,44 @@
       "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
-      "item": "Rokeby Protein Smoothie 425ml",
-      "store": "Woolworths",
-      "price": "$3.00",
+      "item": "Coles Australian Green Asparagus bunch",
+      "store": "Coles",
+      "price": "$1.50",
       "was": null,
-      "saving": "Special price",
-      "note": "Pick the no-added-sugar flavours; from Wed 4 Nov",
+      "saving": "Weekly special",
+      "note": "From Wed 4 Nov (catalogue site, no was-price shown)",
       "ends": "2026-11-10",
-      "url": "https://www.ozbargain.com.au/node/981357"
+      "url": "https://au-catalogues.com/coles-specials"
+    },
+    {
+      "item": "Coles Australian Carrots 1kg bag",
+      "store": "Coles",
+      "price": "$1.70",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "From Wed 4 Nov",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/coles-specials"
+    },
+    {
+      "item": "John West Tuna 95g",
+      "store": "Coles",
+      "price": "$1.45",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "Lunchbox protein; from Wed 4 Nov",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/coles-specials"
+    },
+    {
+      "item": "Gippsland Dairy Twist Yoghurt 160g",
+      "store": "Woolworths",
+      "price": "$1.85",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "From Wed 4 Nov",
+      "ends": "2026-11-10",
+      "url": "https://au-catalogues.com/woolworths-specials"
     },
     {
       "item": "Ocean Rise Smoked Oysters 85g",
@@ -1249,8 +1324,10 @@
     }
   ],
   "notes": [
-    "Search and fetch tools were weak again: many results were old seasons, and manutd.com, the BBC, Sydney FC's fixtures list and the Coles and Woolworths sites could not be read. Sections not fully re-checked are labelled below, so some are shorter than their limits rather than padded.",
-    "Man Utd v Roma: team news is from a Sports Mole preview published 2 Nov; doubtful players and the predicted XI are not confirmed. Other United fixtures and times are carried from the last run and weren't re-verified; Stan Sport is assumed as the broadcaster.",
+    "Search and fetch tools were weak again: many results were old seasons, and manutd.com, the BBC, Sydney FC's fixtures list, the supermarket sites and several sports pages could not be read. Sections not fully re-checked are shorter than their limits rather than padded.",
+    "Man Utd v Roma: team news is from a dave.sport preview and is not confirmed; line-ups are due on matchday. Other United and Sydney FC fixtures and times are carried from the last run and weren't re-verified; Stan Sport and Paramount+ are assumed as broadcasters.",
+    "A Sydney Kings v SE Melbourne Phoenix game on 8 Nov appears on a third-party listing but could not be confirmed at the source, so it is not listed.",
+    "Arts, deals and groceries were partly refreshed this run (Time Out, OzBargain and catalogue sites); the Coles and Woolworths catalogues showed few healthy lines and no was-prices.",
     "Sydney FC v Mariners: date, time and Paramount+ confirmed on a Flicks listing. Fixtures after Brisbane were not fully verified, and one matchweek (around 27-29 Nov) may be missing between Brisbane and Melbourne Victory. The Auckland kick-off is treated as New Zealand time.",
     "Big matches and live sport are carried from the last run (UEFA times were checked then). A search could not confirm Stan Sport for Wallabies v England in 2026; the 3:10pm UK kick-off was matched by two sources. No Sydney tennis, rugby union, Matildas or Socceroos games were found.",
     "Arts: Beetlejuice and Whispering Jack details come from search results because the venue pages couldn't be opened. Frontier Touring lists presales for Beth Orton (4 Nov, Mar 2027) and Jonah Kagen (5 Nov, Apr 2027); their Sydney dates weren't confirmed.",
