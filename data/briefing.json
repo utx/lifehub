@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:53:05+11:00",
+  "generated_at": "2026-11-06T07:03:38+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -19,11 +19,11 @@
           "preview": "United host Villa on Sunday 8 Nov (4:30pm UK, 3:30am Mon 9 Nov Sydney) after a 3-2 comeback over Roma ended a nine-game winless run.",
           "talking_points": [
             "United came from 2-0 down against Roma: Bruno Fernandes scored a retaken penalty and Matheus Cunha twice, for their first win in 54 days.",
-            "Carlos Baleba is almost certain to miss Villa after a hamstring injury Carrick said 'doesn't look great'; Sesko, Shaw and Ugarte were listed out against Roma.",
-            "Michael Carrick's future is still under pressure, with reports saying any change would likely come in the international break that follows.",
-            "Unai Emery's Villa were ninth in the Premier League and played Barcelona in the Champions League this week."
+            "Carlos Baleba is doubtful after a hamstring injury Carrick said 'doesn't look great'; scans were expected, so he may miss the game.",
+            "Lisandro Martinez is reported suspended after his Chelsea red card (to 22 Nov), and Sesko (shin), Shaw and Ugarte are also listed as injured.",
+            "Villa are without suspended Matty Cash (to 21 Nov); Michael Carrick's future is also reported to be under pressure."
           ],
-          "url": "https://www.nbcsports.com/soccer/live/manchester-united-vs-roma-team-live-updates-score-goals-highlights-stats-2026-november-3"
+          "url": "https://thefalse9.com/2026/11/man-utd-injury-news-vs-aston-villa.html"
         },
         {
           "opponent": "Liverpool",
@@ -81,13 +81,13 @@
           "broadcast": [
             "Paramount+"
           ],
-          "preview": "Sydney look to bounce back at home on Friday night after losing their first game of the season at Melbourne City.",
+          "preview": "Sydney host the Mariners at Allianz Stadium tonight (Fri 6 Nov, 7:40pm) after their first loss of the season at Melbourne City.",
           "talking_points": [
-            "Sydney lost 2-1 at Melbourne City on Saturday 31 Oct after Al-Hassan Toure's first-half opener, conceding twice after the break.",
-            "Coach Patrick Kisnorbo has backed his young side to learn from the defeat, per the club site.",
-            "Toure also had a second goal ruled out for offside; no line-up for Friday is confirmed."
+            "Sydney lost 2-1 at Melbourne City on 31 Oct after Al-Hassan Toure's first-half opener, conceding twice after the break.",
+            "Jacob Farrell (on loan from Portsmouth) could debut against his former club, and Gus Hoefsloot is back from a wrist injury.",
+            "Abel Walatee (ankle) and Jake Hollman (hamstring) are unavailable; no starting XI is confirmed."
           ],
-          "url": "https://www.flicks.com.au/sport/football/a-league/aleague-18/"
+          "url": "https://sydneyfc.com/news/sydney-fc-central-coast-mariners-squad-news-a-league/"
         },
         {
           "opponent": "Brisbane Roar",
@@ -145,36 +145,6 @@
     }
   ],
   "big_matches": [
-    {
-      "title": "RB Leipzig v Manchester City",
-      "sport": "Football",
-      "competition": "Champions League",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "Premier League leaders City travel to Germany on matchday 4 (7am Thu 5 Nov Sydney).",
-      "talking_points": [
-        "City were top of the Premier League on 21 points (goal difference plus 10) after nine games, per Sky Sports' table on Saturday night."
-      ],
-      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
-    },
-    {
-      "title": "Slavia Praha v Arsenal",
-      "sport": "Football",
-      "competition": "Champions League",
-      "kickoff": "2026-11-04T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "Title-chasing Arsenal travel to Prague on matchday 4 (7am Thu 5 Nov Sydney).",
-      "talking_points": [
-        "Arsenal were level with City on 21 points after eight league games, per Sky Sports' table before Sunday's Liverpool game."
-      ],
-      "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
-    },
     {
       "title": "England v Wallabies",
       "sport": "Rugby union",
@@ -294,7 +264,7 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Listed on the Term 4 primary calendar; dates may change, so check the latest Principal Update.",
+      "summary": "Today on the Term 4 primary calendar (4–6pm); not mentioned in the Week 4 Principal Update, so confirm with the school.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -410,20 +380,20 @@
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
-      "title": "Premier's Debating Challenge: high school team into the semi-finals",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-10-28",
+      "title": "Erko Berzerko 2026",
+      "kind": "event",
+      "category": "Community",
+      "start": "2026-11-07",
       "end": null,
-      "when": null,
-      "venue": "Alexandria Park Community School",
-      "suburb": "Alexandria",
+      "when": "Sat 7 Nov, 10am–4pm",
+      "venue": "Erskineville",
+      "suburb": "Erskineville",
       "transport": null,
       "nearest_station": null,
-      "trip": "about 10–15 min walk",
+      "trip": "about 15–20 min walk (estimate)",
       "cost": null,
-      "summary": "After beating Tempe High the school's debating team is one of the last four of about 360 teams, one win from the Grand Final.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+      "summary": "Erskineville community day listed on City of Sydney What's On; price and details not shown, so check the event page.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/"
     }
   ],
   "live_sport": [
@@ -889,19 +859,19 @@
       "url": "https://www.ozbargain.com.au/node/981351"
     },
     {
-      "title": "Final Fantasy VII Remake Intergrade (Switch 2)",
-      "category": "Gaming",
-      "start": "2026-11-03",
-      "end": "2026-11-16",
-      "when": "Expires 16 Nov (per OzBargain)",
+      "title": "Carl's Doomsday Scenario (hardcover)",
+      "category": "Books",
+      "start": "2026-11-06",
+      "end": null,
+      "when": "Expiry not stated",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$13.99",
-      "summary": "Nintendo eShop price; check the age rating before the kids play.",
-      "url": "https://www.ozbargain.com.au/node/981371"
+      "cost": "$24 (RRP $55)",
+      "summary": "Hardcover on Amazon AU; free delivery for Prime or on a $59 spend.",
+      "url": "https://www.ozbargain.com.au/node/981725"
     },
     {
       "title": "Borderlands Golden Keys (SHiFT code)",
@@ -964,19 +934,19 @@
       "url": "https://www.ozbargain.com.au/node/981556"
     },
     {
-      "title": "Tony's Chocolonely milk chocolate 180g at Coles",
-      "category": "Food",
-      "start": "2026-11-05",
-      "end": "2026-11-10",
-      "when": "Until 10 Nov (per OzBargain)",
+      "title": "adidas Outlet: extra 40% off",
+      "category": "Sports gear",
+      "start": "2026-11-06",
+      "end": "2026-11-13",
+      "when": "Expires 13 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$7.95 (was $9.95)",
-      "summary": "About 20% off; unclear whether other varieties are included.",
-      "url": "https://www.ozbargain.com.au/node/981630"
+      "cost": "Extra 40% off outlet prices",
+      "summary": "Auto-applies at checkout on adidas Outlet items as part of Singles' Day sales; no code needed.",
+      "url": "https://www.ozbargain.com.au/node/981826"
     },
     {
       "title": "8BitDo Ultimate 2C wireless controller",
@@ -994,19 +964,19 @@
       "url": "https://www.ozbargain.com.au/node/981179"
     },
     {
-      "title": "Tomb Raider GOTY and Rise of the Tomb Raider on GOG",
-      "category": "Gaming",
-      "start": "2026-11-02",
-      "end": "2026-11-07",
-      "when": "Expires 7 Nov (per OzBargain)",
+      "title": "Della Rosa Woodfire pizza at Coles",
+      "category": "Food",
+      "start": "2026-11-06",
+      "end": "2026-11-11",
+      "when": "Until 11 Nov (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$2.99 and $4.49",
-      "summary": "Cheap PC games on GOG; check age ratings first.",
-      "url": "https://www.ozbargain.com.au/node/981181"
+      "cost": "$5.50",
+      "summary": "Half-price woodfire pizza at Coles.",
+      "url": "https://www.ozbargain.com.au/node/981800"
     },
     {
       "title": "Humble Choice November bundle",
@@ -1330,13 +1300,13 @@
     }
   ],
   "notes": [
-    "Search and fetch tools were weak again: many results were old seasons, and manutd.com, the BBC, premierleague.com, Sydney FC's full fixture list and the supermarket sites could not be read. Sections not fully re-checked are shorter than their limits rather than padded.",
-    "Man Utd v Roma (3-2 win, 3 Nov) is over and was removed. Aston Villa team news comes from NBC Sports, The Herald and ESPN/Yahoo reports and isn't confirmed. Other United times are carried over; sources disagreed on whether Villa is Sat 7 or Sun 8 Nov, and 8 Nov was kept. Stan Sport is assumed as broadcaster.",
-    "Sydney FC: Brisbane (21 Nov), Big Blue (6 Dec) and Auckland (12 Dec) dates are confirmed by the A-Leagues fixture guide. The 6 Nov Mariners game and Paramount+ come from a Flicks listing, and a Round 6 game around 27-29 Nov may be missing.",
-    "Big matches: finished games (Atlético v Bayern, Barcelona v Villa) were dropped and the rest are carried over. The Socceroos v Qatar time and Paramount+ were confirmed by Football Australia; Jordan v Socceroos time and venue are still TBC. No Sydney tennis, rugby union or Matildas games were found.",
-    "Arts, family_fun, daughter and live_sport are mostly carried over and only partly re-checked (Time Out). Iron Maiden was added from an OzBargain listing; its time isn't confirmed at the venue. Frontier Touring presales for Beth Orton and Jonah Kagen were not re-checked.",
-    "Local: school events were re-read from the Term 4 calendars and Week 4 Principal Updates; calendar dates (such as the OC World Expo on 6 Nov) may change. Nothing was found for the second school or South Eveleigh in November, and no local news from the last 7 days was found.",
-    "Not found: Sydney matcha pop-ups in November, kids' Pokémon or Minecraft events, or a junior parkrun, so the section for the son is empty.",
-    "Groceries: Woolworths, Coles and Aldi items for 4-10 Nov were re-confirmed on catalogue sites, but no was-prices are shown and few healthy lines appear. Horizon entries are carried over and were not re-checked."
+    "Search tools were weak again: many results were old seasons, and manutd.com, the BBC, premierleague.com and the supermarket sites could not be read. Several sections are shorter than their limits rather than padded.",
+    "Man Utd v Aston Villa: kick-off Sun 8 Nov 4:30pm UK. Injury and suspension details come from a third-party injury page (thefalse9.com), not confirmed by the club; Baleba is doubtful. Other United fixtures and Stan Sport are carried over from the last run.",
+    "Sydney FC v Mariners (tonight, 7:40pm, Paramount+) was confirmed on sydneyfc.com. Later Sydney FC fixtures are carried over and not re-checked; a round 6 game around 27-29 Nov may be missing.",
+    "Big matches: finished Champions League games were removed; the rest are carried over and were not re-checked. Jordan v Socceroos time is still to be confirmed. No Sydney tennis, rugby union or Matildas games were found.",
+    "Arts, daughter, live_sport, family_fun and horizon are mostly carried over from the last run. Time Out re-confirmed Nolan: Origins, SIX, Hockney, Art After Hours and the Affordable Art Fair. Gig details (Foo Fighters, Robbie Williams, Enmore, Iron Maiden, Beetlejuice, Whispering Jack) were not re-checked.",
+    "Local: school events come from the Term 4 calendar and the Week 4 Principal Updates; calendar dates may change. Nothing was found for the second school or South Eveleigh in November, and no local news from the last 7 days was found.",
+    "Not found: Sydney matcha pop-ups, kids' Pokémon or Minecraft events, or a junior parkrun, so the section for the son is empty.",
+    "Groceries: Woolworths items for 4-10 Nov were re-confirmed on a catalogue site; Coles and Aldi items are carried over from the previous run's catalogue check. No was-prices are shown."
   ]
 }
