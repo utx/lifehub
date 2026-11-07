@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T06:33:17+11:00",
+  "generated_at": "2026-11-08T04:49:58+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -231,38 +231,6 @@
     }
   ],
   "local": [
-    {
-      "title": "Erko Berzerko 2026",
-      "kind": "event",
-      "category": "Community",
-      "start": "2026-11-07",
-      "end": null,
-      "when": "Sat 7 Nov, 10am–4pm",
-      "venue": "Erskineville",
-      "suburb": "Erskineville",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 15–20 min walk (estimate)",
-      "cost": "Free",
-      "summary": "Erskineville community day listed under children and family events on City of Sydney What's On.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/"
-    },
-    {
-      "title": "Balance bike clinics",
-      "kind": "event",
-      "category": "Family",
-      "start": "2026-11-07",
-      "end": null,
-      "when": "Sat 7 Nov, 9–11am",
-      "venue": "Sydney Park Cycling Centre",
-      "suburb": "St Peters",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 15 min walk",
-      "cost": "Free",
-      "summary": "Free clinic for children aged 3 to 8, listed on City of Sydney What's On.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/"
-    },
     {
       "title": "Adaptive Tennis at Alexandria Park",
       "kind": "event",
@@ -687,21 +655,6 @@
       "url": "https://www.broadsheet.com.au/sydney/event/affordable-art-fair-sydney-2026"
     },
     {
-      "title": "Australian Ceramics Open Studios 2026",
-      "category": "Arts and crafts",
-      "start": "2026-11-07",
-      "end": null,
-      "when": "Sat 7 Nov, 10am–4pm",
-      "venue": "Glebe studios",
-      "suburb": "Glebe",
-      "transport": "light rail",
-      "nearest_station": "Glebe",
-      "trip": "about 25 min from home via Central (estimate)",
-      "cost": "Free",
-      "summary": "Open studio day with ceramic makers, listed on City of Sydney What's On.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/"
-    },
-    {
       "title": "Book Fair Australia",
       "category": "Books",
       "start": "2026-11-07",
@@ -1052,6 +1005,36 @@
       "url": "https://www.ozbargain.com.au/node/981925"
     },
     {
+      "title": "80-piece dual-tip marker pack",
+      "category": "Craft",
+      "start": "2026-11-08",
+      "end": "2026-11-14",
+      "when": "Expires 14 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$9.90 delivered",
+      "summary": "Dual-tip art markers from Topiom.",
+      "url": "https://www.ozbargain.com.au/node/982079"
+    },
+    {
+      "title": "Alan Wake (PC) 90% off on GOG",
+      "category": "Gaming",
+      "start": "2026-11-08",
+      "end": "2026-11-16",
+      "when": "Expires 16 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$1.75",
+      "summary": "Digital PC game; check the age rating before buying for kids.",
+      "url": "https://www.ozbargain.com.au/node/982068"
+    },
+    {
       "title": "Free 3-month PromoTix VIP membership",
       "category": "Ticket deals",
       "start": "2026-11-04",
@@ -1368,7 +1351,8 @@
     }
   ],
   "notes": [
-    "Search tools were weak again: many results were old seasons, and manutd.com, the BBC, premierleague.com, the supermarket sites, Carriageworks, South Eveleigh and the STC site could not be read. Several sections are shorter than their limits rather than padded.",
+    "This was a light refresh: search returned mostly old seasons and the supermarket, club and venue sites could not be read. Finished events were removed, two OzBargain deals were added, and most other items are carried over from the last run and were not re-verified.",
+    "Not re-checked this run: horizon entries, big-match broadcasters, arts details and the Sydney FC round 6 gap. Local news from the last 7 days and Sydney tennis, rugby union or Matildas games were not found.",
     "Man Utd v Aston Villa (Sun 8 Nov, 4:30pm UK): injury and suspension details come from LiveScore and Brit Brief pre-match reports, not the club, so treat them as unconfirmed until team sheets. Stan Sport as broadcaster and the later United fixtures are carried over from earlier runs and could not be re-confirmed this run.",
     "Sydney FC beat the Mariners 4-1 on Friday night (sydneyfc.com). Fixtures after Brisbane were checked on the club tickets page; the Auckland game on 12 Dec is from aleagues.com.au and a round 6-7 game may be missing.",
     "Big matches: carried over from earlier runs except the Socceroos friendlies (re-confirmed with Football Australia) and the Champions League times (re-checked on uefa.com). Broadcasters were not re-checked. No Sydney tennis, rugby union or Matildas games were found for the next 4 weeks.",
