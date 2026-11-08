@@ -1,30 +1,11 @@
 {
-  "generated_at": "2026-11-08T04:49:58+11:00",
+  "generated_at": "2026-11-09T05:01:28+11:00",
   "teams": [
     {
       "id": "man-utd",
       "name": "Manchester United",
       "featured": true,
       "fixtures": [
-        {
-          "opponent": "Aston Villa",
-          "home": true,
-          "competition": "Premier League",
-          "kickoff": "2026-11-08T16:30:00+00:00",
-          "time_confirmed": true,
-          "venue": "Old Trafford",
-          "broadcast": [
-            "Stan Sport"
-          ],
-          "preview": "United host Villa on Sunday 8 Nov (4:30pm UK, 3:30am Mon 9 Nov Sydney) after a 3-2 comeback over Roma in the Champions League.",
-          "talking_points": [
-            "United came from 2-0 down to beat Roma, a rare win in a season with just one Premier League victory so far.",
-            "Carlos Baleba is out with a hamstring injury and Carrick says he will miss 'a number of weeks'.",
-            "Lisandro Martinez is suspended; Sesko, Ugarte and Shaw are out, and Rashford, Dorgu and Wan-Bissaka are doubts, with Maguire also a doubt after limping off.",
-            "Villa arrive after their first Champions League defeat of the season, to Barcelona, and are without suspended Matty Cash and the injured Onana and Ruggeri."
-          ],
-          "url": "https://www.livescore.com/en/news/football/premier-league/man-utd-vs-aston-villa-injury-news-as-8-ruled-out-and-3-doubts-claret-villans/"
-        },
         {
           "opponent": "Liverpool",
           "home": false,
@@ -35,7 +16,12 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "The trip to Anfield is set for Sunday 22 November at 4:30pm UK time (3:30am Mon 23 Nov Sydney).",
+          "preview": "United head to Anfield for the biggest rivalry in English football on Sunday 22 Nov, 4:30pm UK (3:30am Mon 23 Nov Sydney).",
+          "talking_points": [
+            "Kick-off is confirmed at 4:30pm UK time after Liverpool's November fixture changes.",
+            "United came into November with just one Premier League win, though they beat Roma 3-2 in the Champions League (pre-Villa reports).",
+            "Injury and suspension lists were long before the Villa game (Martinez suspended, Baleba out for weeks); anything beyond that is unconfirmed until team news."
+          ],
           "url": "https://www.liverpoolfc.com/news/fixture-updates-three-premier-league-changes-liverpool-november"
         },
         {
@@ -85,7 +71,7 @@
           "talking_points": [
             "Al Hassan Toure scored a hat-trick against the Mariners, his second for the club, and Gabriel Popovic scored his first Sydney FC goal.",
             "The win bounced Sydney back after a 2-1 loss at Melbourne City on 31 Oct.",
-            "Loan signing Jacob Farrell was in line to debut and Gus Hoefsloot returned from a wrist injury; Abel Walatee (ankle) and Jake Hollman (hamstring) were unavailable pre-match."
+            "Jacob Farrell and Gus Hoefsloot were in the squad for the Mariners game; Abel Walatee (ankle) and Jake Hollman (hamstring) were out then, so Brisbane availability is unconfirmed."
           ],
           "url": "https://sydneyfc.com/news/sydney-fc-central-coast-mariners-squad-news-a-league/"
         },
@@ -145,18 +131,6 @@
     }
   ],
   "big_matches": [
-    {
-      "title": "England v Wallabies",
-      "sport": "Rugby union",
-      "competition": "Nations Championship",
-      "kickoff": "2026-11-08T15:10:00+00:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "The Wallabies' Twickenham Test, a year out from the home Rugby World Cup (2:10am Mon 9 Nov Sydney).",
-      "url": "https://www.rugby.com.au/news/2026-nations-rugby-championship-fixtures-schedule-how-to-watch-international-rugby-wallabies-fixtures-2026-2026630"
-    },
     {
       "title": "Qatar v Socceroos",
       "sport": "Football",
@@ -276,7 +250,7 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Tours for prospective families from the Term 4 calendars; dates may change.",
+      "summary": "Tours for prospective families from the Term 4 calendars (High School tour today, Mon 9 Nov); dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -399,13 +373,13 @@
       "start": "2026-11-15T15:00:00+11:00",
       "end": null,
       "when": null,
-      "venue": "Qudos Bank Arena (per NBL)",
+      "venue": "Qudos Bank Arena",
       "suburb": "Sydney Olympic Park",
       "transport": "train",
       "nearest_station": "Olympic Park",
       "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
       "cost": null,
-      "summary": "NBL home game, Sunday 15 Nov at 3pm.",
+      "summary": "NBL home game, Sunday 15 Nov at 3pm (confirmed on nbl.com.au).",
       "url": "https://www.nbl.com.au/news/each-teams-biggest-game-of-nbl27-schedule"
     },
     {
@@ -486,19 +460,19 @@
       "url": "https://www.ozbargain.com.au/node/981563"
     },
     {
-      "title": "Copland Dance Episodes",
-      "category": "Dance",
-      "start": "2026-11-06",
-      "end": "2026-11-21",
-      "when": "6–21 Nov; session times on the Opera House site",
-      "venue": "Joan Sutherland Theatre, Sydney Opera House",
-      "suburb": "Sydney CBD",
+      "title": "Aldous Harding",
+      "category": "Gig",
+      "start": "2026-11-22",
+      "end": null,
+      "when": "Sun 22 Nov; set times TBA",
+      "venue": "Enmore Theatre",
+      "suburb": "Newtown",
       "transport": "train",
-      "nearest_station": "Circular Quay",
-      "trip": "about 20 min from Redfern, plus a short walk",
-      "cost": null,
-      "summary": "The Australian Ballet's season at the Opera House; prices are not shown on the listing page.",
-      "url": "https://www.sydneyoperahouse.com/whats-on"
+      "nearest_station": "Newtown",
+      "trip": "about 20 min from home (estimate)",
+      "cost": "Ticketek; price not listed",
+      "summary": "The NZ singer-songwriter plays the Enmore; tickets were listed as available.",
+      "url": "https://musick.com.au/gig/aldous-harding-2026-11-22/"
     },
     {
       "title": "Head On Photo Festival",
@@ -513,21 +487,6 @@
       "trip": "about 30 min from home (estimate, then a bus or walk)",
       "cost": "Free",
       "summary": "93 free photography exhibitions across Sydney, per Time Out.",
-      "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
-    },
-    {
-      "title": "Australian Geographic Nature Photographer of the Year",
-      "category": "Exhibition",
-      "start": "2026-11-03",
-      "end": "2027-02-14",
-      "when": "Until 14 Feb 2027",
-      "venue": "Australian Museum",
-      "suburb": "Darlinghurst",
-      "transport": "train",
-      "nearest_station": "Museum",
-      "trip": "about 20 min from Redfern (estimate)",
-      "cost": "Free",
-      "summary": "Free photography exhibition listed by Time Out this week.",
       "url": "https://www.timeout.com/sydney/things-to-do/things-to-do-in-sydney-this-week"
     },
     {
@@ -610,7 +569,7 @@
     {
       "title": "DigiPark Sydney",
       "category": "Gaming",
-      "start": "2026-11-07",
+      "start": "2026-11-09",
       "end": null,
       "when": "Saturday and Sunday, 10am–8pm",
       "venue": "Westfield Sydney, Level 5",
@@ -619,7 +578,7 @@
       "nearest_station": "Martin Place",
       "trip": "about 20 min from Redfern (estimate)",
       "cost": "From $39 per person",
-      "summary": "Digital play space at Westfield Sydney; the Halloween displays finish 8 Nov.",
+      "summary": "Digital play space at Westfield Sydney with holograms and interactive installations (the Halloween displays ended 8 Nov).",
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
     }
   ],
@@ -638,36 +597,6 @@
       "cost": "From $39.90 plus $5 booking fee",
       "summary": "A 360-degree projection of Hockney's work; moving images may bother sensitive visitors.",
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
-    },
-    {
-      "title": "Affordable Art Fair Sydney",
-      "category": "Arts and crafts",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "when": "Until Sun 8 Nov; hours on the fair's site",
-      "venue": "Carriageworks, 245 Wilson Street",
-      "suburb": "Eveleigh",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home",
-      "cost": "From $29.79",
-      "summary": "Art fair with the Kaleidoscope Children's Art Studio (toys and kawaii-inspired), live painting demos and family activities.",
-      "url": "https://www.broadsheet.com.au/sydney/event/affordable-art-fair-sydney-2026"
-    },
-    {
-      "title": "Book Fair Australia",
-      "category": "Books",
-      "start": "2026-11-07",
-      "end": "2026-11-08",
-      "when": "Sat 7 and Sun 8 Nov; hours and prices on the Showground site",
-      "venue": "Sydney Showground",
-      "suburb": "Sydney Olympic Park",
-      "transport": "train",
-      "nearest_station": "Olympic Park",
-      "trip": "about 35–40 min from Redfern (estimate, change at Lidcombe)",
-      "cost": null,
-      "summary": "A festival of books with stalls, panels, workshops and author signings.",
-      "url": "https://www.sydneyolympicpark.nsw.gov.au/things-to-see-and-do/book-fair-australia"
     },
     {
       "title": "The Finders Keepers Sydney Design Market",
@@ -730,21 +659,6 @@
       "cost": "Free opening day; about 65% of festival events free; exhibitions free for under-16s",
       "summary": "The new museum opens with a 23-day festival; some activities and adult admission are ticketed.",
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
-    },
-    {
-      "title": "Mediterranean Market",
-      "category": "Markets",
-      "start": "2026-11-08",
-      "end": null,
-      "when": "Sun 8 Nov, 8am–3pm",
-      "venue": "Market Canopy, The Entertainment Quarter, 122 Lang Road",
-      "suburb": "Moore Park",
-      "transport": "light rail",
-      "nearest_station": "Moore Park",
-      "trip": "about 30 min from Redfern via Central (estimate)",
-      "cost": "Free",
-      "summary": "Mediterranean food, live music, maker stalls and family activities; dogs are welcome.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/events/mediterranean-market"
     },
     {
       "title": "The Social Enterprise Festival",
@@ -870,36 +784,6 @@
       "url": "https://www.ozbargain.com.au/node/981351"
     },
     {
-      "title": "LEGO Creator 3-in-1 Hummingbird 31384",
-      "category": "Craft",
-      "start": "2026-11-07",
-      "end": null,
-      "when": "Expiry not stated",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$15 plus delivery",
-      "summary": "Kmart price; $0 delivery via click and collect, in-store, OnePass or orders over $65.",
-      "url": "https://www.ozbargain.com.au/node/981945"
-    },
-    {
-      "title": "Carl's Doomsday Scenario (hardcover)",
-      "category": "Books",
-      "start": "2026-11-06",
-      "end": null,
-      "when": "Expiry not stated",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "$24 (RRP $55)",
-      "summary": "Hardcover on Amazon AU; free delivery for Prime or on a $59 spend.",
-      "url": "https://www.ozbargain.com.au/node/981725"
-    },
-    {
       "title": "Borderlands Golden Keys (SHiFT code)",
       "category": "Freebies",
       "start": "2026-11-03",
@@ -930,19 +814,34 @@
       "url": "https://www.shopback.com.au/blog/finance/australia-black-friday-2026-sale-calendar"
     },
     {
-      "title": "Free Hungry Jack's cheeseburger (NBL Round 8)",
-      "category": "Freebies",
-      "start": "2026-11-05",
-      "end": "2026-11-08",
-      "when": "Claim by 11:59pm Sun 8 Nov; voucher expires the day after claiming",
+      "title": "Retroid Pocket Duo Lite handheld",
+      "category": "Gaming",
+      "start": "2026-11-09",
+      "end": "2026-11-19",
+      "when": "Expires 19 Nov, 6:59pm (per OzBargain)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "Free",
-      "summary": "Free cheeseburger via the Hungry Jack's app (one per account per round, or $1 minimum online spend).",
-      "url": "https://www.ozbargain.com.au/node/981654"
+      "cost": "About A$202 delivered (code AUD1120)",
+      "summary": "Singles' Day price on AliExpress; check the 6GB variant at checkout as the final price may differ.",
+      "url": "https://www.ozbargain.com.au/node/982155"
+    },
+    {
+      "title": "GearSupply: 50-60% off Primus and other outdoor brands",
+      "category": "Sports gear",
+      "start": "2026-11-09",
+      "end": "2026-11-30",
+      "when": "Expires 30 Nov (per OzBargain)",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "Extra 10% off with code WELCOME10",
+      "summary": "Outdoor gear sale with a stacking extra 10% off code; some exclusions may apply.",
+      "url": "https://www.ozbargain.com.au/node/982139"
     },
     {
       "title": "Spice Tailor meal kits at Coles",
@@ -1190,6 +1089,16 @@
       "note": "Size not stated; oil-packed",
       "ends": "2026-11-30",
       "url": "https://au-catalogues.com/aldi-specials"
+    },
+    {
+      "item": "New Season Corn Kernels 420g",
+      "store": "Aldi",
+      "price": "$0.89",
+      "was": null,
+      "saving": "Weekly special",
+      "note": "Starts Wed 11 Nov",
+      "ends": "2026-11-17",
+      "url": "https://au-catalogues.com/aldi-specials"
     }
   ],
   "horizon": [
@@ -1351,14 +1260,14 @@
     }
   ],
   "notes": [
-    "This was a light refresh: search returned mostly old seasons and the supermarket, club and venue sites could not be read. Finished events were removed, two OzBargain deals were added, and most other items are carried over from the last run and were not re-verified.",
-    "Not re-checked this run: horizon entries, big-match broadcasters, arts details and the Sydney FC round 6 gap. Local news from the last 7 days and Sydney tennis, rugby union or Matildas games were not found.",
-    "Man Utd v Aston Villa (Sun 8 Nov, 4:30pm UK): injury and suspension details come from LiveScore and Brit Brief pre-match reports, not the club, so treat them as unconfirmed until team sheets. Stan Sport as broadcaster and the later United fixtures are carried over from earlier runs and could not be re-confirmed this run.",
-    "Sydney FC beat the Mariners 4-1 on Friday night (sydneyfc.com). Fixtures after Brisbane were checked on the club tickets page; the Auckland game on 12 Dec is from aleagues.com.au and a round 6-7 game may be missing.",
-    "Big matches: carried over from earlier runs except the Socceroos friendlies (re-confirmed with Football Australia) and the Champions League times (re-checked on uefa.com). Broadcasters were not re-checked. No Sydney tennis, rugby union or Matildas games were found for the next 4 weeks.",
-    "Arts: Foo Fighters, Robbie Williams, Enmore, Iron Maiden, Beetlejuice and Whispering Jack details were not re-checked. Opera House and Head On items come from listing pages, so check prices before booking.",
-    "Local: school events come from the Term 4 calendars and the Week 4 Principal Updates; calendar dates may change. Nothing was found for the second school or South Eveleigh in November, and no local news from the last 7 days was found.",
-    "Not found: Sydney matcha pop-ups in November, kids' Pokémon or Minecraft events, or a Sydney junior parkrun date, so the son section is short and is a general kids' digital play space only.",
-    "Groceries: all items are from catalogue sites for 4-10 Nov (no was-prices shown); no matcha, meat, eggs or nuts specials were visible. Aldi's next week's specials start Wed 11 Nov."
+    "Research was patchy: club, venue and supermarket sites were mostly unreadable and many searches returned old seasons. Items described as not re-checked are carried from the last run.",
+    "Man Utd v Aston Villa (3:30am Sydney) was removed as finished; I could not find a reliable final score (live pages disagreed). The Liverpool preview uses pre-Villa reporting, and Stan Sport as broadcaster was not re-confirmed.",
+    "Sydney FC: Brisbane (21 Nov), Melbourne Victory (6 Dec), Auckland (12 Dec) and Macarthur (28 Dec) come from the club and A-League sites; the A-League guide lists no Sydney games in rounds 6, 7, 9 or 10, so the list may be incomplete. Perth Glory (18 Dec) is carried over.",
+    "Big matches: broadcasters were not re-checked and no Sydney tennis, rugby union or Matildas games were found. Sydney FC Women v Canberra United is carried over from the club tickets page.",
+    "Arts: Aldous Harding is confirmed via Musick (Ticketek). Foo Fighters, Robbie Williams, Melanie C, Iron Maiden, Beetlejuice and Whispering Jack were not re-checked. Northlane (Enmore, 11 Nov) and Men I Trust (Enmore, 20-21 Nov) appear in listings but were not opened.",
+    "Local: school events come from the Term 4 calendar and Week 4 Principal Updates (dates may change). No South Eveleigh events or local news from the last 7 days were found. Adaptive Tennis was not re-checked.",
+    "Not found: Sydney matcha pop-ups, Pokemon or Minecraft kids' events, or a Sydney junior parkrun for November.",
+    "Groceries: Woolworths, Coles and Aldi items are from catalogue sites for 4-10 Nov with no was-prices shown. The Wed 11 Nov specials were not yet published apart from one Aldi item.",
+    "Horizon: not re-checked, except that Rugby World Cup 2027 sales have run since Feb 2026 (ballot and first-come phases); check tickets.rugbyworldcup.com for what is left."
   ]
 }
