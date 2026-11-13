@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:06:45+11:00",
+  "generated_at": "2026-11-14T06:50:00+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -160,22 +160,6 @@
   ],
   "big_matches": [
     {
-      "title": "Qatar v Socceroos",
-      "sport": "Football",
-      "competition": "International friendly",
-      "kickoff": "2026-11-13T17:45:00+03:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Paramount+"
-      ],
-      "why": "Socceroos friendly in Doha against the reigning Asian champions (1:45am Sat 14 Nov Sydney).",
-      "talking_points": [
-        "Football Australia lists this and the Jordan game as the final preparation matches before the Asian Cup.",
-        "The AFC has moved the Asian Cup to 23 Dec 2027 to 21 Jan 2028, pending FIFA approval."
-      ],
-      "url": "https://footballaustralia.com.au/news/commbank-socceroos-face-qatar-and-jordan-ahead-afc-asian-cup-2027tm"
-    },
-    {
       "title": "Jordan v Socceroos",
       "sport": "Football",
       "competition": "International friendly",
@@ -297,22 +281,6 @@
     }
   ],
   "local": [
-    {
-      "title": "MADD Night: music, art, drama and dance",
-      "kind": "event",
-      "category": "School",
-      "start": "2026-11-13T16:30:00+11:00",
-      "end": null,
-      "when": "Today, Fri 13 Nov, from 4:30pm; raffle draw 6:30–7:30pm",
-      "venue": "Alexandria Park Community School",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": "Raffle tickets $5 each",
-      "summary": "The school's creative arts showcase; the Week 5 Principal Updates give a 4:30pm start and a P&C raffle with over $2,100 in prizes.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
     {
       "title": "Bush Food Discovery Tour",
       "kind": "event",
@@ -523,28 +491,44 @@
       "url": "https://accorstadium.com.au/events/robbie_williams_britpop_world_tour_sydney"
     },
     {
-      "title": "Alex Lloyd: Watching Angels Mend 25th anniversary",
+      "title": "Melanie C",
       "kind": "event",
       "category": "Gig",
-      "start": "2026-11-14T19:30:00+11:00",
+      "start": "2026-11-15T19:30:00+11:00",
       "end": null,
-      "when": "Sat 14 Nov, 7:30pm",
-      "venue": "Factory Theatre",
-      "suburb": "Marrickville",
+      "when": "Sun 15 Nov, 7:30pm; support Cassie Henderson",
+      "venue": "Enmore Theatre",
+      "suburb": "Newtown",
       "transport": "train",
-      "nearest_station": "Marrickville",
-      "trip": "about 25 min from home (estimate)",
+      "nearest_station": "Newtown",
+      "trip": "about 20 min from home (estimate)",
       "cost": null,
-      "summary": "Singer-songwriter anniversary show listed on Sydney Music's gig guide; price not listed.",
+      "summary": "Solo show listed on Sydney Music's gig guide; price not listed.",
+      "url": "https://sydneymusic.net/gig-guide"
+    },
+    {
+      "title": "C.W. Stoneking at Art After Hours",
+      "kind": "event",
+      "category": "Gig",
+      "start": "2026-11-18T19:00:00+11:00",
+      "end": null,
+      "when": "Wed 18 Nov, 7pm",
+      "venue": "Art Gallery of NSW",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "St James",
+      "trip": "about 20 min from Redfern (estimate)",
+      "cost": "Free",
+      "summary": "Free gig listed on Sydney Music's guide during the gallery's late night.",
       "url": "https://sydneymusic.net/gig-guide"
     },
     {
       "title": "Iron Maiden with Megadeth",
       "kind": "event",
       "category": "Gig",
-      "start": "2026-11-15T17:30:00+11:00",
+      "start": "2026-11-15T18:00:00+11:00",
       "end": null,
-      "when": "Sun 15 Nov, 5:30pm",
+      "when": "Sun 15 Nov, 6pm (per Sydney Music gig guide)",
       "venue": "Allianz Stadium",
       "suburb": "Moore Park",
       "transport": "light rail",
@@ -979,20 +963,20 @@
   ],
   "deals": [
     {
-      "title": "Krispy Kreme: free Original Glazed doughnut",
+      "title": "Sydney FC 'Blackout Friday': membership discounts up to 50%",
       "kind": "event",
-      "category": "Freebies",
+      "category": "Ticket deals",
       "start": "2026-11-13",
-      "end": "2026-11-13",
-      "when": "Fri 13 Nov (World Kindness Day), while stocks last",
-      "venue": "Krispy Kreme shops (not South Australia, some airports or delivery apps)",
+      "end": null,
+      "when": "Brought forward from Black Friday; end date not stated",
+      "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "Free",
-      "summary": "One free Original Glazed doughnut per customer, no purchase needed (earlier check).",
-      "url": "https://www.ozbargain.com.au/node/982325"
+      "cost": "Up to 50% off memberships",
+      "summary": "The club announced the early sale on its news page.",
+      "url": "https://www.sydneyfc.com/news/"
     },
     {
       "title": "Hungry Jack's: free cheeseburger (NBL Round 9)",
@@ -1011,36 +995,20 @@
       "url": "https://www.ozbargain.com.au/node/982837"
     },
     {
-      "title": "Rebel Sport: save $20 on $100, $40 on $200, $60 on $300+",
+      "title": "On running shoes up to 60% off at Foot Locker",
       "kind": "event",
       "category": "Sports gear",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "when": "Online only; ends 11:59pm AEST Fri 13 Nov per Rebel's terms",
+      "start": "2026-11-14",
+      "end": null,
+      "when": "No expiry listed",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "$20 off a $100 spend",
-      "summary": "Full-price items only; excludes Yeti, Apple, online-only fan gear and gift cards.",
-      "url": "https://www.ozbargain.com.au/node/982387"
-    },
-    {
-      "title": "adidas Outlet: extra 40% off",
-      "kind": "event",
-      "category": "Sports gear",
-      "start": "2026-11-13",
-      "end": "2026-11-13",
-      "when": "Singles' Day sale; OzBargain lists expiry 13 Nov, no official end time found",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": "Extra 40% off outlet prices",
-      "summary": "Auto-applies at checkout; delivery $10, free over $120 or for adiClub members.",
-      "url": "https://www.ozbargain.com.au/node/981826"
+      "cost": "e.g. Cloudmonster $119.95",
+      "summary": "Delivery $10, free over $150, per OzBargain's front page.",
+      "url": "https://www.ozbargain.com.au/"
     },
     {
       "title": "Event Cinemas Gold Class half price",
@@ -1466,13 +1434,15 @@
     }
   ],
   "notes": [
-    "Many club, venue, ticketing and supermarket pages blocked access (BBC, manutd.com, STC), so some details come from search results and third-party listings. Items marked 'earlier check' were carried over and not re-opened this run.",
+    "Refreshed Sat 14 Nov. Search returned mostly stale results and many club, venue and ticketing pages blocked access, so several items were carried over from the 13 Nov run and not re-opened. Items marked 'earlier check' were not re-verified.",
+    "Dropped as finished: Qatar v Socceroos (result not found), MADD Night, and the Krispy Kreme, Rebel and adidas offers. Alex Lloyd was cut to make room for Melanie C and C.W. Stoneking. Iron Maiden's time now follows Sydney Music's guide (6pm).",
+    "Man Utd and Sydney FC: re-checked Sky Sports fixtures and the 8 Nov table, and the Sydney FC news page. No current team news was found for Liverpool or Brisbane, so those previews are unchanged.",
     "Man Utd: fixtures were checked against Sky Sports; the table (18th, 8 points) is from Sky as of 8 Nov, and Villa match detail comes from search summaries. Liverpool's recent form and any team news weren't found.",
     "Sydney FC: Brisbane (6:40pm) and Auckland (5pm) times come from the A-Leagues page with no stated time zone, so they are treated as local times. No ladder or injury list was found.",
     "Big matches: Champions League kick-offs use UEFA's default 21:00 CET; the Nations Championship fixtures were carried over from rugby.com.au and not re-opened. Jordan v Socceroos has no confirmed time, so 12:00 local is a placeholder. Real Madrid v PSV was dropped to stay within the limit.",
     "Local: no local news from the last 7 days was found. School events come from the Term 4 calendars and the Week 5 Principal Updates (dates may change); nothing was found for the second school or South Eveleigh. The Bush Food Tour and Abilities Unleashed items were carried over and not re-opened.",
     "Live sport: no Sydney tennis, rugby union or Matildas games were found in the window; only the Kings' 15 Nov home game was confirmed, and other Kings home dates weren't available.",
-    "Arts: Jack Johnson and Alex Lloyd come from Sydney Music's gig guide (no prices listed); the Dracula season was dropped as it couldn't be re-confirmed. Boyz II Men (4 Dec) is sold out; Remi Wolf (Enmore, 15 Dec) falls outside the window, and Beck's tour is Melbourne only.",
+    "Arts: gig times come from Sydney Music's gig guide (no prices listed); the Dracula season was dropped as it couldn't be re-confirmed. Boyz II Men (4 Dec) is sold out; Remi Wolf (Enmore, 15 Dec) falls outside the window, and Beck's tour is Melbourne only.",
     "Son and daughter: nothing confirmed for Pokémon, Minecraft or Roblox events within 4 weeks (a Minecraft Experience opens at Luna Park on 18 Dec and a Pokémon card party is on in Blacktown on 12 Dec), nor for a junior parkrun near home or Sydney kids' author events. Sydney FC's summer holiday clinics (ages 5–13) were announced but dates weren't found.",
     "Groceries: half-price lines come from an OzBargain roundup of the 11–17 Nov NSW catalogues; no half-price fresh fruit, veg, eggs or wholegrain bread were listed. Aldi items have no was-price.",
     "Deals: Black Friday sales are expected from about 23 Nov (a forecast, not confirmed). Krispy Kreme and Event Cinemas offers were carried over and not re-opened; the Affordable Art Fair was dropped as it ended 8 Nov.",
