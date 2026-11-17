@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T09:18:31+11:00",
+  "generated_at": "2026-11-18T08:04:56+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -16,11 +16,12 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Mauricio Pochettino, appointed on 13 Nov and due to start on Wed 18 Nov, is set to take charge at Anfield (3:30am Mon 23 Nov Sydney) after only three training days.",
+          "preview": "Mauricio Pochettino, who takes his first training on Thu 19 Nov, is due to take charge at Anfield (3:30am Mon 23 Nov Sydney) after only three training days.",
           "talking_points": [
             "Pochettino replaces the sacked Michael Carrick on a deal to summer 2029; Sky Sports News understands United must pay about £7.4m to free him from the USA job.",
             "United are 18th with 8 points from 10 (one win, five draws, four losses), their worst-ever Premier League start, per Sky's table of 8 Nov.",
             "Liverpool were 4th on 18 points as of 8 Nov, and sit 8th in the Champions League table on 9 points; United are 17th on 6.",
+            "Pochettino is expected to hold his first press conference on Friday, per DaveOCKOP, so team news should firm up then.",
             "Line-ups and injuries aren't confirmed, so it's unclear who Pochettino can pick."
           ],
           "url": "https://www.skysports.com/football/news/13610882/mauricio-pochettino-appointed-as-manchester-united-head-coach-after-michael-carricks-sacking-at-old-trafford"
@@ -98,7 +99,7 @@
           "talking_points": [
             "Al Hassan Toure scored his second hat-trick for the club in the 4-1 win over the Mariners, and Gabriel Popovic scored his first goal for Sydney.",
             "Patrick Kisnorbo said after that win that 'the best is yet to come'.",
-            "Sydney were 2nd on 7 points from 4 games and Brisbane 3rd on 7 from 3 as of 8 Nov (Wikipedia ladder, not re-checked).",
+            "Sydney were 2nd on 7 points from 4 games and Brisbane 3rd on 7 from 3 as of 8 Nov (not re-checked).",
             "The squad for Brisbane isn't named yet, and no injury list has been published."
           ],
           "url": "https://sydneyfc.com/news/"
@@ -159,22 +160,6 @@
     }
   ],
   "big_matches": [
-    {
-      "title": "Jordan v Socceroos",
-      "sport": "Football",
-      "competition": "International friendly",
-      "kickoff": "2026-11-17T19:00:00+03:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Paramount+"
-      ],
-      "why": "Moved from Amman to Suheim bin Hamad Stadium in Doha after most of the squad refused to travel; the Socceroos site lists 3am Wed 18 Nov (Sydney).",
-      "talking_points": [
-        "The match was moved from Amman to Doha on 13 Nov, per the Socceroos site.",
-        "Squad strength is unclear, as an earlier report said most of the squad refused to travel."
-      ],
-      "url": "https://socceroos.com.au/"
-    },
     {
       "title": "England v New Zealand",
       "sport": "Rugby union",
@@ -307,26 +292,10 @@
   ],
   "local": [
     {
-      "title": "City of Sydney plans to cap shared e-bikes at 7,000",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-11-10",
-      "end": null,
-      "when": null,
-      "venue": "Inner-city streets",
-      "suburb": "Sydney",
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": null,
-      "summary": "About 5,000 of roughly 12,000 shared e-bikes would go from March 2027, cutting operators from three to two; 400+ parking bays are planned by June 2027.",
-      "url": "https://cityhub.com.au/city-of-sydneys-plans-to-remove-more-than-5000-shared-e-bikes-from-inner-city-streets"
-    },
-    {
       "title": "Bandanna Day week",
       "kind": "event",
       "category": "School",
-      "start": "2026-11-16",
+      "start": "2026-11-18",
       "end": "2026-11-20",
       "when": "Mon 16 to Fri 20 Nov",
       "venue": "Alexandria Park Community School",
@@ -339,19 +308,19 @@
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
-      "title": "School tours",
+      "title": "High school tour",
       "kind": "event",
       "category": "School",
-      "start": "2026-11-17T10:00:00+11:00",
+      "start": "2026-11-19T16:00:00+11:00",
       "end": null,
-      "when": "Primary tour Tue 17 Nov, 10am; high school tour Thu 19 Nov, 4pm",
+      "when": "Thu 19 Nov, 4pm",
       "venue": "Alexandria Park Community School",
       "suburb": "Alexandria",
       "transport": null,
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Tours for prospective families, shown on the Term 4 calendars; dates may change.",
+      "summary": "Tour for prospective families, shown on the Term 4 calendars; dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -368,6 +337,38 @@
       "trip": "about 10–15 min walk",
       "cost": null,
       "summary": "On the Term 4 primary calendar for Kindergarten, Year 6 and the support unit; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
+    },
+    {
+      "title": "Carriageworks Farmers Market",
+      "kind": "event",
+      "category": "Markets",
+      "start": "2026-11-21T08:00:00+11:00",
+      "end": "2026-11-21T13:00:00+11:00",
+      "when": "Every Saturday, 8am–1pm",
+      "venue": "Carriageworks, 245 Wilson Street",
+      "suburb": "Eveleigh",
+      "transport": "train",
+      "nearest_station": "Redfern",
+      "trip": "about 15 min from home",
+      "cost": "Free entry",
+      "summary": "Weekly farmers market on the Carriageworks site, per the venue's website.",
+      "url": "https://www.carriageworks.com.au/whats-on/"
+    },
+    {
+      "title": "Year 6 leadership speeches",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-23",
+      "end": null,
+      "when": "Mon 23 Nov; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Listed on the Term 4 primary calendar; dates may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
     },
     {
@@ -465,22 +466,6 @@
       "cost": "Free",
       "summary": "Free family concert with Monski Mouse, The Mik Maks and Santa, plus a circus drop zone, free craft and food trucks; no pets.",
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/alexandria-christmas-concert"
-    },
-    {
-      "title": "Carriageworks Farmers Market",
-      "kind": "event",
-      "category": "Markets",
-      "start": "2026-11-21T08:00:00+11:00",
-      "end": "2026-11-21T13:00:00+11:00",
-      "when": "Every Saturday, 8am–1pm",
-      "venue": "Carriageworks, 245 Wilson Street",
-      "suburb": "Eveleigh",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home",
-      "cost": "Free entry",
-      "summary": "Weekly farmers market on the Carriageworks site, per the venue's website.",
-      "url": "https://www.carriageworks.com.au/whats-on/"
     }
   ],
   "live_sport": [
@@ -520,7 +505,7 @@
       "title": "Whispering Jack: The John Farnham Musical",
       "kind": "event",
       "category": "Musical",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2027-01-03",
       "when": "Previews from 15 Nov, main season from 26 Nov; about 2.5 hours with interval",
       "venue": "Roslyn Packer Theatre",
@@ -536,7 +521,7 @@
       "title": "Silver Tongue",
       "kind": "event",
       "category": "Musical",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-19",
       "when": "Mon 6:30pm, Tue–Sat 7:30pm, matinees Thu 1pm and Sat 2pm",
       "venue": "Hayes Theatre Co",
@@ -568,7 +553,7 @@
       "title": "Strong is the New Pretty (Sydney Theatre Company)",
       "kind": "event",
       "category": "Theatre",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-12",
       "when": "23 Oct to 12 Dec; session times on the venue page",
       "venue": "Drama Theatre, Sydney Opera House",
@@ -714,7 +699,7 @@
       "title": "DigiPark Sydney",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": null,
       "when": "Open daily; Sat and Sun 10am–8pm",
       "venue": "Westfield Sydney, Level 5",
@@ -780,7 +765,7 @@
       "title": "David Hockney: Bigger & Closer (immersive)",
       "kind": "event",
       "category": "Arts and crafts",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2027-01-24",
       "when": "Daily until 24 Jan 2027",
       "venue": "Bay 17, Carriageworks, 245 Wilson Street",
@@ -814,7 +799,7 @@
       "title": "Powerhouse Parramatta opening festival",
       "kind": "event",
       "category": "Museum",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-11-29",
       "when": "Until Sun 29 Nov; open until 9pm on weekends",
       "venue": "Powerhouse Parramatta, 34 Phillip Street",
@@ -830,7 +815,7 @@
       "title": "Dig It! archaeology dig site",
       "kind": "event",
       "category": "Museum",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2027-02-28",
       "when": "Daily 10am–1pm",
       "venue": "Museum of Sydney, cnr Phillip and Bridge Streets",
@@ -841,6 +826,22 @@
       "cost": "Free",
       "summary": "Family-friendly dig site where children play archaeologist.",
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/dig-it"
+    },
+    {
+      "title": "Growing Friends Spring Sale",
+      "kind": "event",
+      "category": "Plants",
+      "start": "2026-11-18T10:00:00+11:00",
+      "end": "2026-11-18T14:00:00+11:00",
+      "when": "Wed 18 Nov, 10am–2pm",
+      "venue": "Royal Botanic Garden Sydney",
+      "suburb": "Sydney CBD",
+      "transport": "train",
+      "nearest_station": "Martin Place",
+      "trip": "about 20 min from Redfern, plus a walk",
+      "cost": "Free entry",
+      "summary": "Plant sale listed on City of Sydney What's On (details beyond the listing not checked).",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/growing-friends-spring-sale"
     },
     {
       "title": "EQ Markets",
@@ -878,7 +879,7 @@
       "title": "Cirque du Soleil KOOZA",
       "kind": "event",
       "category": "Show",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2027-01-03",
       "when": "Until 3 Jan; see site for session times",
       "venue": "Big Top, Entertainment Quarter",
@@ -894,7 +895,7 @@
       "title": "SIX the Musical",
       "kind": "event",
       "category": "Musical",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-20",
       "when": "Until 20 Dec",
       "venue": "Theatre Royal Sydney, 108 King Street",
@@ -910,7 +911,7 @@
       "title": "Wundrful World of Christmas",
       "kind": "event",
       "category": "Festival",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-24",
       "when": "Until 24 Dec, selected days; booking recommended",
       "venue": "Wundr Store, 31 Market Street",
@@ -926,7 +927,7 @@
       "title": "LEGO Christmas Workshop",
       "kind": "event",
       "category": "Workshop",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-24",
       "when": "Daily 10:30am–4:30pm",
       "venue": "Myer Sydney City, Pitt Street Mall",
@@ -942,7 +943,7 @@
       "title": "David Jones Christmas Windows",
       "kind": "event",
       "category": "Festival",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-24",
       "when": "Through the Christmas season",
       "venue": "David Jones, Elizabeth Street",
@@ -951,7 +952,7 @@
       "nearest_station": "St James",
       "trip": "about 20 min from Redfern (estimate)",
       "cost": "Free",
-      "summary": "Animated Christmas windows, free to view.",
+      "summary": "Animated Winnie the Pooh Christmas windows, free to view.",
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
     },
     {
@@ -969,22 +970,6 @@
       "cost": "Free",
       "summary": "French market at the Entertainment Quarter.",
       "url": "https://whatson.cityofsydney.nsw.gov.au/events/le-marche-french-market"
-    },
-    {
-      "title": "Philippe Parreno: 5 Moons",
-      "kind": "event",
-      "category": "Exhibition",
-      "start": "2026-11-21",
-      "end": "2027-04-26",
-      "when": "Opens Sat 21 Nov; runs to 26 Apr 2027",
-      "venue": "Museum of Contemporary Art",
-      "suburb": "Sydney CBD",
-      "transport": "train",
-      "nearest_station": "Circular Quay",
-      "trip": "about 25 min from Redfern, plus a walk",
-      "cost": null,
-      "summary": "New exhibition at the MCA, listed on Sydney.com; price and family suitability not checked.",
-      "url": "https://www.sydney.com/events"
     }
   ],
   "deals": [
@@ -1008,39 +993,39 @@
       "title": "PS5 DualSense controllers from $79 at JB Hi-Fi",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-17",
-      "end": null,
-      "when": "No expiry listed",
+      "start": "2026-11-18",
+      "end": "2026-12-02",
+      "when": "Listed to 2 Dec",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "$79 standard, $99 limited edition",
-      "summary": "Most PS5 controllers appear discounted; postage applies and commenters say it isn't an all-time low.",
+      "summary": "Most PS5 controllers appear discounted; commenters say it isn't an all-time low and mention a $74 price match.",
       "url": "https://www.ozbargain.com.au/node/983271"
     },
     {
       "title": "EB Games: select PS5 games 2 for $99",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-17",
-      "end": null,
-      "when": "End date not listed",
+      "start": "2026-11-18",
+      "end": "2026-12-02",
+      "when": "Listed to 2 Dec, or sooner if stock runs out",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
       "cost": "2 for $99",
-      "summary": "OzBargain lists a 2-for-$99 deal on selected PS5 games; check the age rating before the kids play.",
+      "summary": "Selected PS5 games such as Astro Bot and Gran Turismo 7; check the age rating before the kids play.",
       "url": "https://www.ozbargain.com.au/node/983417"
     },
     {
       "title": "Final Fantasy VII Remake Intergrade $9.89 and Rebirth $11.24",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-12-04",
       "when": "Expires 4 Dec, 5am",
       "venue": "Online",
@@ -1056,7 +1041,7 @@
       "title": "UNO Teams card game $5.58 (RRP $12.99)",
       "kind": "event",
       "category": "Games",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-11-30",
       "when": "Expires 30 Nov",
       "venue": "Online",
@@ -1072,7 +1057,7 @@
       "title": "Board games on Amazon AU: Dune Imperium $67, Cascadia $51",
       "kind": "event",
       "category": "Games",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": "2026-11-30",
       "when": "Expires 30 Nov",
       "venue": "Online",
@@ -1085,10 +1070,26 @@
       "url": "https://www.ozbargain.com.au/node/983516"
     },
     {
+      "title": "Hobbit & Lord of the Rings illustrated boxed set $119.99",
+      "kind": "event",
+      "category": "Books",
+      "start": "2026-11-18",
+      "end": "2026-11-30",
+      "when": "Expires 30 Nov",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$119.99 delivered",
+      "summary": "Amazon AU Black Friday price; the poster calls it the lowest in over a year. One buyer reported shipping damage.",
+      "url": "https://www.ozbargain.com.au/node/983614"
+    },
+    {
       "title": "Foot Locker: up to 60% off On running shoes",
       "kind": "event",
       "category": "Sports gear",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": null,
       "when": "End date not listed",
       "venue": "Online",
@@ -1097,14 +1098,14 @@
       "nearest_station": null,
       "trip": null,
       "cost": "e.g. Cloudmonster $119.95",
-      "summary": "Up to 60% off On running shoes; $10 delivery, free over $150. Mostly adult sizes.",
+      "summary": "Up to 60% off On running shoes; $10 delivery, free over $150. Mostly adult sizes, and one buyer had an order cancelled for lack of stock.",
       "url": "https://www.ozbargain.com.au/node/982918"
     },
     {
       "title": "2XU: up to 30% off selected items",
       "kind": "event",
       "category": "Sports gear",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": null,
       "when": "End date not listed",
       "venue": "Online",
@@ -1113,30 +1114,14 @@
       "nearest_station": null,
       "trip": null,
       "cost": null,
-      "summary": "Running and training gear; free shipping over $80.",
+      "summary": "Running and training gear; free shipping over $80 (not re-checked today).",
       "url": "https://www.ozbargain.com.au/node/983350"
-    },
-    {
-      "title": "Elite Eleven activewear: up to 70% off",
-      "kind": "event",
-      "category": "Sports gear",
-      "start": "2026-11-17",
-      "end": null,
-      "when": "End date not listed",
-      "venue": "Online",
-      "suburb": null,
-      "transport": null,
-      "nearest_station": null,
-      "trip": null,
-      "cost": null,
-      "summary": "Activewear sale; delivery is free over $120.",
-      "url": "https://www.ozbargain.com.au/node/982986"
     },
     {
       "title": "PlayStation Plus 12-month plans 20–33% off",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-17",
+      "start": "2026-11-18",
       "end": null,
       "when": "End date not listed",
       "venue": "Online",
@@ -1145,7 +1130,7 @@
       "nearest_station": null,
       "trip": null,
       "cost": "Essential $90.36, Extra $147.71",
-      "summary": "Discounted 12-month subscriptions, per OzBargain.",
+      "summary": "Discounted 12-month subscriptions, per OzBargain (not re-checked today).",
       "url": "https://www.ozbargain.com.au/node/983344"
     },
     {
@@ -1183,64 +1168,64 @@
   ],
   "groceries": [
     {
-      "item": "Uncle Tobys Oats 1kg",
+      "item": "Activia Probiotic Yoghurt Pouch 140g",
       "store": "Woolworths",
-      "price": "$3.25",
-      "was": "$6.50",
-      "saving": "Half price",
-      "note": "Wholegrain breakfast",
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
-    },
-    {
-      "item": "John West Salmon 95g",
-      "store": "Woolworths",
-      "price": "$1.75",
-      "was": "$3.50",
-      "saving": "Half price",
-      "note": "Lunchbox protein",
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
-    },
-    {
-      "item": "Yoplait YOP Kids Yoghurt Pouch 130g",
-      "store": "Woolworths",
-      "price": "$1.15",
-      "was": "$2.30",
+      "price": "$1.35",
+      "was": "$2.70",
       "saving": "Half price",
       "note": "Lunchbox snack",
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
     },
     {
-      "item": "Just Caught Raw Prawns 500g (medium or large)",
+      "item": "John West Tuna 95g",
       "store": "Woolworths",
-      "price": "$12.00",
-      "was": "$24.00",
+      "price": "$1.45",
+      "was": "$2.90",
       "saving": "Half price",
-      "note": "Frozen seafood",
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
+      "note": "Lunchbox protein",
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
     },
     {
-      "item": "Sirena Tuna with Beans 170g",
-      "store": "Coles",
-      "price": "$2.35",
-      "was": "$4.70",
+      "item": "John West Tuna in Crispy Chilli Oil 95g",
+      "store": "Woolworths",
+      "price": "$1.45",
+      "was": "$2.90",
       "saving": "Half price",
       "note": null,
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
     },
     {
-      "item": "KB's Whiting Fish Fillets 450g",
+      "item": "Nice & Natural Nut Bars 180–192g",
       "store": "Coles",
-      "price": "$4.50",
-      "was": "$8.50",
-      "saving": "About 47% off",
-      "note": "Frozen; check the shelf price",
-      "ends": "2026-11-17",
-      "url": "https://www.ozbargain.com.au/node/982256"
+      "price": "$2.75",
+      "was": "$5.50",
+      "saving": "Half price",
+      "note": "Lunchbox snack",
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
+    },
+    {
+      "item": "Harvest Snaps Baked Pea Crisps 120g",
+      "store": "Woolworths",
+      "price": "$2.50",
+      "was": "$5.00",
+      "saving": "Half price",
+      "note": "Snack",
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
+    },
+    {
+      "item": "Kellogg's Sultana Bran 420g (or Nutri-Grain 290g)",
+      "store": "Woolworths",
+      "price": "$3.50",
+      "was": "$7.00",
+      "saving": "Half price",
+      "note": "Cereal; wholegrain content not checked",
+      "ends": "2026-11-24",
+      "url": "https://ozbargain.com.au/node/983415"
     }
   ],
   "horizon": [
@@ -1338,7 +1323,7 @@
       "start": "2026-11-29",
       "end": "2027-01-08",
       "location": "Sydney Cricket Ground",
-      "status": "updated",
+      "status": "unchanged",
       "key_dates": [
         {
           "date": "2026-11-29",
@@ -1358,12 +1343,8 @@
       "start": "2027-12-23",
       "end": "2028-01-21",
       "location": "Saudi Arabia",
-      "status": "updated",
+      "status": "unchanged",
       "key_dates": [
-        {
-          "date": "2026-11-17",
-          "label": "Socceroos v Jordan friendly in Doha (3am Wed 18 Nov Sydney)"
-        },
         {
           "date": "2027-12-23",
           "label": "New start date (to 21 Jan 2028), subject to FIFA approval"
@@ -1446,16 +1427,12 @@
     }
   ],
   "notes": [
-    "Man Utd: Pochettino's appointment (13 Nov) and the preview details are carried from last night's Sky Sports article; the standings (8 Nov Sky table, Champions League table after matchday 4) were re-checked and are unchanged. Line-ups and injuries aren't confirmed.",
-    "Sydney FC: fixture dates and times were re-checked on the club and A-Leagues sites; the A-Leagues Brisbane page still shows kick-off TBC (6:40pm Brisbane time is from the earlier A-Leagues fixture guide). No team news was published.",
-    "Socceroos v Jordan: the Socceroos site lists Suheim bin Hamad Stadium, Doha, and 3am Wed 18 Nov without naming a timezone; I've read it as Sydney time.",
-    "Local: nothing new in the last 7 days beyond the e-bike story; South Eveleigh and Carriageworks event pages gave no November listings. School dates come from the Term 4 calendars and Week 5 Principal Updates (dates may change). Nothing was found for the second school.",
-    "Live sport: no Sydney tennis, rugby union or Matildas games found in the window. Sydney Kings' site lists a home game v Perth Wildcats on 6 Dec, but an earlier check said their next home game was 25 Dec, so I left it out until confirmed.",
-    "Arts: gig details come from Sydney Music's guide, read only up to 21 Nov, so later gigs may be missing. Whispering Jack's dates and price come from search reports (the STC page blocked access); Wolf Alice and Hoodoo Gurus details are from an earlier check.",
-    "Son and daughter: nothing confirmed for Pokémon, Minecraft or Roblox events, a junior parkrun, author events or a December matcha pop-up. Sydney FC summer holiday clinics (ages 5–13) were announced without dates.",
-    "Family fun: Powerhouse, Hockney, Nolan, KOOZA, SIX, Wundr and DigiPark details come from Ella's List and City of Sydney What's On, so check each venue before booking.",
-    "Groceries: the 11–17 Nov specials end today. The 18–24 Nov Woolworths and Coles lists weren't published yet and Aldi's page showed no prices, so only items confirmed for this week are listed.",
-    "Deals: Rebel, Nike, Adidas and EB Games Black Friday dates were not confirmed. OzBargain deals show the end dates listed there; several have none.",
-    "Horizon: entries are carried over; the Rugby World Cup and SCG cricket were re-checked this run."
+    "Search and fetch tools returned patchy and sometimes stale pages this run (Sky and BBC fixtures pages, some grocery sites), so several sections are carried over from last night's verified research with expired items removed.",
+    "Man Utd: Liverpool kick-off (4:30pm UK) was re-confirmed and Pochettino's first training is Thu 19 Nov. Line-ups and injuries aren't confirmed. Later fixtures and Sydney FC's Brisbane away game weren't re-checked (the club ticket page lists home games only).",
+    "Socceroos v Jordan has been removed as it has been played; I couldn't find a result. Other big matches (Nations Championship, Champions League) were not re-checked today.",
+    "Local: the e-bike story is more than 7 days old and was dropped. School dates are from the Term 4 calendars and the Week 5 Principal Updates (dates may change). Nothing was found for the second school.",
+    "Arts: details come from Sydney Music's gig guide (read only up to Fri 20 Nov) and earlier checks; Wolf Alice, Hoodoo Gurus and Whispering Jack details weren't re-verified.",
+    "Groceries: only items confirmed in OzBargain's 18–24 Nov catalogue roundup are listed. No fresh fruit, veg, meat or egg half-price items were found, and Aldi's pages showed no prices.",
+    "Deals: PS5 controller and EB Games offers show a 2 Dec expiry on OzBargain; others carry over from yesterday and weren't all re-checked. Nothing new was found for Pokémon, Minecraft, Roblox or a junior parkrun."
   ]
 }
