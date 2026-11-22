@@ -1,30 +1,11 @@
 {
-  "generated_at": "2026-11-22T06:29:00+11:00",
+  "generated_at": "2026-11-23T06:48:26+11:00",
   "teams": [
     {
       "id": "man-utd",
       "name": "Manchester United",
       "featured": true,
       "fixtures": [
-        {
-          "opponent": "Liverpool",
-          "home": false,
-          "competition": "Premier League",
-          "kickoff": "2026-11-22T16:30:00+00:00",
-          "time_confirmed": true,
-          "venue": "Anfield",
-          "broadcast": [
-            "Stan Sport"
-          ],
-          "preview": "Mauricio Pochettino's first match in charge comes at Anfield, with 18th-placed United facing a fourth-placed Liverpool side that has won only one of five at home.",
-          "talking_points": [
-            "United are 18th on 8 points from 10 games with one league win, and have no clean sheet and no away win in any competition this season.",
-            "Pochettino has not beaten Liverpool in his last eight meetings (six defeats), though Liverpool haven't beaten United at Anfield since the 7-0 in March 2023.",
-            "Rashford's hip is being monitored day by day and Shaw is pushing to return; Martinez is back from suspension, Sesko is out until the new year and Ugarte is likely out for the season.",
-            "Liverpool have the league's best away record (13 points) but only 5 at Anfield; Van Dijk is expected fit, Ekitike is out, and Gakpo has five Premier League goals against United."
-          ],
-          "url": "https://premierleaguenewsnow.com/2026/11/21/liverpool-man-united-preview-pochettino-iraola/"
-        },
         {
           "opponent": "Sporting CP",
           "home": false,
@@ -35,7 +16,13 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Matchday 5 of the league phase in Lisbon on Wednesday 25 Nov, three days after Anfield; United have no away win in any competition this season.",
+          "preview": "United head to Lisbon three days after a 4-0 defeat at Anfield on Pochettino's debut.",
+          "talking_points": [
+            "Liverpool beat United 4-0 at Anfield with Leny Yoro sent off early; United remain in the relegation zone, a point off the bottom.",
+            "Pochettino called the loss 'so painful' and questioned the red card; whether Yoro faces any further suspension is unconfirmed.",
+            "A pre-match Squawka table had Sporting on 9 points from 4 games and United on 6, with United still seeking a first away win this season.",
+            "The line-up isn't confirmed, so expect questions about selection and defensive solidity after conceding four."
+          ],
           "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
         },
         {
@@ -168,10 +155,10 @@
       "broadcast": [
         "Stan Sport"
       ],
-      "why": "Matchday 5 at the Emirates, with Arsenal chasing a top-eight finish.",
+      "why": "Matchday 5 at the Emirates; Arsenal lead the Premier League, seven points clear of fourth-placed Liverpool.",
       "talking_points": [
-        "Arsenal were 3rd on 10 points after four games in an earlier check.",
-        "A win would keep the top-eight automatic spots in sight."
+        "Arsenal top the Premier League, per reporting after the Liverpool v United game on 22 Nov.",
+        "Top-eight places in the league phase are still in play for both sides."
       ],
       "url": "https://www.bundesliga.com/en/champions-league/matchday/2026-2027/5"
     },
@@ -276,20 +263,20 @@
       "url": "https://broadsheet.com.au/sydney/food-and-drink/article/rosinas-hot-table-italian-redfern-open"
     },
     {
-      "title": "Tenjo opens on the EVE Hotel rooftop",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-11-16",
-      "end": null,
-      "when": null,
-      "venue": "The EVE Hotel, 8 Baptist Street",
-      "suburb": "Redfern",
+      "title": "Southeast Aboriginal Arts Market",
+      "kind": "event",
+      "category": "Markets",
+      "start": "2026-11-28",
+      "end": "2026-11-29",
+      "when": "Sat 28 and Sun 29 Nov",
+      "venue": "Carriageworks, 245 Wilson Street",
+      "suburb": "Eveleigh",
       "transport": "train",
       "nearest_station": "Redfern",
-      "trip": "about 15 min from home (estimate)",
-      "cost": null,
-      "summary": "The Olympus team's 100-seat rooftop izakaya opened on 16 Nov, with yuzu slushies and a matcha margarita on the menu.",
-      "url": "https://broadsheet.com.au/sydney/food-and-drink/article/tenjo-opens-redfern"
+      "trip": "about 15 min from home",
+      "cost": "Free entry; $20 weaving workshop",
+      "summary": "Two-day Aboriginal arts market with a ticketed weaving workshop.",
+      "url": "https://www.timeout.com/sydney/things-to-do-in-sydney-this-weekend"
     },
     {
       "title": "Year 6 leadership speeches",
@@ -468,22 +455,6 @@
   ],
   "arts": [
     {
-      "title": "Aldous Harding",
-      "kind": "event",
-      "category": "Gig",
-      "start": "2026-11-22T20:00:00+11:00",
-      "end": null,
-      "when": "Sun 22 Nov (tonight); doors 7pm, support 8pm, Harding 9pm",
-      "venue": "Enmore Theatre",
-      "suburb": "Newtown",
-      "transport": "train",
-      "nearest_station": "Newtown",
-      "trip": "about 20 min from home (estimate)",
-      "cost": "$89.90 reserved",
-      "summary": "NZ singer-songwriter with support from Liam Snowy Halliwell; licensed all ages, on sale via Ticketek.",
-      "url": "https://www.frontiertouring.com/aldousharding"
-    },
-    {
       "title": "Silver Tongue",
       "kind": "event",
       "category": "Musical",
@@ -616,8 +587,8 @@
       "kind": "event",
       "category": "Musical",
       "start": "2026-11-22",
-      "end": null,
-      "when": "Currently playing; dates and prices not listed",
+      "end": "2027-02-14",
+      "when": "Until 14 Feb 2027; session times on the venue page",
       "venue": "Sydney Lyric, The Star",
       "suburb": "Pyrmont",
       "transport": "light rail",
@@ -810,20 +781,20 @@
   ],
   "family_fun": [
     {
-      "title": "Philippine Christmas 'Pasko' Festival",
+      "title": "Le Marché French Market",
       "kind": "event",
-      "category": "Festival",
-      "start": "2026-11-22T09:00:00+11:00",
-      "end": "2026-11-22T20:00:00+11:00",
-      "when": "Sun 22 Nov (today), 9am–8pm",
-      "venue": "Tumbalong Park, Darling Harbour",
-      "suburb": "Sydney CBD",
+      "category": "Markets",
+      "start": "2026-12-06T09:30:00+11:00",
+      "end": "2026-12-06T14:00:00+11:00",
+      "when": "Sun 6 Dec, 9:30am–2pm",
+      "venue": "Entertainment Quarter",
+      "suburb": "Moore Park",
       "transport": "light rail",
-      "nearest_station": "Convention Centre",
-      "trip": "about 25 min from Redfern via Central (estimate)",
+      "nearest_station": "Moore Park",
+      "trip": "about 30 min from home via Central (estimate)",
       "cost": "Free",
-      "summary": "Free family festival with carols and a parade, per Time Out's weekend guide.",
-      "url": "https://www.timeout.com/sydney/things-to-do-in-sydney-this-weekend"
+      "summary": "French food and produce market at the Entertainment Quarter.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/le-marche-french-market"
     },
     {
       "title": "Powerhouse Parramatta opening festival",
@@ -1066,6 +1037,38 @@
       "cost": "Free",
       "summary": "Free John West Yellowfin Tuna 90g, in-store only at Woolworths and Woolworths Metro.",
       "url": "https://www.ozbargain.com.au/node/984022"
+    },
+    {
+      "title": "Switch 2 + Mario Kart World bundle $629 (Kmart)",
+      "kind": "event",
+      "category": "Gaming",
+      "start": "2026-11-25",
+      "end": null,
+      "when": "From Wed 25 Nov, 8am",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$629",
+      "summary": "Per OzBargain; Target lists the same price from 27 Nov.",
+      "url": "https://www.ozbargain.com.au/node/984763"
+    },
+    {
+      "title": "Final Fantasy VII Remake Intergrade and Rebirth on Xbox",
+      "kind": "event",
+      "category": "Gaming",
+      "start": "2026-11-23",
+      "end": "2026-12-03",
+      "when": "Until 3 Dec",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$13.99 and $12.74",
+      "summary": "Digital Xbox/PC deals, per OzBargain.",
+      "url": "https://www.ozbargain.com.au/node/984745"
     }
   ],
   "groceries": [
@@ -1513,9 +1516,8 @@
     }
   ],
   "notes": [
-    "I couldn't run scripts/build.py --check in this run (shell commands needing approval were blocked), so the file hasn't been validated. Run the check before publishing.",
-    "Search results were thin and several sites (Coles, Woolworths, Aldi, Rebel, Austadiums, ClassBento, Songkick) blocked or returned old pages, so some items rely on earlier checks and say so.",
-    "Man Utd: the Liverpool line-up isn't confirmed; availability notes come from a 21 Nov preview. Brentford, Newcastle and Coventry dates and times are from Sky's fixture page; table positions are from 8 Nov and may have moved. Liverpool v Man Utd kicks off at 3:30am Mon 23 Nov Sydney time.",
+    "Search and fetch tools returned limited results this run (manutd.com, Sky and several retailers were blocked). Arts, son, daughter and family_fun mostly carry over earlier items checked against Time Out's weekend guide, so they're thinner than usual.",
+    "Man Utd lost 4-0 at Liverpool on 22 Nov (3:30am Sydney). The Sporting line-up and any Yoro suspension are unconfirmed, and Brentford, Newcastle and Coventry table positions weren't re-checked. Champions League times come from bundesliga.com's matchday 5 page (UK time).",
     "Sydney FC drew 0-0 at Brisbane on 21 Nov and had a bye in Matchweek 6, so the gap in fixtures is real. Men's games are listed as Paramount+ from an earlier check; the club's ticket page only says 'The Big Blue', and the opponent is taken as Melbourne Victory from the previous briefing.",
     "Big matches: Champions League and Premier League are listed as Stan Sport from an earlier check and rights weren't re-checked. The Nations Championship final pairing depends on 21 Nov results I couldn't find. The ATP Finals final (Turin, Sun 22 Nov) is on beIN Sports but its time wasn't confirmed, so it's left out.",
     "Live sport: no Sydney tennis, rugby union or Matildas/Socceroos home games were found. A Kings v Perth game on 6 Dec appeared on listing sites, but the NBL page I opened listed only the Christmas Day game (Fri 25 Dec, time TBC), so I left both out.",
