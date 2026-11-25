@@ -1,30 +1,11 @@
 {
-  "generated_at": "2026-11-25T09:40:18+11:00",
+  "generated_at": "2026-11-26T08:48:25+11:00",
   "teams": [
     {
       "id": "man-utd",
       "name": "Manchester United",
       "featured": true,
       "fixtures": [
-        {
-          "opponent": "Sporting CP",
-          "home": false,
-          "competition": "Champions League",
-          "kickoff": "2026-11-25T20:00:00+00:00",
-          "time_confirmed": true,
-          "venue": "Estádio José Alvalade",
-          "broadcast": [
-            "Stan Sport"
-          ],
-          "preview": "Pochettino's second game in charge comes three days after a 4-0 defeat at Anfield; kick-off is 7am Thursday 26 Nov in Sydney.",
-          "talking_points": [
-            "Leny Yoro's eighth-minute red card at Anfield was overturned and his one-match suspension removed, per Sky Sports, though United still dispute the refereeing chief's backing of the original call.",
-            "Pochettino blamed VAR after the 4-0 loss, asking 'what were they doing?' over the red card and Szoboszlai's free-kick goal.",
-            "United were 17th in the Champions League league phase after beating Roma 3-2 on matchday 4; Sporting were 10th, per Paramount+'s matchday guide.",
-            "Line-ups and injuries for Lisbon haven't been confirmed in anything I could open, so treat team news as pending."
-          ],
-          "url": "https://www.skysports.com/football/news/13616134/mauricio-pochettino-man-utd-boss-fumes-at-var-in-liverpool-loss-over-leny-yoro-and-dominik-szoboszlai-calls"
-        },
         {
           "opponent": "Brentford",
           "home": true,
@@ -35,7 +16,13 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Expected to be Pochettino's first home game in charge, 3pm UK time Saturday 28 Nov (2am Sunday in Sydney).",
+          "preview": "Expected to be Pochettino's first home game in charge, a week after the 4-0 loss at Liverpool; 3pm UK time Saturday 28 Nov (2am Sunday in Sydney).",
+          "talking_points": [
+            "Pochettino blamed VAR after the Liverpool defeat, saying it should have intervened over the Yoro red card and Szoboszlai's free-kick goal, per Sky Sports.",
+            "Leny Yoro's red card was overturned on review, so his one-match suspension was removed and he should be available, per Sky Sports.",
+            "United say they will contact ProRef and the Premier League over the refereeing, and this is the second time this season VAR has gone against them.",
+            "The Sporting CP result and any fresh injuries weren't available when this was written, so check team news before kick-off."
+          ],
           "url": "https://www.skysports.com/football/news/12040/13555679/man-utd-premier-league-2026-27-fixtures-and-schedule"
         },
         {
@@ -158,46 +145,6 @@
   ],
   "big_matches": [
     {
-      "title": "PSG v Roma",
-      "sport": "Football",
-      "competition": "Champions League",
-      "kickoff": "2026-11-25T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "Matchday 5 in Paris; PSG are unbeaten and Roma are fighting to stay in the playoff places. Kick-off is 7am Thursday in Sydney.",
-      "talking_points": [
-        "PSG beat Villarreal 6-0 on matchday 4 and are unbeaten in the league phase.",
-        "Roma were 20th before this round, after losing 3-2 to Man United on matchday 4."
-      ],
-      "url": "https://www.paramountplus.com/sneak-peak/uefa-champions-league-matchday-5-2026-schedule/"
-    },
-    {
-      "title": "Lille v Bayern Munich",
-      "sport": "Football",
-      "competition": "Champions League",
-      "kickoff": "2026-11-25T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "Bayern are among the sides near automatic qualification and visit Lille on matchday 5; 7am Thursday in Sydney.",
-      "url": "https://www.paramountplus.com/sneak-peak/uefa-champions-league-matchday-5-2026-schedule/"
-    },
-    {
-      "title": "Club Brugge v Liverpool",
-      "sport": "Football",
-      "competition": "Champions League",
-      "kickoff": "2026-11-25T21:00:00+01:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "Liverpool travel to Belgium three days after beating Man United 4-0 at Anfield; 7am Thursday in Sydney.",
-      "url": "https://www.paramountplus.com/sneak-peak/uefa-champions-league-matchday-5-2026-schedule/"
-    },
-    {
       "title": "Ireland v Australia (Nations Championship fifth-place final)",
       "sport": "Rugby union",
       "competition": "Nations Championship",
@@ -308,6 +255,22 @@
       "url": "https://broadsheet.com.au/sydney/food-and-drink/article/rosinas-hot-table-italian-redfern-open"
     },
     {
+      "title": "Sports Presentation Day",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-30",
+      "end": null,
+      "when": "Mon 30 Nov; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Listed as 2026 Sports Presentation Day in the Term 4 Week 7 Principal Update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
       "title": "Primary Presentation Assembly",
       "kind": "event",
       "category": "School",
@@ -320,8 +283,8 @@
       "nearest_station": null,
       "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "Listed on the Term 4 primary calendar; dates may change.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
+      "summary": "Listed as 2026 Primary Presentation Day in the Term 4 Week 7 Principal Update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
       "title": "K-6 PBL Carnival",
@@ -1003,6 +966,38 @@
   ],
   "deals": [
     {
+      "title": "Krispy Kreme: free Original Glazed dozen with any online dozen",
+      "kind": "event",
+      "category": "Freebies",
+      "start": "2026-11-26",
+      "end": "2026-11-27",
+      "when": "Ends 27 Nov",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "From $28",
+      "summary": "Buy any dozen online and get a free Original Glazed dozen, per OzBargain.",
+      "url": "https://www.ozbargain.com.au/node/985542"
+    },
+    {
+      "title": "Adidas Hyperboost Euphoria running shoes, 20% off at Hype DC",
+      "kind": "event",
+      "category": "Sports gear",
+      "start": "2026-11-26",
+      "end": null,
+      "when": "No expiry listed",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$145.59",
+      "summary": "All colourways 20% off at checkout; click and collect or free delivery over $160.",
+      "url": "https://www.ozbargain.com.au/node/985523"
+    },
+    {
       "title": "Nintendo eShop: LEGO Star Wars Skywalker Saga Deluxe and Hogwarts Legacy Deluxe, $9.99 each",
       "kind": "event",
       "category": "Gaming",
@@ -1024,7 +1019,7 @@
       "category": "Gaming",
       "start": "2026-11-25",
       "end": null,
-      "when": "OnePass early access 8pm Wed 25 Nov; general release 8am Thu 26 Nov; while stock lasts",
+      "when": "General release 8am Thu 26 Nov; while stock lasts (OnePass early access was 8pm Wed 25 Nov)",
       "venue": "Online",
       "suburb": null,
       "transport": null,
@@ -1164,6 +1159,16 @@
     }
   ],
   "groceries": [
+    {
+      "item": "Golden Crumpet Rounds 6 pack",
+      "store": "Woolworths",
+      "price": "$2.60",
+      "was": "$5.20",
+      "saving": "Half price",
+      "note": "Not wholegrain",
+      "ends": "2026-12-01",
+      "url": "https://www.ozbargain.com.au/node/985018"
+    },
     {
       "item": "Farmers Union Greek Style Yogurt Pouch 130g",
       "store": "Woolworths",
@@ -1320,11 +1325,11 @@
       "start": "2027-09-17",
       "end": "2027-09-18",
       "location": "Afterpay Arena, Sydney Olympic Park",
-      "status": "new",
+      "status": "updated",
       "key_dates": [
         {
           "date": "2026-11-25",
-          "label": "Frontier Member presale, 1pm for 24 hours"
+          "label": "Frontier Member presale ran 1pm 25 Nov for 24 hours"
         },
         {
           "date": "2026-11-27",
@@ -1592,7 +1597,8 @@
     }
   ],
   "notes": [
-    "Many sites (BBC, the Guardian, manutd.com, ESPN, supermarket and Rebel pages) were blocked, so Man Utd team news rests on Sky Sports and a Paramount+ matchday guide. No line-ups or injury news for Sporting were found; Yoro's suspension was removed, per Sky.",
+    "Man Utd v Sporting (7am Thu Sydney) and Wednesday's Champions League big matches had kicked off by this run and were removed; no results were found. Brentford's talking points rest on Sky Sports' Liverpool-loss report, as no Brentford preview or team news was found.",
+    "Searches were thin this run: many sites (BBC, Guardian, manutd.com, supermarkets, Rebel, Puma) were blocked or returned stale pages, so most arts, family, son and daughter items carry over from the previous run, rechecked against Time Out and City of Sydney What's On where possible.",
     "Correction: the 20 Dec Sydney FC v Central Coast Mariners game at WIN Stadium, Wollongong, is on the club's women's fixture list, not the men's, so it has been removed from the men's fixtures and live sport.",
     "Sydney FC men's fixtures: only the dates I could find are listed. The 28 Dec Macarthur and 2 Jan Brisbane Roar home games are confirmed, but away games before 2 Jan weren't found and may fall in between. The 2 Jan kick-off time isn't published, so 12:00 is a placeholder. Paramount+ as A-League broadcaster was not re-confirmed per match.",
     "Big matches: Champions League and Premier League on Stan Sport and the Nations Championship on Stan Sport follow search results on Stan's rights; I couldn't open Stan's own listings. Tuesday's UCL games (Arsenal, Man City, Real Madrid) have already been played and were dropped.",
