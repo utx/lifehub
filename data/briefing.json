@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T08:41:19+11:00",
+  "generated_at": "2026-11-27T10:42:19+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -16,14 +16,14 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "Expected to be Pochettino's first home game in charge, a week after the 4-0 loss at Liverpool; 3pm UK time Saturday 28 Nov (2am Sunday in Sydney).",
+          "preview": "Pochettino's first home game, 3pm UK time Sat 28 Nov (2am Sun in Sydney), after the 4-0 loss at Liverpool and a 2-2 Champions League draw with Sporting.",
           "talking_points": [
-            "Pochettino blamed VAR after the Liverpool defeat, saying it should have intervened over the Yoro red card and Szoboszlai's free-kick goal, per Sky Sports.",
-            "Leny Yoro's red card was overturned on review, so his one-match suspension was removed and he should be available, per Sky Sports.",
-            "United say they will contact ProRef and the Premier League over the refereeing, and this is the second time this season VAR has gone against them.",
-            "The Sporting CP result and any fresh injuries weren't available when this was written, so check team news before kick-off."
+            "Khel Now has United in the relegation zone with one league win from 11, one of their worst Premier League starts.",
+            "Brentford are sixth, beat Everton 4-0 on Monday and have scored in each of their last six meetings with United (United lead the head-to-head 10 wins to 5).",
+            "United are without Baleba, Rashford, Sesko and Ugarte, and Amad Diallo is a doubt after a knock against Sporting, per Centre Devils.",
+            "Leny Yoro's red card against Liverpool was overturned so he is available, while Brentford are missing suspended striker Igor Thiago and several defenders."
           ],
-          "url": "https://www.skysports.com/football/news/12040/13555679/man-utd-premier-league-2026-27-fixtures-and-schedule"
+          "url": "https://centredevils.co.uk/news/12-players-miss-manchester-united-brentford-clash/"
         },
         {
           "opponent": "Newcastle United",
@@ -35,7 +35,7 @@
           "broadcast": [
             "Stan Sport"
           ],
-          "preview": "A Wednesday-night trip to Tyneside at 8pm UK time (7am Thursday in Sydney); Sky notes fixtures are subject to change.",
+          "preview": "A Wednesday-night trip to Newcastle at 8pm UK time (7am Thursday in Sydney); Sky notes fixtures are subject to change.",
           "url": "https://www.skysports.com/football/news/12040/13555679/man-utd-premier-league-2026-27-fixtures-and-schedule"
         },
         {
@@ -62,6 +62,17 @@
             "Stan Sport"
           ],
           "preview": "A Saturday 3pm trip to south London (2am Sunday in Sydney), per Sky's schedule.",
+          "url": "https://www.skysports.com/football/news/12040/13555679/man-utd-premier-league-2026-27-fixtures-and-schedule"
+        },
+        {
+          "opponent": "Arsenal",
+          "home": false,
+          "competition": "Premier League",
+          "kickoff": "2026-12-19T15:00:00+00:00",
+          "time_confirmed": true,
+          "venue": "Emirates Stadium",
+          "broadcast": [],
+          "preview": "A Saturday 3pm trip to north London (2am Sunday in Sydney); I couldn't confirm the Australian broadcaster.",
           "url": "https://www.skysports.com/football/news/12040/13555679/man-utd-premier-league-2026-27-fixtures-and-schedule"
         }
       ]
@@ -239,20 +250,36 @@
       "url": "https://www.timeout.com/sydney/things-to-do-in-sydney-this-weekend"
     },
     {
-      "title": "Rosina's Hot Table opens on Redfern Street",
-      "kind": "news",
-      "category": "News",
-      "start": "2026-11-19",
+      "title": "Sports Presentation Assembly",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-11-30",
       "end": null,
-      "when": null,
-      "venue": "34 Redfern Street",
-      "suburb": "Redfern",
-      "transport": "train",
-      "nearest_station": "Redfern",
-      "trip": "about 15 min from home (estimate)",
+      "when": "Mon 30 Nov; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
       "cost": null,
-      "summary": "A casual Italian 'hot table' serving reheat-to-order lasagne and sandwiches, with $12 Menabrea pours; open daily from 11am.",
-      "url": "https://broadsheet.com.au/sydney/food-and-drink/article/rosinas-hot-table-italian-redfern-open"
+      "summary": "Listed on the high school calendar and in the Term 4 Week 7 high school update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "Year 7 Orientation Day",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-12-01",
+      "end": null,
+      "when": "Tue 1 Dec; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Orientation day for incoming Year 7 students, listed in both Week 7 Principal Updates.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
       "title": "Primary Presentation Assembly",
@@ -285,6 +312,38 @@
       "cost": null,
       "summary": "Listed on the Term 4 primary calendar; details may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
+    },
+    {
+      "title": "Academic Presentation Ceremony",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-12-08",
+      "end": null,
+      "when": "Tue 8 Dec; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "High school ceremony listed in the Week 7 high school update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "Year 6 Graduation",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-12-14",
+      "end": null,
+      "when": "Mon 14 Dec; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Year 6 graduation events, listed in the Week 7 primary update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
       "title": "Alexandria Christmas Concert",
@@ -462,20 +521,20 @@
       "url": "https://www.timeout.com/sydney/things-to-do-in-sydney-this-weekend"
     },
     {
-      "title": "Whispering Jack: The John Farnham Musical",
+      "title": "Pub Choir",
       "kind": "event",
-      "category": "Musical",
-      "start": "2026-11-25",
+      "category": "Gig",
+      "start": "2026-11-29T18:00:00+11:00",
       "end": null,
-      "when": "In season now; session times on the Sydney Theatre Company site",
-      "venue": "Roslyn Packer Theatre, Walsh Bay",
-      "suburb": "Millers Point",
+      "when": "Sun 29 Nov; 6pm per a third-party listing",
+      "venue": "Sydney Opera House Forecourt",
+      "suburb": "Sydney CBD",
       "transport": "train",
-      "nearest_station": "Wynyard",
-      "trip": "about 25 min from Redfern, plus a 15 min walk (estimate)",
+      "nearest_station": "Circular Quay",
+      "trip": "about 25 min from Redfern, plus a walk",
       "cost": null,
-      "summary": "Sydney Theatre Company's Farnham musical, listed as playing now on TodayTix; I couldn't open the STC page to confirm prices or the closing date.",
-      "url": "https://www.todaytix.com/sydney"
+      "summary": "Sing-along show led by Choirmaster Astrid Jorgensen, listed as 'Pub Choir's Ultimate PDA'; confirm time and tickets with the Opera House.",
+      "url": "https://www.sydneyoperahouse.com/whats-on"
     },
     {
       "title": "A Beautiful Noise: The Neil Diamond Musical",
@@ -608,27 +667,11 @@
       "url": "https://run2.au/parkrun/st-peters/"
     },
     {
-      "title": "Football Development Program trials (Sydney FC partnership)",
-      "kind": "event",
-      "category": "Sport",
-      "start": "2026-11-30T07:15:00+11:00",
-      "end": "2026-12-07T09:00:00+11:00",
-      "when": "Mon 30 Nov and Mon 7 Dec; sign-in 7:15am, 7:30am start",
-      "venue": "Getiela Sportsfield, Alexandria",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": null,
-      "summary": "Trials for a 2027 pilot football program with Sydney FC, for boys in Years 4–6 and 7–9; register via the Principal Update form.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
-    },
-    {
       "title": "Minecraft Experience: Villager Rescue",
       "kind": "event",
       "category": "Gaming",
       "start": "2026-12-18",
-      "end": "2027-04-24",
+      "end": "2027-04-25",
       "when": "Opens Fri 18 Dec; hours vary by day",
       "venue": "Big Top, Luna Park Sydney",
       "suburb": "Milsons Point",
@@ -636,7 +679,7 @@
       "nearest_station": "Milsons Point",
       "trip": "about 25 min from Redfern (estimate)",
       "cost": "From $49",
-      "summary": "A one-hour scavenger hunt based on Minecraft for all ages, no experience needed; Time Out lists the end as 24 Apr, though the article text says 25 Apr.",
+      "summary": "A one-hour scavenger hunt based on Minecraft for all ages, no experience needed; sources give the end date as 24, 25 or 26 Apr 2027.",
       "url": "https://www.timeout.com/sydney/things-to-do/minecraft-experience-villager-rescue"
     },
     {
@@ -916,6 +959,22 @@
       "url": "https://www.ellaslist.com.au/sydney/events/things-to-do-in-sydney-this-weekend"
     },
     {
+      "title": "Entertainment Quarter Markets",
+      "kind": "event",
+      "category": "Markets",
+      "start": "2026-11-28T08:00:00+11:00",
+      "end": "2026-11-28T14:00:00+11:00",
+      "when": "Every Wed and Sat; Sat 28 Nov 8am–2pm",
+      "venue": "Entertainment Quarter",
+      "suburb": "Moore Park",
+      "transport": "light rail",
+      "nearest_station": "Moore Park",
+      "trip": "about 30 min from home via Central (estimate)",
+      "cost": "Free",
+      "summary": "Weekly markets at the Entertainment Quarter, per City of Sydney What's On.",
+      "url": "https://whatson.cityofsydney.nsw.gov.au/events/eq-markets-every-wed-and-sat-at-the-entertainment-quarter"
+    },
+    {
       "title": "David Jones Christmas Windows",
       "kind": "event",
       "category": "Festival",
@@ -1094,20 +1153,20 @@
       "url": "https://www.ozbargain.com.au/node/984745"
     },
     {
-      "title": "Pokemon Legends: Z-A $39 at Target Burwood",
+      "title": "PlayStation 5 DualSense controllers $69 (The Good Guys)",
       "kind": "event",
       "category": "Gaming",
-      "start": "2026-11-25",
-      "end": "2026-11-27",
-      "when": "Listing says to 27 Nov, in store only",
-      "venue": "Target, Westfield Burwood",
-      "suburb": "Burwood",
-      "transport": "train",
-      "nearest_station": "Burwood",
-      "trip": "about 25 min from Redfern (estimate)",
-      "cost": "$39 (Target's site showed $75)",
-      "summary": "Commenters said Switch 1 copies had sold out by 24 Nov while Switch 2 copies remained; online won't price match.",
-      "url": "https://www.ozbargain.com.au/node/985012"
+      "start": "2026-11-27",
+      "end": "2026-12-02",
+      "when": "Until 2 Dec; click and collect $0",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "$69",
+      "summary": "Price shown via the 'price check' button on the listing; check the retailer before buying.",
+      "url": "https://www.ozbargain.com.au/node/985872"
     },
     {
       "title": "Coles Black Friday online offer: up to $30 off, code SANTA",
@@ -1301,7 +1360,7 @@
         },
         {
           "date": "2026-11-27",
-          "label": "General on-sale, 10am (Ticketek)"
+          "label": "General on-sale today, Fri 27 Nov, 10am (Ticketek)"
         },
         {
           "date": "2027-09-17",
@@ -1565,19 +1624,16 @@
     }
   ],
   "notes": [
-    "Searches were thin again this run: WebSearch returned mostly stale pages and many official sites were blocked, so most sections carry over from the previous run, rechecked only where a source could be opened (Sky fixtures, Time Out's weekend guide, OzBargain, the school calendars).",
-    "Man Utd: Brentford's talking points rest on Sky Sports' Liverpool-loss report; no Brentford preview or team news was found, so check before kick-off. Sky also lists Arsenal away on 19 Dec at 3pm UK time, which would be the fifth fixture, but I didn't add it because its broadcaster isn't confirmed.",
-    "School: the Week 7 high school update lists Sports Presentation Day on 30 Nov, but it isn't on the primary calendar, so it was removed from local. The Santa sleigh ride (26 Nov) has finished and was removed.",
-    "Deals: Big W's $10 new-release fiction books ($10 each, ends 27 Nov, https://www.ozbargain.com.au/node/985831) were spotted too late to add.",
-    "Correction: the 20 Dec Sydney FC v Central Coast Mariners game at WIN Stadium, Wollongong, is on the club's women's fixture list, not the men's, so it has been removed from the men's fixtures and live sport.",
-    "Sydney FC men's fixtures: only the dates I could find are listed. The 28 Dec Macarthur and 2 Jan Brisbane Roar home games are confirmed, but away games before 2 Jan weren't found and may fall in between. The 2 Jan kick-off time isn't published, so 12:00 is a placeholder. Paramount+ as A-League broadcaster was not re-confirmed per match.",
-    "Big matches: Champions League and Premier League on Stan Sport and the Nations Championship on Stan Sport follow search results on Stan's rights; I couldn't open Stan's own listings. Tuesday's UCL games (Arsenal, Man City, Real Madrid) have already been played and were dropped.",
-    "Live sport: no Sydney tennis, rugby union or Matildas/Socceroos home games were found in the next four weeks. Sydney Kings v Perth is listed with 5pm from third-party listings, as I couldn't open an official page with the time.",
-    "Local: school dates come from the Term 4 calendar and the Week 6 Principal Update and may change. Nothing was found for the second school. No dated local news from the last week beyond Rosina's was found; Tenjo's Redfern rooftop opening (16 Nov) is older than 7 days.",
-    "Groceries: Woolworths and Coles catalogues for 25 Nov–1 Dec come from an OzBargain half-price roundup, as supermarket sites were blocked. No Aldi prices were found, and no half-price fresh fruit, veg, eggs, nuts or matcha appeared in the roundup.",
-    "Deals: Rebel's and Puma's Black Friday pages were blocked, so no football-boot discounts are listed; Black Friday is Fri 27 Nov and more should appear. Many links go to OzBargain posts, so check the retailer before buying. The earlier Coles $10 click-and-collect deal now shows as expired and was removed.",
-    "Son and daughter: no junior parkrun, Roblox or children's author event was confirmed. Noa Matcha's listing gives conflicting start dates (7 Nov or 5 Dec), so check the booking page. The 5K Foam Fest (5 Dec, Horsley Park) was left out as it isn't easily reached by train.",
-    "Arts: ticket prices weren't confirmed for several Opera House and Frontier shows, and the Sydney Theatre Company page for Whispering Jack was blocked. Boyz II Men (4 Dec) is sold out and was left out.",
-    "Horizon: Pitbull is new. Items marked 'Not re-checked this run' keep last run's details."
+    "Searches were thin again this run: WebSearch returned mostly stale pages and several official sites (Stan, Rebel, Nike, South Eveleigh) were blocked or empty, so some sections carry over from the previous run and were rechecked only where a source could be opened.",
+    "Man Utd: Brentford talking points come from Khel Now and Centre Devils (26–27 Nov); Amad Diallo is described as a doubt, and line-ups aren't confirmed. Arsenal away (19 Dec, 3pm UK) is on Sky's schedule but the Australian broadcaster wasn't confirmed.",
+    "Sydney FC: the A-Leagues fixture guide confirms Victory (6 Dec) and Auckland away (12 Dec, 5pm NZ). The Perth, Macarthur and Brisbane dates and the Big Blue talking points come from earlier club sources and weren't re-opened; the 2 Jan kick-off time is a 12:00 placeholder.",
+    "Big matches: the Nations Championship, Everton v Liverpool and Arsenal v Man City entries were not re-checked, and Stan Sport's rights couldn't be confirmed from Stan's own site. Champions League matchday 6 is 8–9 Dec, but sources disagreed on pairings, so none were added.",
+    "Live sport: no Sydney tennis, rugby union or Matildas/Socceroos home games were found in the next four weeks. The Kings v Wildcats time is from a third-party listing.",
+    "Local: school dates come from the Term 4 primary and high school calendars and the Week 7 Principal Updates and may change. Nothing was found for the second school. Rosina's Hot Table (19 Nov) is older than 7 days and was dropped, and no dated local news from the last week was found. The Alexandria Christmas Concert (13 Dec) is carried over from last run. Trials listed last run aren't in the Week 7 updates, so they were removed.",
+    "Groceries: Woolworths and Coles half-price items for 25 Nov–1 Dec come from an OzBargain catalogue roundup (reopened this run). No Aldi prices were found, and no half-price fresh fruit, veg, eggs, nuts or matcha appeared.",
+    "Deals: Rebel's and Nike's Black Friday pages were blocked, so no football-boot discounts are listed. Many links go to OzBargain posts, so check the retailer before buying. Most deals carry over from last run and weren't individually re-checked.",
+    "Arts: Pub Choir's 6pm start comes from a third-party listing, and prices weren't confirmed for several Opera House and Frontier shows. Whispering Jack was removed because I couldn't confirm its dates.",
+    "Son and daughter: no junior parkrun, Roblox, Pokémon event or children's author event was confirmed. Noa Matcha's listing gives conflicting dates and venues, so check the booking page.",
+    "Horizon: Pitbull's general sale opens today. Items marked 'Not re-checked' still carry older details."
   ]
 }
