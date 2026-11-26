@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T08:48:25+11:00",
+  "generated_at": "2026-11-27T08:41:19+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -253,22 +253,6 @@
       "cost": null,
       "summary": "A casual Italian 'hot table' serving reheat-to-order lasagne and sandwiches, with $12 Menabrea pours; open daily from 11am.",
       "url": "https://broadsheet.com.au/sydney/food-and-drink/article/rosinas-hot-table-italian-redfern-open"
-    },
-    {
-      "title": "Sports Presentation Day",
-      "kind": "event",
-      "category": "School",
-      "start": "2026-11-30",
-      "end": null,
-      "when": "Mon 30 Nov; time not stated",
-      "venue": "Alexandria Park Community School",
-      "suburb": "Alexandria",
-      "transport": null,
-      "nearest_station": null,
-      "trip": "about 10–15 min walk",
-      "cost": null,
-      "summary": "Listed as 2026 Sports Presentation Day in the Term 4 Week 7 Principal Update; dates may change.",
-      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
       "title": "Primary Presentation Assembly",
@@ -803,22 +787,6 @@
     }
   ],
   "family_fun": [
-    {
-      "title": "Santa's Sydney sleigh ride and Martin Place tree lighting",
-      "kind": "event",
-      "category": "Festival",
-      "start": "2026-11-26T18:30:00+11:00",
-      "end": "2026-11-26T20:30:00+11:00",
-      "when": "Thu 26 Nov, 6:30–8:30pm; sleigh leaves Customs House 8:05pm, tree lighting and fireworks about 8:30pm",
-      "venue": "Martin Place",
-      "suburb": "Sydney CBD",
-      "transport": "train",
-      "nearest_station": "Martin Place",
-      "trip": "about 20 min from Redfern (estimate)",
-      "cost": "Free",
-      "summary": "Santa's sleigh parade with a 90-piece marching band ends with the tree lighting and fireworks; arrive early, no food trucks.",
-      "url": "https://whatson.cityofsydney.nsw.gov.au/events/santas-sydney-sleigh-ride"
-    },
     {
       "title": "Glebe Christmas Fair",
       "kind": "event",
@@ -1597,8 +1565,10 @@
     }
   ],
   "notes": [
-    "Man Utd v Sporting (7am Thu Sydney) and Wednesday's Champions League big matches had kicked off by this run and were removed; no results were found. Brentford's talking points rest on Sky Sports' Liverpool-loss report, as no Brentford preview or team news was found.",
-    "Searches were thin this run: many sites (BBC, Guardian, manutd.com, supermarkets, Rebel, Puma) were blocked or returned stale pages, so most arts, family, son and daughter items carry over from the previous run, rechecked against Time Out and City of Sydney What's On where possible.",
+    "Searches were thin again this run: WebSearch returned mostly stale pages and many official sites were blocked, so most sections carry over from the previous run, rechecked only where a source could be opened (Sky fixtures, Time Out's weekend guide, OzBargain, the school calendars).",
+    "Man Utd: Brentford's talking points rest on Sky Sports' Liverpool-loss report; no Brentford preview or team news was found, so check before kick-off. Sky also lists Arsenal away on 19 Dec at 3pm UK time, which would be the fifth fixture, but I didn't add it because its broadcaster isn't confirmed.",
+    "School: the Week 7 high school update lists Sports Presentation Day on 30 Nov, but it isn't on the primary calendar, so it was removed from local. The Santa sleigh ride (26 Nov) has finished and was removed.",
+    "Deals: Big W's $10 new-release fiction books ($10 each, ends 27 Nov, https://www.ozbargain.com.au/node/985831) were spotted too late to add.",
     "Correction: the 20 Dec Sydney FC v Central Coast Mariners game at WIN Stadium, Wollongong, is on the club's women's fixture list, not the men's, so it has been removed from the men's fixtures and live sport.",
     "Sydney FC men's fixtures: only the dates I could find are listed. The 28 Dec Macarthur and 2 Jan Brisbane Roar home games are confirmed, but away games before 2 Jan weren't found and may fall in between. The 2 Jan kick-off time isn't published, so 12:00 is a placeholder. Paramount+ as A-League broadcaster was not re-confirmed per match.",
     "Big matches: Champions League and Premier League on Stan Sport and the Nations Championship on Stan Sport follow search results on Stan's rights; I couldn't open Stan's own listings. Tuesday's UCL games (Arsenal, Man City, Real Madrid) have already been played and were dropped.",
