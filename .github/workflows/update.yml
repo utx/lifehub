@@ -3,8 +3,9 @@ name: Update LifeHub
 on:
   schedule:
     # GitHub often starts scheduled runs hours late, so there are several chances a
-    # night. The first to start does the research; the gate job skips the rest once a
-    # briefing less than 6 hours old exists. In Sydney time (AEDT / AEST):
+    # night. The first to start does the research. Once a briefing less than 6 hours
+    # old exists, the later ones skip the research but still republish the page, so a
+    # deploy that failed earlier in the night gets fixed. In Sydney time (AEDT / AEST):
     - cron: "17 12 * * *"  # 11:17pm / 10:17pm
     - cron: "07 14 * * *"  #  1:07am / 12:07am
     - cron: "37 15 * * *"  #  2:37am /  1:37am
@@ -37,7 +38,7 @@ jobs:
   gate:
     runs-on: ubuntu-latest
     outputs:
-      run: ${{ steps.check.outputs.run }}
+      skip_research: ${{ steps.check.outputs.skip_research }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -47,24 +48,21 @@ jobs:
       - id: check
         run: |
           if [ "${{ github.event_name }}" = "schedule" ] && python3 scripts/build.py --check --require-fresh 6 > /dev/null 2>&1; then
-            echo "A briefing from the last 6 hours already exists, so this scheduled run is skipped."
-            echo "run=false" >> "$GITHUB_OUTPUT"
+            echo "A briefing from the last 6 hours already exists, so this run only republishes the page."
+            echo "skip_research=true" >> "$GITHUB_OUTPUT"
           else
-            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "skip_research=false" >> "$GITHUB_OUTPUT"
           fi
 
   update:
     needs: gate
-    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 75
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
     env:
       # Research runs nightly, from the "Run workflow" button, or when a pushed commit
       # message contains [research] (used to start a run without the button).
-      RESEARCH: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.research) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[research]')) }}
+      # A scheduled run that finds a fresh briefing skips the research and just republishes.
+      RESEARCH: ${{ needs.gate.outputs.skip_research != 'true' && (github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.research) || (github.event_name == 'push' && contains(github.event.head_commit.message, '[research]'))) }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -206,5 +204,16 @@ jobs:
         with:
           path: _site
 
+  # Deploying in its own job, rather than straight after the upload in the same job,
+  # avoids deploy-pages intermittently failing with "No artifacts named github-pages
+  # were found" (actions/deploy-pages#451). It also means a failed deploy can be
+  # re-run on its own without redoing the research.
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
       - id: deploy
         uses: actions/deploy-pages@v4
