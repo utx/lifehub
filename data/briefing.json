@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T10:42:19+11:00",
+  "generated_at": "2026-11-28T08:25:34+11:00",
   "teams": [
     {
       "id": "man-utd",
@@ -156,18 +156,6 @@
   ],
   "big_matches": [
     {
-      "title": "Ireland v Australia (Nations Championship fifth-place final)",
-      "sport": "Rugby union",
-      "competition": "Nations Championship",
-      "kickoff": "2026-11-27T20:10:00+00:00",
-      "time_confirmed": true,
-      "broadcast": [
-        "Stan Sport"
-      ],
-      "why": "The Wallabies play at Twickenham on finals weekend; 7:10am Saturday 28 Nov in Sydney.",
-      "url": "https://en.wikipedia.org/wiki/2026_Nations_Championship_Finals"
-    },
-    {
       "title": "England v New Zealand (Nations Championship third-place final)",
       "sport": "Rugby union",
       "competition": "Nations Championship",
@@ -312,6 +300,38 @@
       "cost": null,
       "summary": "Listed on the Term 4 primary calendar; details may change.",
       "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/events"
+    },
+    {
+      "title": "Year 6 Fun Day Luna Park excursion",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-12-09",
+      "end": null,
+      "when": "Wed 9 Dec; time not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Year 6 end-of-year excursion to Luna Park, listed in the Term 4 Week 7 Primary Principal Update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
+    },
+    {
+      "title": "Years 7–11 Stage Assembly Presentations",
+      "kind": "event",
+      "category": "School",
+      "start": "2026-12-09",
+      "end": "2026-12-10",
+      "when": "Years 9–11 Wed 9 Dec; Years 7 and 8 Thu 10 Dec; times not stated",
+      "venue": "Alexandria Park Community School",
+      "suburb": "Alexandria",
+      "transport": null,
+      "nearest_station": null,
+      "trip": "about 10–15 min walk",
+      "cost": null,
+      "summary": "Stage presentation assemblies listed in the Week 7 high school update; dates may change.",
+      "url": "https://alexparkcs-c.schools.nsw.gov.au/school-life/newsletters"
     },
     {
       "title": "Academic Presentation Ceremony",
@@ -993,20 +1013,36 @@
   ],
   "deals": [
     {
-      "title": "Krispy Kreme: free Original Glazed dozen with any online dozen",
+      "title": "adidas Adizero Adios Pro 4 running shoes $180 delivered",
       "kind": "event",
-      "category": "Freebies",
-      "start": "2026-11-26",
-      "end": "2026-11-27",
-      "when": "Ends 27 Nov",
+      "category": "Sports gear",
+      "start": "2026-11-27",
+      "end": null,
+      "when": "No expiry listed; Black Friday/Cyber Monday",
       "venue": "Online",
       "suburb": null,
       "transport": null,
       "nearest_station": null,
       "trip": null,
-      "cost": "From $28",
-      "summary": "Buy any dozen online and get a free Original Glazed dozen, per OzBargain.",
-      "url": "https://www.ozbargain.com.au/node/985542"
+      "cost": "$180",
+      "summary": "Black Friday price at adidas; a commenter calls it the lowest they've seen in Australia, and sizes are limited (8, 12, 13 reported missing).",
+      "url": "https://www.ozbargain.com.au/node/986034"
+    },
+    {
+      "title": "Mitre soccer balls from $16 (up to 50% off)",
+      "kind": "event",
+      "category": "Sports gear",
+      "start": "2026-11-27",
+      "end": null,
+      "when": "No expiry listed; Black Friday/Cyber Monday",
+      "venue": "Online",
+      "suburb": null,
+      "transport": null,
+      "nearest_station": null,
+      "trip": null,
+      "cost": "From $16",
+      "summary": "Black Friday sale at Mitre Sport; delivery is $17.50 under $300, so it suits a bigger order.",
+      "url": "https://www.ozbargain.com.au/node/986057"
     },
     {
       "title": "Adidas Hyperboost Euphoria running shoes, 20% off at Hype DC",
@@ -1624,7 +1660,8 @@
     }
   ],
   "notes": [
-    "Searches were thin again this run: WebSearch returned mostly stale pages and several official sites (Stan, Rebel, Nike, South Eveleigh) were blocked or empty, so some sections carry over from the previous run and were rechecked only where a source could be opened.",
+    "Searches were thin again this run: WebSearch returned mostly stale pages and several official sites (Stan, BBC, Rebel, Nike, Coles, Woolworths) were blocked or empty, so most sections carry over from the previous run. Re-checked: Time Out and Ellaslist weekend guides, City of Sydney What's On, Opera House listings, OzBargain's Black Friday tag and the school pages.",
+    "Changes this run: the finished Ireland v Australia match and the ended Krispy Kreme deal were removed; two Black Friday sports deals and three school dates (Year 6 Luna Park day, stage assemblies) were added. No new team news could be opened, so previews are from 26–27 Nov and line-ups are unconfirmed. No grocery list for the week from 2 Dec was available yet.",
     "Man Utd: Brentford talking points come from Khel Now and Centre Devils (26–27 Nov); Amad Diallo is described as a doubt, and line-ups aren't confirmed. Arsenal away (19 Dec, 3pm UK) is on Sky's schedule but the Australian broadcaster wasn't confirmed.",
     "Sydney FC: the A-Leagues fixture guide confirms Victory (6 Dec) and Auckland away (12 Dec, 5pm NZ). The Perth, Macarthur and Brisbane dates and the Big Blue talking points come from earlier club sources and weren't re-opened; the 2 Jan kick-off time is a 12:00 placeholder.",
     "Big matches: the Nations Championship, Everton v Liverpool and Arsenal v Man City entries were not re-checked, and Stan Sport's rights couldn't be confirmed from Stan's own site. Champions League matchday 6 is 8–9 Dec, but sources disagreed on pairings, so none were added.",
